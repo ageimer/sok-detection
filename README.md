@@ -1,2 +1,2 @@
 # sok-detection
-Repository of experiment for the paper
+Repository of experiment for the paper (Coming soon!)
