@@ -1,0 +1,12 @@
+name,microwalk_status,microwalk_time
+RSA_key_generate_ex-GCC9-O2,0,842.018090963364
+bn_gcd-GCC9-O2,0,3.60754895210266
+bn_mod_exp_mont-GCC9-O2,0,13.5245676040649
+bn_mod_inverse-GCC9-O2,0,5.95555663108826
+ECDSA_do_sign-GCC9-O2,0,71.4390170574188
+ec_wnaf_mul-GCC9-O2,0,62.5522217750549
+mbedtls_rsa_complete-GCC9-O2,0,278.939907073975
+mbedtls_mpi_gcd-GCC9-O2,0,22.963987827301
+mbedtls_mpi_inv_mod-GCC9-O2,0,141.819532394409
+gcry_pk_decrypt-GCC9-O2,0,146.503904342651
+gcry_mpi_mod-GCC9-O2,0,1.58781003952026

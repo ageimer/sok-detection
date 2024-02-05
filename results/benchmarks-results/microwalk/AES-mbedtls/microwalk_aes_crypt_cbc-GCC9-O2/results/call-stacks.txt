@@ -1,0 +1,413 @@
+microwalk_aes_crypt_cbc-GCC9-O2:Target+59 -> microwalk_aes_crypt_cbc-GCC9-O2:RunTarget+0 ($8860647E9C35C240)
+  microwalk_aes_crypt_cbc-GCC9-O2:RunTarget+29 -> microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_setkey_enc+0 ($EF915EDA2EF5FB35)
+    [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_setkey_enc+191 (memory access)
+      - Number of calls: 10
+      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+      - Mutual information: 3.94 +/- 0.10 bits, min 3.75 bits, max 4.00 bits
+      - Cond. guessing entropy: 1.03 +/- 0.05, min 1.00, max 1.12, score 99.58 +/- 0.67
+      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_setkey_enc+1b3 (memory access)
+      - Number of calls: 10
+      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+      - Mutual information: 3.93 +/- 0.09 bits, min 3.70 bits, max 4.00 bits
+      - Cond. guessing entropy: 1.04 +/- 0.06, min 1.00, max 1.19, score 99.50 +/- 0.76
+      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_setkey_enc+1d8 (memory access)
+      - Number of calls: 10
+      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+      - Mutual information: 3.90 +/- 0.11 bits, min 3.62 bits, max 4.00 bits
+      - Cond. guessing entropy: 1.05 +/- 0.05, min 1.00, max 1.19, score 99.33 +/- 0.73
+      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_setkey_enc+1fa (memory access)
+      - Number of calls: 10
+      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+      - Mutual information: 3.91 +/- 0.11 bits, min 3.70 bits, max 4.00 bits
+      - Cond. guessing entropy: 1.05 +/- 0.06, min 1.00, max 1.19, score 99.33 +/- 0.82
+      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_aes_crypt_cbc-GCC9-O2:RunTarget+4c -> microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_crypt_cbc+0 ($1D907C637F014EB7)
+    microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_crypt_cbc+165 -> microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_crypt_ecb+0 ($E0A2FCC32217AD5A)
+      microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_aes_crypt_ecb+33 -> microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+0 ($8034DE359F98B6DD)
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+1e7 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.79 +/- 0.36
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+208 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.04, min 1.00, max 1.12, score 99.69 +/- 0.58
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+227 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.69 +/- 0.40
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+246 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.04, min 1.00, max 1.12, score 99.48 +/- 0.58
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+273 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.04, min 1.00, max 1.12, score 99.48 +/- 0.58
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+294 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.03, min 1.00, max 1.06, score 99.48 +/- 0.40
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+2b3 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.91 +/- 0.10 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.05 +/- 0.05, min 1.00, max 1.12, score 99.38 +/- 0.69
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+2d2 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.79 +/- 0.36
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+2ff (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.69 +/- 0.40
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+320 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+33f (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.79 +/- 0.36
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+35e (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+38b (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.91 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.05 +/- 0.04, min 1.00, max 1.12, score 99.38 +/- 0.55
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+3ac (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.98 +/- 0.04 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.02, min 1.00, max 1.06, score 99.90 +/- 0.28
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+3cb (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.69 +/- 0.40
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+3ea (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.98 +/- 0.04 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.02, min 1.00, max 1.06, score 99.90 +/- 0.28
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+417 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.11 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.05, min 1.00, max 1.12, score 99.48 +/- 0.71
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+438 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.04, min 1.00, max 1.12, score 99.79 +/- 0.55
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+457 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.10 bits, min 3.70 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.06, min 1.00, max 1.19, score 99.58 +/- 0.83
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+476 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.11 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.05, min 1.00, max 1.12, score 99.48 +/- 0.71
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+4a3 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.03, min 1.00, max 1.06, score 99.48 +/- 0.40
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+4c4 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.91 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.05 +/- 0.04, min 1.00, max 1.12, score 99.38 +/- 0.55
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+4e3 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.04, min 1.00, max 1.12, score 99.79 +/- 0.55
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+502 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.04, min 1.00, max 1.12, score 99.58 +/- 0.59
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+52f (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.11 bits, min 3.70 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.06 +/- 0.06, min 1.00, max 1.19, score 99.17 +/- 0.83
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+550 (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.98 +/- 0.04 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.02, min 1.00, max 1.06, score 99.90 +/- 0.28
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+56f (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.89 +/- 0.10 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.05 +/- 0.05, min 1.00, max 1.12, score 99.27 +/- 0.65
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+58e (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.69 +/- 0.40
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+5bb (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.04, min 1.00, max 1.12, score 99.48 +/- 0.58
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+5dc (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.69 +/- 0.40
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+5fb (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.69 +/- 0.40
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+61a (memory access)
+          - Number of calls: 8
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.89 +/- 0.19 bits, min 3.41 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.06 +/- 0.12, min 1.00, max 1.38, score 99.17 +/- 1.61
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+655 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+676 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+695 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+6b4 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+6e1 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+702 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+721 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+740 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+76d (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+78e (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+7ad (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+7cc (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+7f9 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+81a (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+839 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+858 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+87d (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.81 +/- 0.06 bits, min 3.75 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.09 +/- 0.03, min 1.06, max 1.12, score 98.75 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+89a (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+8b8 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.73 +/- 0.02 bits, min 3.70 bits, max 3.75 bits
+          - Cond. guessing entropy: 1.16 +/- 0.03, min 1.12, max 1.19, score 97.92 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+8d6 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+902 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+91f (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+93d (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+95b (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+987 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+9a4 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+9c2 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+9e0 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+a0c (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+a29 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+a47 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.12 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.06 +/- 0.06, min 1.00, max 1.12, score 99.17 +/- 0.83
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_crypt_cbc-GCC9-O2:mbedtls_internal_aes_encrypt+a65 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00

@@ -1,0 +1,42 @@
+{
+   exit_cond
+   Memcheck:Cond
+   ...
+   fun:exit
+   fun:(below main)
+}
+{
+   exit_value
+   Memcheck:Value4
+   ...
+   fun:exit
+   fun:(below main)
+}
+{
+   init_cond
+   Memcheck:Cond
+   ...
+   fun:__libc_init_first
+   fun:(below main)
+}
+{
+   init_value
+   Memcheck:Value4
+   ...
+   fun:__libc_init_first
+   fun:(below main)
+}
+{
+   tls_init_cond
+   Memcheck:Cond
+   ...
+   fun:__libc_setup_tls
+   fun:(below main)
+}
+{
+   tls_init_value
+   Memcheck:Value4
+   ...
+   fun:__libc_setup_tls
+   fun:(below main)
+}

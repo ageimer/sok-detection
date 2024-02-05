@@ -1,0 +1,909 @@
+microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:Target+153 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+0 ($BF3E99DC0AD1B234)
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+18 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RSA_new+0 ($5EBA7242757AD821)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_new_intern+1b -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($5487B50548300A85)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($8DD235E9705853CA)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($59826DE969CD8E6F)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+26b (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+            - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+            - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_new_intern+39 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_THREAD_lock_new+0 ($313ECB50983EAA53)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_THREAD_lock_new+19 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($F457B6F23074B89C)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($5A6A4FBAED147342)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_new_intern+138 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ENGINE_get_default_RSA+0 ($B696BED0882394B4)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ossl_engine_table_select+28 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:OPENSSL_init_crypto+0 ($383A4A21B763E885)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:OPENSSL_init_crypto+8c (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_new_intern+ba -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_new_ex_data+0 ($E487D85D605E8F40)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ossl_crypto_new_ex_data_ex+2f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ossl_lib_ctx_get_ex_data_global+0 ($6F819379FDA145D9)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ossl_lib_ctx_get_ex_data_global+22 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_THREAD_run_once+0 ($9912BDF21F5B2AED)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_THREAD_run_once+8 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+2a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($992626CEAAE88640)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+1b1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($8C5DD32BF8C83798)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($72414083630B3F8E)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+14a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($8DB3D1520C9A4453)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($018B4A2AE51F4346)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($C078C281937CE189)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+42 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($D3E09B95CEFE92C5)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+1b1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($FD3C94FF3F4B09D5)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($531AB9C9294FFC23)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+14a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($122C9A9435952F4E)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($4C3DEAF3234D253A)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($EA8BDB0795316EAA)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+5a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($4AE047EE3D1766C2)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+1b1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($C8EB92B99C76EF9E)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($6556077727F7CF27)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+14a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($C8BAA084E0665C11)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($4C95E88AE12E9C68)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($4D051E354A19123E)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+72 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($2F97C295044573E2)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+1b1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($C60549B20434FE12)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($9918044EAAB63FB0)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+14a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($A650A2EE96DF9F52)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($98BEACEC195580BE)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($F53983B80EA0445B)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+88 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($3C8BE2D2073D2D89)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+1b1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($67979D6E49BFB530)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($566AD11A9B38AFDB)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+          - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+          - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($E077B78FC5F7AF6A)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+7a2 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+            - Cond. guessing entropy: 2.31 +/- 0.00, min 2.31, max 2.31, score 82.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+14a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($987AFC53BFF667DD)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($A2C8E3811EEDE855)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($B0DC7EEAE9979D53)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($05AABE8E13E7F81A)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 1.00 +/- 0.00 bits, min 1.00 bits, max 1.00 bits
+              - Cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+              - Min. cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+7a2 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.77 +/- 0.00 bits, min 0.77 bits, max 0.77 bits
+              - Cond. guessing entropy: 1.81 +/- 0.00, min 1.81, max 1.81, score 89.17 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+9f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($DFA669337A87E637)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+1b1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($E80E02C6F5F79FBF)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($709EB4D4B3AF95CF)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($3118946B8838D2A6)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+415 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+            - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+            - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+26b (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+            - Cond. guessing entropy: 2.31 +/- 0.00, min 2.31, max 2.31, score 82.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+14a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($B31D0811826AC959)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($6E3C00853CF97E56)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($3AC80341732D954A)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($649FA80AEF2EB57A)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+              - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+              - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+7a2 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+              - Cond. guessing entropy: 2.31 +/- 0.00, min 2.31, max 2.31, score 82.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+b5 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($5EF87AF610D0AA5D)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+1b1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($EFD434D694130438)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($612045754D5A91ED)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($D5080E134572E94B)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+26b (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+14a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($3066FCEF0E331CA9)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($91C7BEFA0EA80659)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($BF936A499987D137)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($B71C55AEB15F4746)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+cb -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($B6861FA7238F768F)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+1b1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($9C288F137EE4D454)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($FCE6B7D0AAF897EF)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($D0EDAE541993C593)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+415 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RunTarget+12d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RSA_private_decrypt+0 ($C946BD964B685E60)
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+3d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_CTX_start+0 ($147F43DEBB3363E7)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_CTX_start+7b -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_malloc+0 ($A371E03CAB497401)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+45 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_CTX_get+0 ($FA2B80DE8BFE900A)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_CTX_get+a4 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_malloc+0 ($BFC6F277668A77C6)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+89 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_malloc+0 ($63C631E6611B5F0F)
+      [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+        - Number of calls: 1
+        - Tree depth: 2.00 +/- 0.00, min 2, max 2
+        - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+        - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+        - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+b9 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+0 ($A465BE5BE5D63CB3)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_bin2bn+14a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($11A7E56A5D41BF58)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($6F9B4B2342CF7B46)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($3DF472D7D91A1F77)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+44e -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RSA_setup_blinding+0 ($F449130F39D7F44E)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RSA_setup_blinding+4d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_new+0 ($DF73842A99E6B9B4)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_new+17 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($A2DBD4D1D659E96D)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($8438D764C001BE01)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($65F36BA9FF2B8645)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+7a2 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+7cf (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 1.02 +/- 0.00 bits, min 1.02 bits, max 1.02 bits
+                - Cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+                - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RSA_setup_blinding+89 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_create_param+0 ($41F464FEEE05ECF0)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_create_param+19c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_new+0 ($17A55320F2129CE0)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_new+29 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($50A59E4CCFB0F821)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($3DE1BFF715E6BE42)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($F1367B34734FF1AB)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+                  - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+                  - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_new+3a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_THREAD_lock_new+0 ($6AA4ACB2CD26660F)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_THREAD_lock_new+19 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($8CA99E095B41B8E8)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($390836552C944493)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($54D1B0AA811E6B33)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+415 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+                    - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+                    - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_new+8a -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_dup+0 ($8113AF697465F8D5)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_dup+2b -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($3C9591BC3788025A)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($B4CC3B0518A4739C)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+19d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+0 ($11EFED618BB732D4)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_malloc+7a2 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+                    - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+                    - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_dup+b5 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($BDB30ED203FD3E0D)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($C7DD575B64A0AC18)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($F59CC84BDCCD350D)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_create_param+ae -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_priv_rand_range_ex+0 ($838E85D748CB5651)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bnrand_range.part.0+40 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 1.00 +/- 0.00 bits, min 1.00 bits, max 1.00 bits
+            - Cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+            - Min. cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bnrand_range.part.0+96 (jump)
+            - Number of calls: 2
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.94 +/- 0.04 bits, min 0.90 bits, max 0.98 bits
+            - Cond. guessing entropy: 1.22 +/- 0.09, min 1.12, max 1.31, score 97.08 +/- 1.25
+            - Min. cond. guessing entropy: 1.75 +/- 0.25, min 1.50, max 2.00, score 90.00 +/- 3.33
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bnrand_range.part.0+1cf (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.77 +/- 0.00 bits, min 0.77 bits, max 0.77 bits
+            - Cond. guessing entropy: 1.81 +/- 0.00, min 1.81, max 1.81, score 89.17 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bnrand_range.part.0+c2 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_malloc+0 ($EDA218C60AF3BA1D)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.77 +/- 0.00 bits, min 0.77 bits, max 0.77 bits
+              - Cond. guessing entropy: 1.81 +/- 0.00, min 1.81, max 1.81, score 89.17 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bnrand_range.part.0+190 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RAND_priv_bytes_ex+0 ($AF73B43FDC1360B7)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RAND_priv_bytes_ex+59 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.77 +/- 0.00 bits, min 0.77 bits, max 0.77 bits
+              - Cond. guessing entropy: 1.81 +/- 0.00, min 1.81, max 1.81, score 89.17 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RAND_priv_bytes_ex+2c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_THREAD_run_once+0 ($801D43FD38C23EEE)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_THREAD_run_once+8 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.77 +/- 0.00 bits, min 0.77 bits, max 0.77 bits
+                - Cond. guessing entropy: 1.81 +/- 0.00, min 1.81, max 1.81, score 89.17 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bnrand_range.part.0+8f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_cmp+0 ($95E2092846BE426F)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_cmp+92 (jump)
+              - Number of calls: 2
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.94 +/- 0.04 bits, min 0.90 bits, max 0.98 bits
+              - Cond. guessing entropy: 1.22 +/- 0.09, min 1.12, max 1.31, score 97.08 +/- 1.25
+              - Min. cond. guessing entropy: 1.75 +/- 0.25, min 1.50, max 2.00, score 90.00 +/- 3.33
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_create_param+cb -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse+0 ($156FBBA7FA65EFFE)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+20a (jump)
+            - Number of calls: 1
+            - Tree depth: 14.00 +/- 0.00, min 14, max 14
+            - Mutual information: 3.75 +/- 0.00 bits, min 3.75 bits, max 3.75 bits
+            - Cond. guessing entropy: 1.12 +/- 0.00, min 1.12, max 1.12, score 98.33 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+d9 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_set_word+0 ($C736F042B61F25CB)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_set_word+f1 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($0EEA8E67EDCA9AEE)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($073BA95CEEBC2E85)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+1aa -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($2AB96D3A6DA86F73)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($5F631B81961658C0)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+fd (jump)
+                - Number of calls: 511
+                - Tree depth: 2.12 +/- 0.33, min 2, max 3
+                - Mutual information: 0.82 +/- 0.21 bits, min 0.34 bits, max 1.25 bits
+                - Cond. guessing entropy: 5.47 +/- 0.95, min 3.81, max 7.56, score 40.44 +/- 12.60
+                - Min. cond. guessing entropy: 2.58 +/- 1.13, min 1.00, max 4.50, score 78.97 +/- 15.13
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+357 (jump)
+                - Number of calls: 178
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.68 +/- 0.13 bits, min 0.34 bits, max 0.95 bits
+                - Cond. guessing entropy: 2.70 +/- 2.06, min 0.12, max 7.56, score 77.35 +/- 27.49
+                - Min. cond. guessing entropy: 1.11 +/- 0.23, min 1.00, max 2.00, score 98.54 +/- 3.10
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+                - Number of calls: 13
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.71 +/- 0.09 bits, min 0.50 bits, max 0.83 bits
+                - Cond. guessing entropy: 2.07 +/- 1.33, min 0.12, max 4.19, score 85.71 +/- 17.67
+                - Min. cond. guessing entropy: 1.08 +/- 0.18, min 1.00, max 1.50, score 98.97 +/- 2.41
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+68 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_copy+0 ($F13E441A64B4B180)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_copy+4e -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_init+c0 ($4D3C388E4D057501)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__memcpy_evex_unaligned_erms+17 (jump)
+                    - Number of calls: 46
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.76 +/- 0.22 bits, min 0.34 bits, max 1.00 bits
+                    - Cond. guessing entropy: 5.70 +/- 1.04, min 4.50, max 7.56, score 37.39 +/- 13.80
+                    - Min. cond. guessing entropy: 2.61 +/- 1.10, min 1.00, max 4.50, score 78.55 +/- 14.64
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__memcpy_evex_unaligned_erms+b (jump)
+                    - Number of calls: 47
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.74 +/- 0.21 bits, min 0.34 bits, max 1.00 bits
+                    - Cond. guessing entropy: 5.79 +/- 1.02, min 4.50, max 7.56, score 36.12 +/- 13.56
+                    - Min. cond. guessing entropy: 2.49 +/- 1.06, min 1.00, max 4.50, score 80.14 +/- 14.12
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__memcpy_evex_unaligned_erms+43 (jump)
+                    - Number of calls: 51
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.76 +/- 0.22 bits, min 0.34 bits, max 1.02 bits
+                    - Cond. guessing entropy: 5.35 +/- 1.17, min 3.81, max 7.56, score 42.03 +/- 15.63
+                    - Min. cond. guessing entropy: 2.36 +/- 1.05, min 1.00, max 4.50, score 81.83 +/- 14.04
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+114 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+0 ($DA84DFE2013C8F19)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+109 (jump)
+                  - Number of calls: 165
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.68 +/- 0.14 bits, min 0.34 bits, max 0.95 bits
+                  - Cond. guessing entropy: 2.74 +/- 2.10, min 0.12, max 7.56, score 76.78 +/- 28.02
+                  - Min. cond. guessing entropy: 1.11 +/- 0.24, min 1.00, max 2.00, score 98.51 +/- 3.14
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+d3 (jump)
+                  - Number of calls: 13
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.71 +/- 0.09 bits, min 0.50 bits, max 0.90 bits
+                  - Cond. guessing entropy: 2.24 +/- 1.41, min 0.12, max 4.19, score 83.53 +/- 18.74
+                  - Min. cond. guessing entropy: 1.08 +/- 0.18, min 1.00, max 1.50, score 98.97 +/- 2.41
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+191 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+0 ($C550A71004044BE4)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+e (jump)
+                  - Number of calls: 10
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.69 +/- 0.18 bits, min 0.34 bits, max 0.92 bits
+                  - Cond. guessing entropy: 2.81 +/- 2.55, min 0.25, max 7.56, score 75.83 +/- 34.03
+                  - Min. cond. guessing entropy: 1.20 +/- 0.33, min 1.00, max 2.00, score 97.33 +/- 4.42
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+50 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($15EE47A5EE8FE98F)
+                  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($3855BC8715D45508)
+                    [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                      - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+67 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+0 ($BC21F0A9121760F6)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+20 (jump)
+                - Number of calls: 184
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.40 +/- 0.11 bits, min 0.34 bits, max 0.70 bits
+                - Cond. guessing entropy: 7.25 +/- 0.58, min 3.50, max 7.56, score 16.67 +/- 7.71
+                - Min. cond. guessing entropy: 1.15 +/- 0.27, min 1.00, max 2.00, score 97.97 +/- 3.64
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+74 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+0 ($B0767DC65A1C783E)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+20 (jump)
+                - Number of calls: 196
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.42 +/- 0.13 bits, min 0.34 bits, max 0.83 bits
+                - Cond. guessing entropy: 6.97 +/- 1.35, min 0.12, max 7.56, score 20.39 +/- 18.02
+                - Min. cond. guessing entropy: 1.15 +/- 0.27, min 1.00, max 2.00, score 97.99 +/- 3.60
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+25 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+1c5 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+0 ($78365B41B758D48A)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+63 (jump)
+              - Number of calls: 20
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.62 +/- 0.25 bits, min 0.34 bits, max 0.99 bits
+              - Cond. guessing entropy: 6.30 +/- 1.15, min 4.56, max 7.56, score 29.33 +/- 15.35
+              - Min. cond. guessing entropy: 2.05 +/- 1.09, min 1.00, max 4.00, score 86.00 +/- 14.59
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+93 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+0 ($842CDE5633911E22)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+e (jump)
+                - Number of calls: 42
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.52 +/- 0.18 bits, min 0.34 bits, max 0.95 bits
+                - Cond. guessing entropy: 6.10 +/- 1.50, min 3.00, max 7.56, score 31.94 +/- 19.96
+                - Min. cond. guessing entropy: 1.29 +/- 0.50, min 1.00, max 3.00, score 96.19 +/- 6.69
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+be -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_normal+0 ($F0520B6A554BC3B5)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_normal+4e -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_words+0 ($6DB672E850B9C13B)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_words+ca (jump)
+                  - Number of calls: 152
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.75 +/- 0.21 bits, min 0.34 bits, max 1.02 bits
+                  - Cond. guessing entropy: 5.46 +/- 0.88, min 4.00, max 7.56, score 40.55 +/- 11.78
+                  - Min. cond. guessing entropy: 2.44 +/- 1.13, min 1.00, max 4.50, score 80.75 +/- 15.04
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_words+18 (jump)
+                  - Number of calls: 23
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.77 +/- 0.24 bits, min 0.34 bits, max 1.00 bits
+                  - Cond. guessing entropy: 5.61 +/- 1.11, min 4.50, max 7.56, score 38.51 +/- 14.74
+                  - Min. cond. guessing entropy: 2.74 +/- 1.16, min 1.00, max 4.50, score 76.81 +/- 15.46
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_words+8c (jump)
+                  - Number of calls: 127
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.73 +/- 0.23 bits, min 0.34 bits, max 1.00 bits
+                  - Cond. guessing entropy: 5.75 +/- 1.04, min 4.19, max 7.56, score 36.68 +/- 13.88
+                  - Min. cond. guessing entropy: 2.46 +/- 1.14, min 1.00, max 4.50, score 80.47 +/- 15.18
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_words+af (jump)
+                  - Number of calls: 121
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.77 +/- 0.20 bits, min 0.34 bits, max 1.00 bits
+                  - Cond. guessing entropy: 5.53 +/- 0.91, min 4.50, max 7.56, score 39.61 +/- 12.18
+                  - Min. cond. guessing entropy: 2.60 +/- 1.09, min 1.00, max 4.50, score 78.68 +/- 14.51
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_words+87 (jump)
+                  - Number of calls: 136
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.72 +/- 0.25 bits, min 0.34 bits, max 1.02 bits
+                  - Cond. guessing entropy: 5.71 +/- 1.26, min 3.50, max 7.56, score 37.18 +/- 16.78
+                  - Min. cond. guessing entropy: 2.37 +/- 1.13, min 1.00, max 4.50, score 81.67 +/- 15.10
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+ff -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+0 ($73C292F61B71A1BF)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+20 (jump)
+                - Number of calls: 153
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.40 +/- 0.12 bits, min 0.34 bits, max 0.90 bits
+                - Cond. guessing entropy: 7.04 +/- 1.33, min 0.12, max 7.56, score 19.40 +/- 17.70
+                - Min. cond. guessing entropy: 1.11 +/- 0.24, min 1.00, max 2.00, score 98.47 +/- 3.19
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+1db -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_add+0 ($DEC21BCD1BDE2C11)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_add+80 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_uadd+0 ($8D176E45ADACBACA)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_uadd+81 (jump)
+                - Number of calls: 292
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.43 +/- 0.13 bits, min 0.34 bits, max 0.90 bits
+                - Cond. guessing entropy: 7.12 +/- 0.69, min 3.50, max 7.56, score 18.46 +/- 9.14
+                - Min. cond. guessing entropy: 1.23 +/- 0.35, min 1.00, max 3.00, score 96.89 +/- 4.72
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_uadd+3e -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+0 ($F145A8F5AFC2E1C6)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+e (jump)
+                  - Number of calls: 11
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.48 +/- 0.14 bits, min 0.34 bits, max 0.76 bits
+                  - Cond. guessing entropy: 6.26 +/- 1.33, min 3.50, max 7.56, score 29.85 +/- 17.72
+                  - Min. cond. guessing entropy: 1.14 +/- 0.31, min 1.00, max 2.00, score 98.18 +/- 4.11
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_uadd+72 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_add_words+0 ($307E03E3CAE71B65)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_add_words+22 (jump)
+                  - Number of calls: 512
+                  - Tree depth: 2.13 +/- 0.34, min 2, max 3
+                  - Mutual information: 0.82 +/- 0.20 bits, min 0.34 bits, max 1.27 bits
+                  - Cond. guessing entropy: 5.46 +/- 0.96, min 3.50, max 7.56, score 40.49 +/- 12.83
+                  - Min. cond. guessing entropy: 2.56 +/- 1.15, min 1.00, max 4.50, score 79.23 +/- 15.37
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_create_param+280 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_exp+0 ($DEF3F27040175443)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_exp_mont_consttime+93f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+0 ($134BC15733B35FC8)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+29d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_inverse+0 ($AF0BE688BD85D69D)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_inverse+6f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+0 ($686981A9EFD91B16)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+20a (jump)
+                  - Number of calls: 1
+                  - Tree depth: 12.00 +/- 0.00, min 12, max 12
+                  - Mutual information: 3.50 +/- 0.00 bits, min 3.50 bits, max 3.50 bits
+                  - Cond. guessing entropy: 1.25 +/- 0.00, min 1.25, max 1.25, score 96.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+1aa -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($1AF81D6BD67F37E9)
+                  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($9F8250009727A47D)
+                    [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+                      - Number of calls: 11
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.68 +/- 0.16 bits, min 0.34 bits, max 0.90 bits
+                      - Cond. guessing entropy: 2.74 +/- 2.37, min 0.12, max 7.56, score 76.82 +/- 31.66
+                      - Min. cond. guessing entropy: 1.18 +/- 0.24, min 1.00, max 1.50, score 97.58 +/- 3.21
+                  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+74 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+0 ($55585894BFC38CB6)
+                    [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+20 (jump)
+                      - Number of calls: 11
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.68 +/- 0.16 bits, min 0.34 bits, max 0.90 bits
+                      - Cond. guessing entropy: 2.74 +/- 2.37, min 0.12, max 7.56, score 76.82 +/- 31.66
+                      - Min. cond. guessing entropy: 1.18 +/- 0.24, min 1.00, max 1.50, score 97.58 +/- 3.21
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+1f7 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_set_bit+0 ($29F61D263EB5F1FB)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_set_bit+93 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($C8EE9C5CA5BA8F7C)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($123AE4E6777149A6)
+                  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($08E23C3042F0A132)
+                    [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                      - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+214 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($4462A643616A7128)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($613B2CC924B48DBE)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 7.00 +/- 0.00, min 7, max 7
+                  - Mutual information: 3.00 +/- 0.00 bits, min 3.00 bits, max 3.00 bits
+                  - Cond. guessing entropy: 0.94 +/- 0.00, min 0.94, max 0.94, score 100.83 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+400 (jump)
+                  - Number of calls: 3
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.62 +/- 0.10 bits, min 0.50 bits, max 0.75 bits
+                  - Cond. guessing entropy: 0.25 +/- 0.10, min 0.12, max 0.38, score 110.00 +/- 1.36
+                  - Min. cond. guessing entropy: 1.17 +/- 0.24, min 1.00, max 1.50, score 97.78 +/- 3.14
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+412 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+114 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+0 ($50DD05F68A583433)
+                  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+2f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+0 ($26350239CCE840D9)
+                    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+50 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($4AF19CE122CE225B)
+                      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($C1BD9EA460C1320F)
+                        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                          - Number of calls: 1
+                          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+191 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+0 ($5B30331D69003F13)
+                  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+50 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($3BEC4D5844C9A882)
+                    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($75DD7E86F9371F7E)
+                      [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                        - Number of calls: 1
+                        - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                        - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                        - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                        - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+3e9 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_convert_ex+0 ($E056C72D273B1687)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_mul+4e -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+0 ($278E18672D75961C)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+30c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_recursive+0 ($77A8236EFDE50389)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_recursive+13f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 1.59 +/- 0.00 bits, min 1.59 bits, max 1.59 bits
+            - Cond. guessing entropy: 3.69 +/- 0.00, min 3.69, max 3.69, score 64.17 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_recursive+138 (memory access)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 1.59 +/- 0.00 bits, min 1.59 bits, max 1.59 bits
+            - Cond. guessing entropy: 3.69 +/- 0.00, min 3.69, max 3.69, score 64.17 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_recursive+302 (jump)
+            - Number of calls: 2
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.82 +/- 0.07 bits, min 0.75 bits, max 0.90 bits
+            - Cond. guessing entropy: 1.16 +/- 0.78, min 0.38, max 1.94, score 97.92 +/- 10.42
+            - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_mul+65 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($82BC51C6B8F7E1AB)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($519C5A8ADC8E65EE)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+            - Number of calls: 1
+            - Tree depth: 8.00 +/- 0.00, min 8, max 8
+            - Mutual information: 2.95 +/- 0.00 bits, min 2.95 bits, max 2.95 bits
+            - Cond. guessing entropy: 1.19 +/- 0.00, min 1.19, max 1.19, score 97.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+400 (jump)
+            - Number of calls: 2
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.56 +/- 0.06 bits, min 0.50 bits, max 0.62 bits
+            - Cond. guessing entropy: 0.19 +/- 0.06, min 0.12, max 0.25, score 110.83 +/- 0.83
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+412 (jump)
+            - Number of calls: 2
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.56 +/- 0.06 bits, min 0.50 bits, max 0.62 bits
+            - Cond. guessing entropy: 0.19 +/- 0.06, min 0.12, max 0.25, score 110.83 +/- 0.83
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+112 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_mod_exp+0 ($FE271AB2D5553A36)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_mod_exp+546 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set_locked+0 ($317C493CC3007615)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set_locked+c5 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+0 ($674F259057D71B94)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+8e -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_copy+0 ($C6C2016262262E2D)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_copy+62 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+0 ($E3A3C0F9C7B3023E)
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_expand2.part.0+37 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($5C25745A583BB01C)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($D14EEB3D111B4A3C)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+29d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_inverse+0 ($0DEE1ECBBDE0D317)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_inverse+6f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+0 ($61223FBAD5C80A3B)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+20a (jump)
+                - Number of calls: 1
+                - Tree depth: 11.00 +/- 0.00, min 11, max 11
+                - Mutual information: 3.33 +/- 0.00 bits, min 3.33 bits, max 3.33 bits
+                - Cond. guessing entropy: 1.38 +/- 0.00, min 1.38, max 1.38, score 95.00 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+1aa -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($8C37BF9D02C33B66)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($2A9468992DA75811)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+                    - Number of calls: 10
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.66 +/- 0.18 bits, min 0.34 bits, max 0.98 bits
+                    - Cond. guessing entropy: 3.30 +/- 2.44, min 0.25, max 7.56, score 69.33 +/- 32.56
+                    - Min. cond. guessing entropy: 1.20 +/- 0.33, min 1.00, max 2.00, score 97.33 +/- 4.42
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+74 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+0 ($41BF7AA18C515F0C)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+20 (jump)
+                    - Number of calls: 10
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.66 +/- 0.18 bits, min 0.34 bits, max 0.98 bits
+                    - Cond. guessing entropy: 3.30 +/- 2.44, min 0.25, max 7.56, score 69.33 +/- 32.56
+                    - Min. cond. guessing entropy: 1.20 +/- 0.33, min 1.00, max 2.00, score 97.33 +/- 4.42
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+214 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($AA900DDF7ED51950)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($6A50393E8CD95CE0)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+                - Number of calls: 1
+                - Tree depth: 7.00 +/- 0.00, min 7, max 7
+                - Mutual information: 2.65 +/- 0.00 bits, min 2.65 bits, max 2.65 bits
+                - Cond. guessing entropy: 1.56 +/- 0.00, min 1.56, max 1.56, score 92.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+400 (jump)
+                - Number of calls: 3
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.58 +/- 0.06 bits, min 0.50 bits, max 0.62 bits
+                - Cond. guessing entropy: 0.21 +/- 0.06, min 0.12, max 0.25, score 110.56 +/- 0.79
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+114 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+0 ($D3A2C6C8E3FBFD0B)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+2f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+0 ($77F148513F7361CA)
+                  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+50 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($B8F28EA985A9277D)
+                    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($02CEC4D607569E23)
+                      [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                        - Number of calls: 1
+                        - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                        - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                        - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                        - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_mod_exp+579 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set_locked+0 ($61B190F1C7737AC9)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set_locked+c5 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+0 ($334FB65A9A9A90D2)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+29d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_inverse+0 ($0987D65EAA8D98A4)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_inverse+6f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+0 ($68DF3140018304D7)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+20a (jump)
+                - Number of calls: 1
+                - Tree depth: 10.00 +/- 0.00, min 10, max 10
+                - Mutual information: 3.16 +/- 0.00 bits, min 3.16 bits, max 3.16 bits
+                - Cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+1aa -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($7EA80D15ADF32A9D)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($88CAF92174964E2E)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+                    - Number of calls: 9
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.73 +/- 0.12 bits, min 0.50 bits, max 0.88 bits
+                    - Cond. guessing entropy: 2.44 +/- 1.92, min 0.12, max 6.06, score 80.83 +/- 25.63
+                    - Min. cond. guessing entropy: 1.28 +/- 0.34, min 1.00, max 2.00, score 96.30 +/- 4.57
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+74 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+0 ($B5874E7FAD9A87D6)
+                  [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_correct_top+20 (jump)
+                    - Number of calls: 9
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.73 +/- 0.12 bits, min 0.50 bits, max 0.88 bits
+                    - Cond. guessing entropy: 2.44 +/- 1.92, min 0.12, max 6.06, score 80.83 +/- 25.63
+                    - Min. cond. guessing entropy: 1.28 +/- 0.34, min 1.00, max 2.00, score 96.30 +/- 4.57
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+214 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($DDE9A89652D86E7F)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($352AE6F9FA9793E0)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+                - Number of calls: 1
+                - Tree depth: 7.00 +/- 0.00, min 7, max 7
+                - Mutual information: 2.25 +/- 0.00 bits, min 2.25 bits, max 2.25 bits
+                - Cond. guessing entropy: 1.25 +/- 0.00, min 1.25, max 1.25, score 96.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+400 (jump)
+                - Number of calls: 3
+                - Tree depth: 2.33 +/- 0.47, min 2, max 3
+                - Mutual information: 0.71 +/- 0.16 bits, min 0.50 bits, max 0.88 bits
+                - Cond. guessing entropy: 0.27 +/- 0.11, min 0.12, max 0.38, score 109.72 +/- 1.42
+                - Min. cond. guessing entropy: 1.17 +/- 0.24, min 1.00, max 1.50, score 97.78 +/- 3.14
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+412 (jump)
+                - Number of calls: 2
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_mod_exp+9f6 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set_locked+0 ($8341E5BD9BD23E42)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set_locked+c5 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+0 ($AFFA4B825DD7F0C3)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+29d -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_inverse+0 ($1F8E59A65578FCF1)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_inverse+6f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+0 ($816C25D0649B358E)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+876 (jump)
+                - Number of calls: 1
+                - Tree depth: 5.00 +/- 0.00, min 5, max 5
+                - Mutual information: 1.47 +/- 0.00 bits, min 1.47 bits, max 1.47 bits
+                - Cond. guessing entropy: 3.56 +/- 0.00, min 3.56, max 3.56, score 65.83 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+8c8 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+                - Cond. guessing entropy: 2.31 +/- 0.00, min 2.31, max 2.31, score 82.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+8f2 (jump)
+                - Number of calls: 2
+                - Tree depth: 3.50 +/- 1.50, min 2, max 5
+                - Mutual information: 1.00 +/- 0.38 bits, min 0.62 bits, max 1.38 bits
+                - Cond. guessing entropy: 0.34 +/- 0.09, min 0.25, max 0.44, score 108.75 +/- 1.25
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+83e (jump)
+                - Number of calls: 2
+                - Tree depth: 3.50 +/- 1.50, min 2, max 5
+                - Mutual information: 0.69 +/- 0.06 bits, min 0.62 bits, max 0.75 bits
+                - Cond. guessing entropy: 0.22 +/- 0.03, min 0.19, max 0.25, score 110.42 +/- 0.42
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+896 (jump)
+                - Number of calls: 2
+                - Tree depth: 3.00 +/- 1.00, min 2, max 4
+                - Mutual information: 0.69 +/- 0.06 bits, min 0.62 bits, max 0.75 bits
+                - Cond. guessing entropy: 0.22 +/- 0.03, min 0.19, max 0.25, score 110.42 +/- 0.42
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:int_bn_mod_inverse.part.0+85c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_rshift1+0 ($EFCC13278AA2AABD)
+                [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_rshift1+7e (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+                  - Cond. guessing entropy: 0.38 +/- 0.00, min 0.38, max 0.38, score 108.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_MONT_CTX_set+214 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($D48374D24B09B146)
+            microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($E9317624C2A6C556)
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+                - Number of calls: 1
+                - Tree depth: 7.00 +/- 0.00, min 7, max 7
+                - Mutual information: 3.00 +/- 0.00 bits, min 3.00 bits, max 3.00 bits
+                - Cond. guessing entropy: 0.94 +/- 0.00, min 0.94, max 0.94, score 100.83 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+400 (jump)
+                - Number of calls: 3
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.62 +/- 0.10 bits, min 0.50 bits, max 0.75 bits
+                - Cond. guessing entropy: 0.25 +/- 0.10, min 0.12, max 0.38, score 110.00 +/- 1.36
+                - Min. cond. guessing entropy: 1.17 +/- 0.24, min 1.00, max 1.50, score 97.78 +/- 3.14
+              [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+412 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+114 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+0 ($7407A24E5F55DB63)
+                microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_lshift_fixed_top+2f -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+0 ($5139C23CE203DE1E)
+                  microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_wexpand+50 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+0 ($E65F4726130C85AF)
+                    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+0 ($C931A76A2994502E)
+                      [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+                        - Number of calls: 1
+                        - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                        - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                        - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                        - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+130 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_BLINDING_invert_ex+0 ($ED1291166073BED0)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_mul+4e -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+0 ($DDDC33F3FA7098FC)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mul+30c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_recursive+0 ($FADE094F2425CFDA)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_recursive+13f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 1.98 +/- 0.00 bits, min 1.98 bits, max 1.98 bits
+            - Cond. guessing entropy: 2.56 +/- 0.00, min 2.56, max 2.56, score 79.17 +/- 0.00
+            - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_recursive+138 (memory access)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 1.98 +/- 0.00 bits, min 1.98 bits, max 1.98 bits
+            - Cond. guessing entropy: 2.56 +/- 0.00, min 2.56, max 2.56, score 79.17 +/- 0.00
+            - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_mul_recursive+302 (jump)
+            - Number of calls: 4
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.74 +/- 0.07 bits, min 0.62 bits, max 0.83 bits
+            - Cond. guessing entropy: 0.39 +/- 0.11, min 0.25, max 0.56, score 108.12 +/- 1.49
+            - Min. cond. guessing entropy: 1.38 +/- 0.22, min 1.00, max 1.50, score 95.00 +/- 2.89
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_mod_mul+65 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+0 ($FBC8334AD0E67B66)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_div+53 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+0 ($BD911740ECA35876)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+3f7 (jump)
+            - Number of calls: 1
+            - Tree depth: 8.00 +/- 0.00, min 8, max 8
+            - Mutual information: 2.88 +/- 0.00 bits, min 2.88 bits, max 2.88 bits
+            - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+400 (jump)
+            - Number of calls: 2
+            - Tree depth: 3.50 +/- 1.50, min 2, max 5
+            - Mutual information: 0.75 +/- 0.25 bits, min 0.50 bits, max 1.00 bits
+            - Cond. guessing entropy: 0.19 +/- 0.06, min 0.12, max 0.25, score 110.83 +/- 0.83
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:bn_div_fixed_top+412 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.77 +/- 0.00 bits, min 0.77 bits, max 0.77 bits
+            - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+341 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RSA_padding_check_PKCS1_type_2+0 ($BCE095DC9571CE8D)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RSA_padding_check_PKCS1_type_2+292 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_new+0 ($E475DA4985D8DC47)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_new+37 (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 1.00 +/- 0.00 bits, min 1.00 bits, max 1.00 bits
+          - Cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+          - Min. cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:RSA_padding_check_PKCS1_type_2+2aa -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_set_debug+0 ($2C52155FABEA6B59)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_set_debug+df -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_strdup+0 ($FEB6675AF10E72BD)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_strdup+26 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_malloc+0 ($3ADAB9B11A4A65F0)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+              - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+              - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+348 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_new+0 ($A95CFC82A37AC746)
+      [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_new+37 (jump)
+        - Number of calls: 1
+        - Tree depth: 2.00 +/- 0.00, min 2, max 2
+        - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+        - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+        - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_new+dd -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_free+0 ($1F46DE355B31F8A3)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:free+7 (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+          - Cond. guessing entropy: 2.31 +/- 0.00, min 2.31, max 2.31, score 82.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_new+100 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_free+0 ($767C7E8DBB44C731)
+        [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:free+7 (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+          - Cond. guessing entropy: 2.31 +/- 0.00, min 2.31, max 2.31, score 82.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+360 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_set_debug+0 ($10DD627169532CEF)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:ERR_set_debug+df -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_strdup+0 ($281700228C6D1A10)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_strdup+26 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_malloc+0 ($492E3B251E547087)
+          [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:__libc_malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 1.00 +/- 0.00 bits, min 1.00 bits, max 1.00 bits
+            - Cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+            - Min. cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+    microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:rsa_ossl_private_decrypt+1b5 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_CTX_free+0 ($CFBA57E7F0CF59F5)
+      microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_CTX_free+69 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_clear_free+0 ($1E077BF7D4206DF5)
+        microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:BN_clear_free+68 -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:CRYPTO_clear_free+0 ($CAA4C5EBEBF682A8)
+          microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:free+6c -> microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_free+0 ($050ECE081E88364F)
+            [L] microwalk_RSA_private_decrypt_pkcs1_v15-GCC9-O2:_int_free+a4 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 1.00 +/- 0.00 bits, min 1.00 bits, max 1.00 bits
+              - Cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00
+              - Min. cond. guessing entropy: 4.50 +/- 0.00, min 4.50, max 4.50, score 53.33 +/- 0.00

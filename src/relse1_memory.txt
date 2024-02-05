@@ -1,0 +1,14 @@
+# Setting esp
+ebp<32>:=0xffffcc28;
+esp<32>:=0xffffcbc0;
+
+# Setting callee-save registers
+eax<32>:=0x00000000;
+edx<32>:=0x00000000;
+ecx<32>:=0x00000000;
+
+# Set GS to avoid problems
+gs_base<32>:=0xf7ab4700;
+
+# arbitrary value
+malloc_base<32>:=0x7f000000; 

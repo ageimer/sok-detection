@@ -1,0 +1,2 @@
+(cram
+ (deps %{bin:binsec} config.cfg crackme.ini exit.stub strncpy.stub unbreakable-enterprise-product-activation))

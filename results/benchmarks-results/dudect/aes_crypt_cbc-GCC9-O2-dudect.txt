@@ -1,0 +1,7 @@
+meas:    0.00 M, not enough measurements (5011 still to go).
+meas:    0.01 M, not enough measurements (22 still to go).
+meas:    0.01 M, max t:   +1.57, max tau: 1.29e-02, (5/tau)^2: 1.51e+05. For the moment, maybe constant time.
+meas:    0.02 M, max t:   +2.11, max tau: 1.49e-02, (5/tau)^2: 1.12e+05. For the moment, maybe constant time.
+meas:    0.02 M, max t:   +7.25, max tau: 4.62e-02, (5/tau)^2: 1.17e+04. For the moment, maybe constant time.
+meas:    0.03 M, max t:   +8.57, max tau: 4.98e-02, (5/tau)^2: 1.01e+04. For the moment, maybe constant time.
+meas:    0.03 M, max t:  +10.01, max tau: 5.39e-02, (5/tau)^2: 8.61e+03. Probably not constant time.

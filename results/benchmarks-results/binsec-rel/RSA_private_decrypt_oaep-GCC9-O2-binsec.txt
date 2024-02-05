@@ -1,0 +1,153 @@
+[relse:debug] Reading initialization from ./src/relse1_memory.txt
+[relse:warning] [Stub] Symbol bzero not found
+[relse:result] [Insecurity][Violation] Insecure jump
+[relse:result] Address (0804c209, 0) :
+               if ZF<1> goto (0804c2a0, 0) else goto 1
+[relse:result] Time: 29.016754| Model:
+               --- Model ---
+               # Variables
+               ebx_i : {0x00000000; 32}
+               edi_i : {0x00000000; 32}
+               esi_i : {0x00000000; 32}
+               h_RSA_QINV_0_l : {0xff; 8}
+               h_RSA_QINV_0_r : {0x00; 8}
+               h_RSA_QINV_10_l : {0x00; 8}
+               h_RSA_QINV_10_r : {0x00; 8}
+               h_RSA_QINV_11_l : {0x00; 8}
+               h_RSA_QINV_11_r : {0x00; 8}
+               h_RSA_QINV_12_l : {0x00; 8}
+               h_RSA_QINV_12_r : {0x00; 8}
+               h_RSA_QINV_13_l : {0x00; 8}
+               h_RSA_QINV_13_r : {0x00; 8}
+               h_RSA_QINV_14_l : {0x00; 8}
+               h_RSA_QINV_14_r : {0x00; 8}
+               h_RSA_QINV_15_l : {0x00; 8}
+               h_RSA_QINV_15_r : {0x00; 8}
+               h_RSA_QINV_16_l : {0x00; 8}
+               h_RSA_QINV_16_r : {0x00; 8}
+               h_RSA_QINV_17_l : {0x00; 8}
+               h_RSA_QINV_17_r : {0x00; 8}
+               h_RSA_QINV_18_l : {0x00; 8}
+               h_RSA_QINV_18_r : {0x00; 8}
+               h_RSA_QINV_19_l : {0x00; 8}
+               h_RSA_QINV_19_r : {0x00; 8}
+               h_RSA_QINV_1_l : {0x00; 8}
+               h_RSA_QINV_1_r : {0x00; 8}
+               h_RSA_QINV_20_l : {0x00; 8}
+               h_RSA_QINV_20_r : {0x00; 8}
+               h_RSA_QINV_21_l : {0x00; 8}
+               h_RSA_QINV_21_r : {0x00; 8}
+               h_RSA_QINV_22_l : {0x00; 8}
+               h_RSA_QINV_22_r : {0x00; 8}
+               h_RSA_QINV_23_l : {0x00; 8}
+               h_RSA_QINV_23_r : {0x00; 8}
+               h_RSA_QINV_24_l : {0x00; 8}
+               h_RSA_QINV_24_r : {0x00; 8}
+               h_RSA_QINV_25_l : {0x00; 8}
+               h_RSA_QINV_25_r : {0x00; 8}
+               h_RSA_QINV_26_l : {0x00; 8}
+               h_RSA_QINV_26_r : {0x00; 8}
+               h_RSA_QINV_27_l : {0x00; 8}
+               h_RSA_QINV_27_r : {0x00; 8}
+               h_RSA_QINV_28_l : {0x00; 8}
+               h_RSA_QINV_28_r : {0x00; 8}
+               h_RSA_QINV_29_l : {0x00; 8}
+               h_RSA_QINV_29_r : {0x00; 8}
+               h_RSA_QINV_2_l : {0x00; 8}
+               h_RSA_QINV_2_r : {0x00; 8}
+               h_RSA_QINV_30_l : {0x00; 8}
+               h_RSA_QINV_30_r : {0x00; 8}
+               h_RSA_QINV_31_l : {0x00; 8}
+               h_RSA_QINV_31_r : {0x00; 8}
+               h_RSA_QINV_32_l : {0x00; 8}
+               h_RSA_QINV_32_r : {0x00; 8}
+               h_RSA_QINV_33_l : {0x00; 8}
+               h_RSA_QINV_33_r : {0x00; 8}
+               h_RSA_QINV_34_l : {0x00; 8}
+               h_RSA_QINV_34_r : {0x00; 8}
+               h_RSA_QINV_35_l : {0x00; 8}
+               h_RSA_QINV_35_r : {0x00; 8}
+               h_RSA_QINV_36_l : {0x00; 8}
+               h_RSA_QINV_36_r : {0x00; 8}
+               h_RSA_QINV_37_l : {0x00; 8}
+               h_RSA_QINV_37_r : {0x00; 8}
+               h_RSA_QINV_38_l : {0x00; 8}
+               h_RSA_QINV_38_r : {0x00; 8}
+               h_RSA_QINV_39_l : {0x00; 8}
+               h_RSA_QINV_39_r : {0x00; 8}
+               h_RSA_QINV_3_l : {0x00; 8}
+               h_RSA_QINV_3_r : {0x00; 8}
+               h_RSA_QINV_40_l : {0x00; 8}
+               h_RSA_QINV_40_r : {0x00; 8}
+               h_RSA_QINV_41_l : {0x00; 8}
+               h_RSA_QINV_41_r : {0x00; 8}
+               h_RSA_QINV_42_l : {0x00; 8}
+               h_RSA_QINV_42_r : {0x00; 8}
+               h_RSA_QINV_43_l : {0x00; 8}
+               h_RSA_QINV_43_r : {0x00; 8}
+               h_RSA_QINV_44_l : {0x00; 8}
+               h_RSA_QINV_44_r : {0x00; 8}
+               h_RSA_QINV_45_l : {0x00; 8}
+               h_RSA_QINV_45_r : {0x00; 8}
+               h_RSA_QINV_46_l : {0x00; 8}
+               h_RSA_QINV_46_r : {0x00; 8}
+               h_RSA_QINV_47_l : {0x00; 8}
+               h_RSA_QINV_47_r : {0x00; 8}
+               h_RSA_QINV_48_l : {0x00; 8}
+               h_RSA_QINV_48_r : {0x00; 8}
+               h_RSA_QINV_49_l : {0x00; 8}
+               h_RSA_QINV_49_r : {0x00; 8}
+               h_RSA_QINV_4_l : {0x00; 8}
+               h_RSA_QINV_4_r : {0x00; 8}
+               h_RSA_QINV_50_l : {0x00; 8}
+               h_RSA_QINV_50_r : {0x00; 8}
+               h_RSA_QINV_51_l : {0x00; 8}
+               h_RSA_QINV_51_r : {0x00; 8}
+               h_RSA_QINV_52_l : {0x00; 8}
+               h_RSA_QINV_52_r : {0x00; 8}
+               h_RSA_QINV_53_l : {0x00; 8}
+               h_RSA_QINV_53_r : {0x00; 8}
+               h_RSA_QINV_54_l : {0x00; 8}
+               h_RSA_QINV_54_r : {0x00; 8}
+               h_RSA_QINV_55_l : {0x00; 8}
+               h_RSA_QINV_55_r : {0x00; 8}
+               h_RSA_QINV_56_l : {0x00; 8}
+               h_RSA_QINV_56_r : {0x00; 8}
+               h_RSA_QINV_57_l : {0x00; 8}
+               h_RSA_QINV_57_r : {0x00; 8}
+               h_RSA_QINV_58_l : {0x00; 8}
+               h_RSA_QINV_58_r : {0x00; 8}
+               h_RSA_QINV_59_l : {0x00; 8}
+               h_RSA_QINV_59_r : {0x00; 8}
+               h_RSA_QINV_5_l : {0x00; 8}
+               h_RSA_QINV_5_r : {0x00; 8}
+               h_RSA_QINV_60_l : {0x00; 8}
+               h_RSA_QINV_60_r : {0x00; 8}
+               h_RSA_QINV_61_l : {0x00; 8}
+               h_RSA_QINV_61_r : {0x00; 8}
+               h_RSA_QINV_62_l : {0x00; 8}
+               h_RSA_QINV_62_r : {0x00; 8}
+               h_RSA_QINV_63_l : {0x00; 8}
+               h_RSA_QINV_63_r : {0x00; 8}
+               h_RSA_QINV_6_l : {0x00; 8}
+               h_RSA_QINV_6_r : {0x00; 8}
+               h_RSA_QINV_7_l : {0x00; 8}
+               h_RSA_QINV_7_r : {0x00; 8}
+               h_RSA_QINV_8_l : {0x00; 8}
+               h_RSA_QINV_8_r : {0x00; 8}
+               h_RSA_QINV_9_l : {0x00; 8}
+               h_RSA_QINV_9_r : {0x00; 8}
+               
+               
+               # Memory
+               ; section .comment
+               0x0000000c : 0x00 
+               0x0000000d : 0x00 
+               0x0000000e : 0x00 
+               0x0000000f : 0x00 
+               default    : 0x00 
+               
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:result] [Exploration] Timeout of the RelSE

@@ -1,0 +1,276 @@
+microwalk_mbedtls_mpi_inv_mod-GCC9-O2:Target+61 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:RunTarget+0 ($63FE604BCDFCE91B)
+  microwalk_mbedtls_mpi_inv_mod-GCC9-O2:RunTarget+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_read_binary+0 ($FDE80D5317536426)
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_read_binary+7e -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($390E69F44D17F6CA)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($883CCE9667065BCE)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($771B72D444732C40)
+          [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+415 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_mbedtls_mpi_inv_mod-GCC9-O2:RunTarget+56 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_read_binary+0 ($77616F18E7AAC174)
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_read_binary+7e -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($383BB8E7BBD7990F)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($346A59CB921881ED)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($7FAF9C679D8A83D2)
+          [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+415 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_mbedtls_mpi_inv_mod-GCC9-O2:RunTarget+64 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+0 ($2D749CFD958F6A0C)
+    [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+47b (jump)
+      - Number of calls: 1
+      - Tree depth: 7.00 +/- 0.00, min 7, max 7
+      - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+      - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+eb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+0 ($F878E14F27CE8F91)
+      [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+18c (jump)
+        - Number of calls: 1
+        - Tree depth: 14.00 +/- 0.00, min 14, max 14
+        - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+        - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+68 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+0 ($2344A626FF7C70C8)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($8A5BB3A1D0FBAFEC)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($CBDABED034CC847E)
+            microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($5B4808451DAF25D2)
+              [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+415 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+8b -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+0 ($A72100853EBA0101)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($C63A3ED2FDD4B056)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($D3F5B396E3F62546)
+            microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($DE5F5C713A90F7DC)
+              [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+415 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+b4 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lsb+0 ($B1ECD49DDDB252B3)
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+          - Number of calls: 1
+          - Tree depth: 3.00 +/- 0.00, min 3, max 3
+          - Mutual information: 1.37 +/- 0.00 bits, min 1.37 bits, max 1.37 bits
+          - Cond. guessing entropy: 3.94 +/- 0.00, min 3.94, max 3.94, score 60.83 +/- 0.00
+          - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+128 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lsb+0 ($FB32F70FB38E660B)
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+          - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+13a -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_shift_r+0 ($04D87F4F444F2657)
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_shift_r+100 (jump)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+          - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+153 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lsb+0 ($5A8D0CD76D18DC21)
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+          - Number of calls: 523
+          - Tree depth: 4.30 +/- 0.95, min 2, max 7
+          - Mutual information: 1.66 +/- 0.33 bits, min 0.50 bits, max 2.38 bits
+          - Cond. guessing entropy: 3.39 +/- 0.88, min 0.12, max 5.31, score 68.11 +/- 11.70
+          - Min. cond. guessing entropy: 1.13 +/- 0.31, min 1.00, max 3.00, score 98.25 +/- 4.11
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+165 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_shift_r+0 ($967D0191C9C14D89)
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_shift_r+100 (jump)
+          - Number of calls: 522
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.95 +/- 0.08 bits, min 0.34 bits, max 1.06 bits
+          - Cond. guessing entropy: 4.58 +/- 0.81, min 0.12, max 7.56, score 52.25 +/- 10.83
+          - Min. cond. guessing entropy: 3.61 +/- 0.73, min 1.00, max 4.50, score 65.20 +/- 9.78
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+185 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_cmp_mpi+0 ($8C357E518415BF0C)
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_cmp_mpi+77 (jump)
+          - Number of calls: 455
+          - Tree depth: 2.40 +/- 0.49, min 2, max 3
+          - Mutual information: 0.98 +/- 0.24 bits, min 0.34 bits, max 1.48 bits
+          - Cond. guessing entropy: 4.91 +/- 0.86, min 2.31, max 7.56, score 47.83 +/- 11.41
+          - Min. cond. guessing entropy: 2.31 +/- 1.20, min 1.00, max 4.50, score 82.52 +/- 16.02
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_cmp_mpi+147 (jump)
+          - Number of calls: 15
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.69 +/- 0.11 bits, min 0.50 bits, max 0.91 bits
+          - Cond. guessing entropy: 1.81 +/- 1.29, min 0.12, max 3.50, score 89.17 +/- 17.15
+          - Min. cond. guessing entropy: 1.07 +/- 0.17, min 1.00, max 1.50, score 99.11 +/- 2.27
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_gcd+1e3 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_sub_abs+0 ($B9DF79C1DC2CED57)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_sub_abs+35 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_cmp_abs+0 ($B50142937DFFE000)
+          [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_cmp_abs+3b (jump)
+            - Number of calls: 455
+            - Tree depth: 2.40 +/- 0.49, min 2, max 3
+            - Mutual information: 0.98 +/- 0.24 bits, min 0.34 bits, max 1.48 bits
+            - Cond. guessing entropy: 4.90 +/- 0.87, min 1.81, max 7.56, score 47.98 +/- 11.63
+            - Min. cond. guessing entropy: 2.31 +/- 1.20, min 1.00, max 4.50, score 82.52 +/- 16.02
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+145 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_mod_mpi+0 ($68C0B43B6A60CC89)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_mod_mpi+4b -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_div_mpi+0 ($E3CEF630ED549145)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_div_mpi+10b -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+0 ($6BC3278E2DBFCDB4)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($51996953CA9C1021)
+            microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($6B3CC57B0F398A6D)
+              microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($3398D2756CAE3DE6)
+                [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+55e (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+171 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+0 ($2784A44F23A5C0EE)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($4FE6F865BB1F02F1)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($6F0781E4F73C1F80)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($93CB497FD1D52BB5)
+            [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+7c6 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+              - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+19a -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+0 ($43233F055D7BDEB5)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($3977C9DD29BE280B)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($496BC8AF09D423DC)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($E1A006F3EB57FC3D)
+            [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+1c3 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+0 ($30CCBC4675C536B5)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($DDEAB7F755D6BE67)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($D5E4203CAC1A5356)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($8FCAA13CC185DC08)
+            [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+1ea -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lset+0 ($A526D75731D4996F)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($9B2D9E3E7BBCBDEC)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($A9AACC571D3AD760)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($BC9CBC4060283DFC)
+            [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+415 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+211 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lset+0 ($557708FCB7F4068A)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($7B00D200681C9F0A)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($8064FB96BC235813)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($8053DF3DEEE3FE8A)
+            [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+235 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lset+0 ($F41A236729D48DDB)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($7647D0BB49A65D78)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($F18756456F6A79C4)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($F3FB2CEFD630BFCD)
+            [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+259 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lset+0 ($1299E0D055F354D3)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($5B03B6ABBDFA4519)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($A1561E01C0626873)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($BBC94056F5A415FD)
+            [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+3e1 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_add_mpi+0 ($9866BAA084504D74)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_add_mpi+b7 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_add_abs+0 ($F26B38E1D09DD968)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_add_abs+b8 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($8D3C55157707763D)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($16722D58889D1627)
+            microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($9BB5D79A5A5F98EA)
+              [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+26b (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.67 +/- 0.00 bits, min 0.67 bits, max 0.67 bits
+                - Cond. guessing entropy: 3.50 +/- 0.00, min 3.50, max 3.50, score 66.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__free+0 ($F2E0E9827067F3CA)
+            microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__free+6c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+0 ($0A9F0D8BB51FAA2D)
+              [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+a4 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.67 +/- 0.00 bits, min 0.67 bits, max 0.67 bits
+                - Cond. guessing entropy: 3.50 +/- 0.00, min 3.50, max 3.50, score 66.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_inv_mod+40e -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($3EEA5C17B1F87927)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_sub_mpi+88 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_sub_abs+0 ($94DD85A7AE6CA533)
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_sub_abs+6c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+0 ($12611E9FF1CC5BF3)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+0 ($CF8553C6A59436FC)
+            microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+0 ($5D10F5805C0F4BB1)
+              microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__calloc+15c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+0 ($A6E89643FBF9D348)
+                [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_malloc+55e (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.67 +/- 0.00 bits, min 0.67 bits, max 0.67 bits
+                  - Cond. guessing entropy: 3.50 +/- 0.00, min 3.50, max 3.50, score 66.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_sub_abs+125 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_free+0 ($EDC2299606C57EAA)
+          microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__free+0 ($2ACA860188908A03)
+            microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__free+6c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+0 ($C7F840CF148CC811)
+              [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+a4 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.67 +/- 0.00 bits, min 0.67 bits, max 0.67 bits
+                - Cond. guessing entropy: 3.50 +/- 0.00, min 3.50, max 3.50, score 66.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_mbedtls_mpi_inv_mod-GCC9-O2:RunTarget+6c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_free+0 ($F78E870C35F9DC81)
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__free+0 ($B68D758106B6824C)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__free+6c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+0 ($E1AFF9484E727D97)
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+1ec (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+          - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+          - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+214 (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.78 +/- 0.00 bits, min 0.78 bits, max 0.78 bits
+          - Cond. guessing entropy: 1.38 +/- 0.00, min 1.38, max 1.38, score 95.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+7fb -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:malloc_consolidate+0 ($A6C2AEBE113D630A)
+          [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:malloc_consolidate+f3 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 1.02 +/- 0.00 bits, min 1.02 bits, max 1.02 bits
+            - Cond. guessing entropy: 1.56 +/- 0.00, min 1.56, max 1.56, score 92.50 +/- 0.00
+            - Min. cond. guessing entropy: 2.50 +/- 0.00, min 2.50, max 2.50, score 80.00 +/- 0.00
+          [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:malloc_consolidate+a0 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+            - Cond. guessing entropy: 0.44 +/- 0.00, min 0.44, max 0.44, score 107.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_mbedtls_mpi_inv_mod-GCC9-O2:RunTarget+74 -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_free+0 ($7F63B8C962EFAFE4)
+    microwalk_mbedtls_mpi_inv_mod-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__free+0 ($3B4BCED166671743)
+      microwalk_mbedtls_mpi_inv_mod-GCC9-O2:__free+6c -> microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+0 ($E9D65CE5612D33E4)
+        [L] microwalk_mbedtls_mpi_inv_mod-GCC9-O2:_int_free+12e (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.95 +/- 0.00 bits, min 0.95 bits, max 0.95 bits
+          - Cond. guessing entropy: 4.75 +/- 0.00, min 4.75, max 4.75, score 50.00 +/- 0.00
+          - Min. cond. guessing entropy: 3.50 +/- 0.00, min 3.50, max 3.50, score 66.67 +/- 0.00

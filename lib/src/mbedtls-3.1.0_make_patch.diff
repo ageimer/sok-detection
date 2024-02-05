@@ -1,0 +1,51 @@
+diff -ur tmp/mbedtls-3.1.0/include/mbedtls/mbedtls_config.h mbedtls-3.1.0/include/mbedtls/mbedtls_config.h
+--- tmp/mbedtls-3.1.0/include/mbedtls/mbedtls_config.h	2021-12-15 14:48:01.000000000 +0100
++++ mbedtls-3.1.0/include/mbedtls/mbedtls_config.h	2023-08-18 12:44:09.343625315 +0200
+@@ -116,7 +116,7 @@
+  *
+  * Uncomment if the CPU supports SSE2 (IA-32 specific).
+  */
+-//#define MBEDTLS_HAVE_SSE2
++#define MBEDTLS_HAVE_SSE2
+ 
+ /**
+  * \def MBEDTLS_HAVE_TIME
+@@ -487,7 +487,7 @@
+  * This option is independent of \c MBEDTLS_AES_FEWER_TABLES.
+  *
+  */
+-//#define MBEDTLS_AES_ROM_TABLES
++#define MBEDTLS_AES_ROM_TABLES
+ 
+ /**
+  * \def MBEDTLS_AES_FEWER_TABLES
+@@ -1850,7 +1850,7 @@
+  *
+  * This modules adds support for the AES-NI instructions on x86-64
+  */
+-#define MBEDTLS_AESNI_C
++//#define MBEDTLS_AESNI_C
+ 
+ /**
+  * \def MBEDTLS_AES_C
+@@ -2477,7 +2477,7 @@
+  *
+  * This modules adds support for the VIA PadLock on x86.
+  */
+-#define MBEDTLS_PADLOCK_C
++//#define MBEDTLS_PADLOCK_C
+ 
+ /**
+  * \def MBEDTLS_PEM_PARSE_C
+diff -ur tmp/mbedtls-3.1.0/programs/Makefile mbedtls-3.1.0/programs/Makefile
+--- tmp/mbedtls-3.1.0/programs/Makefile	2021-12-15 14:48:01.000000000 +0100
++++ mbedtls-3.1.0/programs/Makefile	2023-08-18 12:43:14.524136636 +0200
+@@ -155,7 +155,7 @@
+ # APPS doesn't include the fuzzing programs, which aren't "normal"
+ # sample or test programs, and don't build with MSVC which is
+ # warning about fopen
+-all: fuzz
++#all: fuzz
+ endif
+ 
+ fuzz: ${MBEDTLS_TEST_OBJS}

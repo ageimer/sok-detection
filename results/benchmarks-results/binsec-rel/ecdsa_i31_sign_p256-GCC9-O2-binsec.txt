@@ -1,0 +1,160 @@
+[relse:debug] Reading initialization from ./src/relse1_memory.txt
+[relse:warning] [Stub] Symbol bzero not found
+[relse:result] [Insecurity][Violation] Insecure jump
+[relse:result] Address (0804bfca, 0) :
+               if ZF<1> goto (0804bf26, 0) else goto 1
+[relse:result] Time: 1.819206| Model:
+               --- Model ---
+               # Variables
+               ebx_i : {0x00000000; 32}
+               edi_i : {0x00000000; 32}
+               esi_i : {0x00000000; 32}
+               h_ECDSA_D_0_l : {0x7f; 8}
+               h_ECDSA_D_0_r : {0xff; 8}
+               h_ECDSA_D_10_l : {0xff; 8}
+               h_ECDSA_D_10_r : {0xff; 8}
+               h_ECDSA_D_11_l : {0xff; 8}
+               h_ECDSA_D_11_r : {0xff; 8}
+               h_ECDSA_D_12_l : {0xff; 8}
+               h_ECDSA_D_12_r : {0xff; 8}
+               h_ECDSA_D_13_l : {0xff; 8}
+               h_ECDSA_D_13_r : {0xff; 8}
+               h_ECDSA_D_14_l : {0xff; 8}
+               h_ECDSA_D_14_r : {0xff; 8}
+               h_ECDSA_D_15_l : {0xff; 8}
+               h_ECDSA_D_15_r : {0xff; 8}
+               h_ECDSA_D_16_l : {0xfc; 8}
+               h_ECDSA_D_16_r : {0xbc; 8}
+               h_ECDSA_D_17_l : {0xe6; 8}
+               h_ECDSA_D_17_r : {0xe6; 8}
+               h_ECDSA_D_18_l : {0xfa; 8}
+               h_ECDSA_D_18_r : {0xfa; 8}
+               h_ECDSA_D_19_l : {0xad; 8}
+               h_ECDSA_D_19_r : {0xad; 8}
+               h_ECDSA_D_1_l : {0xff; 8}
+               h_ECDSA_D_1_r : {0xff; 8}
+               h_ECDSA_D_20_l : {0xa7; 8}
+               h_ECDSA_D_20_r : {0xa7; 8}
+               h_ECDSA_D_21_l : {0x17; 8}
+               h_ECDSA_D_21_r : {0x17; 8}
+               h_ECDSA_D_22_l : {0x9e; 8}
+               h_ECDSA_D_22_r : {0x9e; 8}
+               h_ECDSA_D_23_l : {0x84; 8}
+               h_ECDSA_D_23_r : {0x84; 8}
+               h_ECDSA_D_24_l : {0xf3; 8}
+               h_ECDSA_D_24_r : {0xf3; 8}
+               h_ECDSA_D_25_l : {0xb9; 8}
+               h_ECDSA_D_25_r : {0xb9; 8}
+               h_ECDSA_D_26_l : {0xca; 8}
+               h_ECDSA_D_26_r : {0xca; 8}
+               h_ECDSA_D_27_l : {0xc2; 8}
+               h_ECDSA_D_27_r : {0xc2; 8}
+               h_ECDSA_D_28_l : {0x80; 8}
+               h_ECDSA_D_28_r : {0xfc; 8}
+               h_ECDSA_D_29_l : {0x00; 8}
+               h_ECDSA_D_29_r : {0x63; 8}
+               h_ECDSA_D_2_l : {0xff; 8}
+               h_ECDSA_D_2_r : {0xff; 8}
+               h_ECDSA_D_30_l : {0x00; 8}
+               h_ECDSA_D_30_r : {0x25; 8}
+               h_ECDSA_D_31_l : {0x00; 8}
+               h_ECDSA_D_31_r : {0x51; 8}
+               h_ECDSA_D_3_l : {0xff; 8}
+               h_ECDSA_D_3_r : {0xff; 8}
+               h_ECDSA_D_4_l : {0xbe; 8}
+               h_ECDSA_D_4_r : {0x00; 8}
+               h_ECDSA_D_5_l : {0x00; 8}
+               h_ECDSA_D_5_r : {0x00; 8}
+               h_ECDSA_D_6_l : {0x00; 8}
+               h_ECDSA_D_6_r : {0x00; 8}
+               h_ECDSA_D_7_l : {0x00; 8}
+               h_ECDSA_D_7_r : {0x00; 8}
+               h_ECDSA_D_8_l : {0xfd; 8}
+               h_ECDSA_D_8_r : {0xff; 8}
+               h_ECDSA_D_9_l : {0xff; 8}
+               h_ECDSA_D_9_r : {0xff; 8}
+               
+               
+               -- empty memory --
+[relse:result] [Insecurity][Violation] Insecure jump
+[relse:result] Address (0804bfe3, 0) :
+               if ! (ZF<1>) goto (0804bf26, 0) else goto 1
+[relse:result] Time: 2.172504| Model:
+               --- Model ---
+               # Variables
+               ebx_i : {0x00000000; 32}
+               edi_i : {0x00000000; 32}
+               esi_i : {0x00000000; 32}
+               h_ECDSA_D_0_l : {0x00; 8}
+               h_ECDSA_D_0_r : {0x00; 8}
+               h_ECDSA_D_10_l : {0x00; 8}
+               h_ECDSA_D_10_r : {0x00; 8}
+               h_ECDSA_D_11_l : {0x00; 8}
+               h_ECDSA_D_11_r : {0x00; 8}
+               h_ECDSA_D_12_l : {0x00; 8}
+               h_ECDSA_D_12_r : {0x00; 8}
+               h_ECDSA_D_13_l : {0x00; 8}
+               h_ECDSA_D_13_r : {0x00; 8}
+               h_ECDSA_D_14_l : {0x00; 8}
+               h_ECDSA_D_14_r : {0x00; 8}
+               h_ECDSA_D_15_l : {0x00; 8}
+               h_ECDSA_D_15_r : {0x00; 8}
+               h_ECDSA_D_16_l : {0x00; 8}
+               h_ECDSA_D_16_r : {0x00; 8}
+               h_ECDSA_D_17_l : {0x00; 8}
+               h_ECDSA_D_17_r : {0x00; 8}
+               h_ECDSA_D_18_l : {0x00; 8}
+               h_ECDSA_D_18_r : {0x00; 8}
+               h_ECDSA_D_19_l : {0x00; 8}
+               h_ECDSA_D_19_r : {0x00; 8}
+               h_ECDSA_D_1_l : {0x00; 8}
+               h_ECDSA_D_1_r : {0x00; 8}
+               h_ECDSA_D_20_l : {0x00; 8}
+               h_ECDSA_D_20_r : {0x00; 8}
+               h_ECDSA_D_21_l : {0x00; 8}
+               h_ECDSA_D_21_r : {0x00; 8}
+               h_ECDSA_D_22_l : {0x00; 8}
+               h_ECDSA_D_22_r : {0x00; 8}
+               h_ECDSA_D_23_l : {0x00; 8}
+               h_ECDSA_D_23_r : {0x00; 8}
+               h_ECDSA_D_24_l : {0x00; 8}
+               h_ECDSA_D_24_r : {0x00; 8}
+               h_ECDSA_D_25_l : {0x00; 8}
+               h_ECDSA_D_25_r : {0x00; 8}
+               h_ECDSA_D_26_l : {0x00; 8}
+               h_ECDSA_D_26_r : {0x00; 8}
+               h_ECDSA_D_27_l : {0x00; 8}
+               h_ECDSA_D_27_r : {0x00; 8}
+               h_ECDSA_D_28_l : {0x00; 8}
+               h_ECDSA_D_28_r : {0x00; 8}
+               h_ECDSA_D_29_l : {0x01; 8}
+               h_ECDSA_D_29_r : {0x00; 8}
+               h_ECDSA_D_2_l : {0x00; 8}
+               h_ECDSA_D_2_r : {0x00; 8}
+               h_ECDSA_D_30_l : {0x00; 8}
+               h_ECDSA_D_30_r : {0x00; 8}
+               h_ECDSA_D_31_l : {0x00; 8}
+               h_ECDSA_D_31_r : {0x00; 8}
+               h_ECDSA_D_3_l : {0x00; 8}
+               h_ECDSA_D_3_r : {0x00; 8}
+               h_ECDSA_D_4_l : {0x00; 8}
+               h_ECDSA_D_4_r : {0x00; 8}
+               h_ECDSA_D_5_l : {0x00; 8}
+               h_ECDSA_D_5_r : {0x00; 8}
+               h_ECDSA_D_6_l : {0x00; 8}
+               h_ECDSA_D_6_r : {0x00; 8}
+               h_ECDSA_D_7_l : {0x00; 8}
+               h_ECDSA_D_7_r : {0x00; 8}
+               h_ECDSA_D_8_l : {0x00; 8}
+               h_ECDSA_D_8_r : {0x00; 8}
+               h_ECDSA_D_9_l : {0x00; 8}
+               h_ECDSA_D_9_r : {0x00; 8}
+               
+               
+               -- empty memory --
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:result] [Exploration] Timeout of the RelSE

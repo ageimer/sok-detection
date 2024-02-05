@@ -1,0 +1,110 @@
+microwalk_bn_gcd-GCC9-O2:Target+59 -> microwalk_bn_gcd-GCC9-O2:RunTarget+0 ($BC49173B80AC6CEF)
+  microwalk_bn_gcd-GCC9-O2:RunTarget+10 -> microwalk_bn_gcd-GCC9-O2:BN_CTX_new+0 ($5F3BD83B24E07F6B)
+    microwalk_bn_gcd-GCC9-O2:BN_CTX_new+19 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($AEE97AE317E686A9)
+      [L] microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+27 (jump)
+        - Number of calls: 1
+        - Tree depth: 2.00 +/- 0.00, min 2, max 2
+        - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+        - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+        - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_bn_gcd-GCC9-O2:RunTarget+2e -> microwalk_bn_gcd-GCC9-O2:BN_bin2bn+0 ($CC8098D076437AEC)
+    microwalk_bn_gcd-GCC9-O2:BN_bin2bn+111 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($EDA4B2E837E61D81)
+      microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($11A02295E369E5AA)
+        [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_bn_gcd-GCC9-O2:BN_bin2bn+159 -> microwalk_bn_gcd-GCC9-O2:bn_expand_internal+0 ($15470E99CCF40E8C)
+      microwalk_bn_gcd-GCC9-O2:bn_expand_internal+31 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($5FA36DC7537A36AC)
+        microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($DCBB43A83F920C6E)
+          [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_bn_gcd-GCC9-O2:RunTarget+40 -> microwalk_bn_gcd-GCC9-O2:BN_bin2bn+0 ($6A6307EDBC1551BC)
+    microwalk_bn_gcd-GCC9-O2:BN_bin2bn+111 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($C80F2486D9609C42)
+      microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($2C0FD8122351A3D1)
+        [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_bn_gcd-GCC9-O2:BN_bin2bn+159 -> microwalk_bn_gcd-GCC9-O2:bn_expand_internal+0 ($D485E5FCD94653A1)
+      microwalk_bn_gcd-GCC9-O2:bn_expand_internal+31 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($DABBBAED26C2406C)
+        microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($73781B6E85C2FAFC)
+          [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_bn_gcd-GCC9-O2:RunTarget+54 -> microwalk_bn_gcd-GCC9-O2:BN_gcd+0 ($CED88FA5BD070124)
+    [L] microwalk_bn_gcd-GCC9-O2:BN_gcd+b7 (jump)
+      - Number of calls: 1
+      - Tree depth: 7.00 +/- 0.00, min 7, max 7
+      - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+      - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_bn_gcd-GCC9-O2:BN_gcd+21 -> microwalk_bn_gcd-GCC9-O2:BN_CTX_start+0 ($3A4B466F6B70531F)
+      microwalk_bn_gcd-GCC9-O2:BN_CTX_start+7b -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($0BAF0086D0AA3872)
+        microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($5148B3C28489EA4A)
+          [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_bn_gcd-GCC9-O2:BN_gcd+29 -> microwalk_bn_gcd-GCC9-O2:BN_CTX_get+0 ($340063F47B47379B)
+      microwalk_bn_gcd-GCC9-O2:BN_CTX_get+99 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($BECBAE8F5818A247)
+        microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($EB0728732192ED77)
+          [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_bn_gcd-GCC9-O2:BN_CTX_get+5a -> microwalk_bn_gcd-GCC9-O2:BN_set_word+0 ($13BDC3470EE7825D)
+        microwalk_bn_gcd-GCC9-O2:BN_set_word+45 -> microwalk_bn_gcd-GCC9-O2:bn_expand_internal+0 ($27B65FB81630933F)
+          microwalk_bn_gcd-GCC9-O2:bn_expand_internal+31 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($6A30F56711B5A5C4)
+            microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($A85860A108D13EC2)
+              [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_bn_gcd-GCC9-O2:BN_gcd+34 -> microwalk_bn_gcd-GCC9-O2:BN_CTX_get+0 ($D25A47DF81D12F27)
+      microwalk_bn_gcd-GCC9-O2:BN_CTX_get+5a -> microwalk_bn_gcd-GCC9-O2:BN_set_word+0 ($5AAC1DBD694D01FD)
+        microwalk_bn_gcd-GCC9-O2:BN_set_word+45 -> microwalk_bn_gcd-GCC9-O2:bn_expand_internal+0 ($CBC5C7036FA8F24B)
+          microwalk_bn_gcd-GCC9-O2:bn_expand_internal+31 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($26F88AA221E90F2B)
+            microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($5DF994CA8733B215)
+              [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_bn_gcd-GCC9-O2:BN_gcd+68 -> microwalk_bn_gcd-GCC9-O2:BN_copy+0 ($A8953E400E141C83)
+      microwalk_bn_gcd-GCC9-O2:BN_copy+d3 -> microwalk_bn_gcd-GCC9-O2:bn_expand_internal+0 ($BA3A76F2CFC4B284)
+        microwalk_bn_gcd-GCC9-O2:bn_expand_internal+31 -> microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+0 ($CCD10FEEAC22E812)
+          microwalk_bn_gcd-GCC9-O2:CRYPTO_malloc+57 -> microwalk_bn_gcd-GCC9-O2:default_malloc_ex+0 ($693BA6B90D255E47)
+            [L] microwalk_bn_gcd-GCC9-O2:malloc+14f (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_bn_gcd-GCC9-O2:RunTarget+63 -> microwalk_bn_gcd-GCC9-O2:printhex+0 ($E58AC8182BB1F279)
+    microwalk_bn_gcd-GCC9-O2:printhex+31 -> microwalk_bn_gcd-GCC9-O2:__printf_chk+0 ($6AB56EAD4FD31021)
+      microwalk_bn_gcd-GCC9-O2:__printf_chk+a3 -> microwalk_bn_gcd-GCC9-O2:__vfprintf_internal+0 ($A95AA7CA126DA61A)
+        [L] microwalk_bn_gcd-GCC9-O2:__vfprintf_internal+4b (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00

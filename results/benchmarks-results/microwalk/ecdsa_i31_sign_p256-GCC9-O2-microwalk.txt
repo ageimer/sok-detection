@@ -1,0 +1,14 @@
+Running target ECDSA-bearssl/microwalk_ecdsa_i31_sign_p256-GCC9-O2...
+/mw/mapfilegenerator /mw/library
+/mw/library
+[?1h=00:00:00 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] Enabling process monitor
+00:00:00 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] Found 16 testcase files.
+00:00:00 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] Start testcase thread -> pipeline start
+00:01:48 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] Pipeline completed, executing final analysis steps
+00:01:48 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] [analyze:cfl] Running control flow leakage analysis
+00:01:48 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] [analyze:cfl] Control flow leakage analysis completed, writing results
+00:01:48 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] [analyze:cfl] Writing analysis result
+00:01:48 [[39;49m[32m[39;49m[32m[40mrslt[39;49m[40m[39;49m] [analyze:cfl] Total number of leakages: 0
+00:01:48 [[39;49m[32m[39;49m[32m[40mrslt[39;49m[40m[39;49m] [analyze:cfl] Unique leaking instructions: 0
+00:01:48 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] [monitor] Maximum private memory size: 468180992 bytes (446.492 MB)
+00:01:48 [[39;49m[36m[39;49m[36m[40minfo[39;49m[40m[39;49m] Program completed.

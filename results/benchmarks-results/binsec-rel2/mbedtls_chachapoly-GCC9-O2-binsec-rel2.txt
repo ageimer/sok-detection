@@ -1,0 +1,60 @@
+[checkct:debug] Reading script from ./src/relse2_script.ini
+[checkct:info] Load section .text (0x08049120, 0x8b361)
+[checkct:info] Load section .data (0x0810d060, 0xfa0)
+[checkct:info] Load section .rodata (0x080d6000, 0x1caa4)
+[checkct:info] Load section .bss (0x0810e400, 0xebc)
+[checkct:info] Load section .got.plt (0x0810d000, 0x48)
+[checkct:info] Load section .plt (0x08049030, 0xf0)
+[checkct:info] Load section .got (0x0810cfd4, 0x28)
+[checkct:info] Load section .data.rel.ro (0x0810b6c0, 0x1914)
+[checkct:info] Load section .tdata (0x0810b6a0, 0x10)
+[checkct:debug] Reading script from ./src/benchmark/secrets_keys32_iv12.ini
+[checkct:debug] Directive :: cut path 0 @ 0xabcdef01
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          1510
+                    sat            181
+                    unsat          311
+                    constant enum  1018
+                  
+                  Satisfiability queries
+                    total          0
+                    sat            0
+                    unsat          0
+                    unknown        0
+                    time           0.00
+                    average        -nan
+                  
+                CT checks
+                  Control flow checks      1502
+                    secure (taint)         1502
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     38995
+                    secure (taint)         38995
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    40497
+                  Total solver time        0.00
+                  Average solver time      -nan
+                  
+                Exploration
+                  total paths                      1
+                  completed/cut paths              1
+                  pending paths                    0
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 1502
+                  max path depth                   63298
+                  visited instructions (unrolled)  63298
+                  visited instructions (static)    2682
+                
+                
+[checkct:result] Program status is : secure (0.477)
+[checkct:info] 1 visited path covering 2682 instructions
+[checkct:info] 1502 / 1502 control flow checks pass
+[checkct:info] 38995 / 38995 memory access checks pass

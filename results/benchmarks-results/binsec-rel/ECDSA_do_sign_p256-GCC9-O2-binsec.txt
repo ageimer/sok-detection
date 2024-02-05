@@ -1,0 +1,5 @@
+[relse:debug] Reading initialization from ./src/relse1_memory.txt
+[relse:warning] [Stub] Symbol bzero not found
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:warning] [Solver] SMT query resulted in TIMEOUT
+[relse:result] [Exploration] End of the RelSE

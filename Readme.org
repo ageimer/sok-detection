@@ -1,0 +1,17 @@
+* A Systematic Evaluation of Automated Tools for Side-Channel Vulnerabilities Detection in Cryptographic Libraries
+
+Paper available at: https://arxiv.org/abs/2310.08153
+This repository contains the scripts source code used to build and run the experiments.
+
+The binaries used for the experiments are available in the ~binaries~ folder, while the outputs given by each tool is in ~results~.
+The tables can be generated from these folders using the scripts in ~parse_outputs.md~, which can be opened in Jupyter (with Jupytxt installed).
+
+The source code for each benchmark can be found in the ~src~ folder. They can be built by running ~make~ in the parent directory.
+
+The source archive for each library can be found in =lib/src/= and can be built by running =make lib=. This will extract the source code of each library, apply a configuration then run each library's build system.
+
+The benchmarks can be run using the python scripts supplied:
+
+#+begin_src sh
+./run_benchmarks.py -t [binsec-rel|binsec-rel2|abacus|ctgrind|dudect|microwalk] -b [all_bench|all_vuln]
+#+end_src

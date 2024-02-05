@@ -1,0 +1,309 @@
+[checkct:debug] Reading script from ./src/relse2_script.ini
+[checkct:info] Load section .text (0x08049120, 0x8f271)
+[checkct:info] Load section .data (0x08110060, 0xec0)
+[checkct:info] Load section .rodata (0x080d9000, 0x1c9c4)
+[checkct:info] Load section .bss (0x08111320, 0xe3c)
+[checkct:info] Load section .got.plt (0x08110000, 0x48)
+[checkct:info] Load section .plt (0x08049030, 0xf0)
+[checkct:info] Load section .got (0x0810ffd4, 0x28)
+[checkct:info] Load section .data.rel.ro (0x0810e6c0, 0x1914)
+[checkct:info] Load section .tdata (0x0810e6a0, 0x10)
+[checkct:debug] Reading script from ./src/vuln_validation/secrets_lcm.ini
+[checkct:result] Instruction 0x0804be4a has control flow leak (0.065s)
+[checkct:debug] Directive :: cut path 0 @ 0xabcdef01
+[checkct:result] Instruction 0x0804bf2e has control flow leak (0.154s)
+[checkct:result] Instruction 0x0804a9f1 has control flow leak (0.250s)
+[checkct:debug] Directive :: cut path 32 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 78 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 81 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 82 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 80 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 79 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 77 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 84 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 83 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 76 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 89 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 90 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 88 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 87 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 93 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 94 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 92 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 91 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 95 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 86 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 98 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 97 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 99 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 96 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 100 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 85 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 101 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 75 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 103 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 106 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 108 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 107 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 109 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 105 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 111 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 112 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 110 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 104 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 113 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 102 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 118 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 117 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 116 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 119 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 115 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 114 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 121 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 120 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 74 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 128 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 129 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 127 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 126 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 132 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 133 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 131 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 130 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 134 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 125 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 136 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 138 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 137 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 135 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 139 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 124 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 144 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 145 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 143 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 142 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 148 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 149 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 147 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 146 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 150 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 141 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 153 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 152 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 154 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 151 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 155 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 140 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 157 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 156 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 123 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 162 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 161 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 163 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 164 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 160 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 166 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 167 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 165 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 159 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 170 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 171 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 169 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 168 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 173 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 172 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 158 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 178 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 177 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 176 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 179 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 175 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 180 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 181 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 174 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 184 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 183 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 182 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 122 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 186 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 185 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 73 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 190 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 193 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 194 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 192 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 195 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 191 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 189 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 198 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 197 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 196 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 199 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 188 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 204 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 206 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 205 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 203 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 208 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 207 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 202 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 212 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 211 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 214 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 213 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 215 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 210 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 217 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 218 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 216 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 219 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 209 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 221 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 220 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 201 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 225 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 226 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 224 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 227 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 223 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 230 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 231 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 229 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 228 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 232 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 222 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 236 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 235 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 234 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 237 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 233 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 239 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 238 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 200 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 241 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 240 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 187 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 244 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 243 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 249 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 248 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 247 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 252 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 254 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 253 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 251 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 256 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 257 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 255 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 250 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 258 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 246 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 261 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 260 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 263 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 262 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 264 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 259 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 266 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 267 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 265 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 268 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 245 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 269 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 242 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 273 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 277 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 276 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 275 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 278 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 274 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 272 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 280 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 282 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 281 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 279 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 283 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 271 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 270 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 287 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 286 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 285 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 284 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 289 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 288 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 72 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 298 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 299 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 297 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 296 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 302 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 303 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 301 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 300 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 304 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 295 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 306 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 308 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 307 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 305 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 309 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 294 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 314 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 315 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 313 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 312 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 318 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 319 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 317 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 316 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 320 @ 0xabcdef01
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          714771
+                    sat            312297
+                    unsat          211715
+                    constant enum  190759
+                  
+                  Satisfiability queries
+                    total          34954
+                    sat            323
+                    unsat          34631
+                    unknown        0
+                    time           965.15
+                    average        0.03
+                  
+                CT checks
+                  Control flow checks      728671
+                    secure (taint)         631427
+                    insecure (CV)          1
+                    secure (RelSE)         97241
+                    insecure (RelSE)       2
+                    unknown                0
+                  Memory access checks     4631530
+                    secure (taint)         4631530
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    5360201
+                  Total solver time        2533.19
+                  Average solver time      0.03
+                  
+                Exploration
+                  total paths                      324
+                  completed/cut paths              245
+                  pending paths                    79
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 749051
+                  max path depth                   48151
+                  visited instructions (unrolled)  4773465
+                  visited instructions (static)    3065
+                
+                
+[checkct:result] Program status is : insecure (3600.059)
+[checkct:info] 245 visited paths covering 3065 instructions
+[checkct:info] 728668 / 728671 control flow checks pass
+[checkct:info] 4631530 / 4631530 memory access checks pass
+[checkct:warning] Exploration is incomplete:
+                  - timeout has left (at least) 79 pending paths (-checkct-timeout)

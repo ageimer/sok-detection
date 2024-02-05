@@ -1,0 +1,82 @@
+[checkct:debug] Reading script from ./src/relse2_script.ini
+[checkct:info] Load section .text (0x0804a000, 0x237db1)
+[checkct:info] Load section .data (0x08394080, 0x1cc0)
+[checkct:info] Load section .rodata (0x08283000, 0x56df8)
+[checkct:info] Load section .bss (0x083961c0, 0x435c)
+[checkct:info] Load section .got.plt (0x08394000, 0x68)
+[checkct:info] Load section .plt (0x08049030, 0xb8)
+[checkct:info] Load section .got (0x08393dd4, 0x210)
+[checkct:info] Load section .data.rel.ro (0x0837b840, 0x18594)
+[checkct:info] Load section .tdata (0x0837b81c, 0x14)
+[checkct:warning] Jump
+                  (0x082227e4, 3) :
+                  goto temp32<32> #call with return address @ (0x082227eb, 0)
+                  could have led to invalid address 0x00000000; skipping
+[checkct:warning] Jump
+                  (0x082227e4, 3) :
+                  goto temp32<32> #call with return address @ (0x082227eb, 0)
+                  could have led to invalid address 0xffffffff; skipping
+[checkct:warning] Jump
+                  (0x082227e4, 3) :
+                  goto temp32<32> #call with return address @ (0x082227eb, 0)
+                  could have led to invalid address 0xfeffffff; skipping
+[checkct:warning] Jump
+                  (0x082227e4, 3) :
+                  goto temp32<32> #call with return address @ (0x082227eb, 0)
+                  could have led to invalid address 0x00000000; skipping
+[checkct:warning] Jump
+                  (0x082227e4, 3) :
+                  goto temp32<32> #call with return address @ (0x082227eb, 0)
+                  could have led to invalid address 0xffffffff; skipping
+[checkct:warning] Jump
+                  (0x082227e4, 3) :
+                  goto temp32<32> #call with return address @ (0x082227eb, 0)
+                  could have led to invalid address 0xfffffffe; skipping
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          119548
+                    sat            31517
+                    unsat          56407
+                    constant enum  31624
+                  
+                  Satisfiability queries
+                    total          7
+                    sat            5
+                    unsat          2
+                    unknown        0
+                    time           0.00
+                    average        0.00
+                  
+                CT checks
+                  Control flow checks      119320
+                    secure (taint)         119320
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     833767
+                    secure (taint)         833767
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    953087
+                  Total solver time        0.00
+                  Average solver time      -nan
+                  
+                Exploration
+                  total paths                      6
+                  completed/cut paths              6
+                  pending paths                    0
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 119320
+                  max path depth                   597595
+                  visited instructions (unrolled)  1194690
+                  visited instructions (static)    11416
+                
+                
+[checkct:result] Program status is : secure (16.061)
+[checkct:info] 6 visited paths covering 11416 instructions
+[checkct:info] 119320 / 119320 control flow checks pass
+[checkct:info] 833767 / 833767 memory access checks pass

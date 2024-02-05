@@ -1,0 +1,59 @@
+["CT report"."Insecurity models".0x0804ac35.public]
+E = ["0x000000"]
+ebx = ["0x22a2f387"]
+edi = ["0x1ca99ca2"]
+esi = ["0x0624db4e"]
+["CT report"."Insecurity models".0x0804ac35.secret1]
+bs_secret = ["0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Insecurity models".0x0804ac35.secret2]
+bs_secret = ["0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001", "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"]
+["CT report"."Insecurity models".0x0804afd0.public]
+E = ["0xffffff"]
+["CT report"."Insecurity models".0x0804afd0.secret1]
+bs_secret = ["0xffffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Insecurity models".0x0804afd0.secret2]
+bs_secret = ["0xfffffe00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Insecurity models".0x0804ba51.public]
+E = ["0x010001"]
+["CT report"."Insecurity models".0x0804ba51.secret1]
+bs_secret = ["0x01000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Insecurity models".0x0804ba51.secret2]
+bs_secret = ["0x00000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Instructions status"]
+insecure = ["0x0804ac35", "0x0804afd0", "0x0804ba51"]
+unknown = []
+[Exploration]
+"branching points" = 7792
+"competed/cut paths" = 18
+"failed assertions" = 0
+"max path depth" = 4192
+"pending paths" = 36
+"stale paths" = 0
+"total paths" = 54
+"visited instructions (unrolled)" = 42585
+["State statistics"."CT checks"]
+"Solver time" = 3065.21210599
+["State statistics"."CT checks"."Control flow checks"]
+"insecure (CV)" = 1
+"insecure (RelSE)" = 2
+"secure (RelSE)" = 245
+"secure (taint)" = 7479
+unknown = 0
+["State statistics"."CT checks"."Memory access checks"]
+"insecure (CV)" = 0
+"insecure (RelSE)" = 0
+"secure (RelSE)" = 558
+"secure (taint)" = 24609
+unknown = 0
+["State statistics"."SMT queries"."Preprocessing simplifications"]
+"constant enum" = 2767
+sat = 2838
+total = 7521
+unsat = 1916
+["State statistics"."SMT queries"."Satisfiability queries"]
+average = 1.69382068362
+sat = 53
+time = 528.472053289
+total = 312
+unknown = 0
+unsat = 259

@@ -1,0 +1,1702 @@
+microwalk_mbedtls_rsa_complete-GCC9-O2:Target+153 -> microwalk_mbedtls_rsa_complete-GCC9-O2:RunTarget+0 ($6871D741C223761E)
+  microwalk_mbedtls_rsa_complete-GCC9-O2:RunTarget+53 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_import_raw+0 ($CFF972516C23A9E6)
+    microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_import_raw+48 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_read_binary+0 ($04BF30155EA5BFF8)
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_read_binary+7e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($D6060F610D3F2E0D)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($F5E0714DA42A0CE6)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($C9C3583B5C39F72E)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_import_raw+8f -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_read_binary+0 ($EEE7D6C35E6353AC)
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_read_binary+7e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($CE6AA306AA510A8C)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($EF713E24D8172B89)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($4AE11433635DCD88)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+              - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_import_raw+be -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_read_binary+0 ($E94FD64806032334)
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_read_binary+7e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($A69022307597A405)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($D69CCDC8499E0CB0)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($08AC97230462AFA8)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+              - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_import_raw+114 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_read_binary+0 ($FD631218E620A59D)
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_read_binary+7e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($8D2F4F70BB262104)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($F5D712C944BD8E4A)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($88A1021630DACE76)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_mbedtls_rsa_complete-GCC9-O2:RunTarget+5f -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_complete+0 ($8F4FA720F4BAEFFB)
+    microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_complete+271 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+0 ($B9D19E4F05474782)
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+cc -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_int+0 ($51D9412BE31A9488)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_int+73 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($A1A70E32BAA5D4F2)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+5d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($FE9959FA49C12C1E)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+9e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($8124DEF0F6E82ED8)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($6ACC525BFA9208F7)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($7597D2DFC6D323BF)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($A2A64F534FC29BA1)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                      - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                      - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7cf (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                      - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+f1 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_int+0 ($CA7AE800C4727D0A)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_int+73 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($C84840E928D523CA)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+5d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($004C198D7CA949AF)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+9e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($1983194EECFEC6B9)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($D894C36ED8E951BA)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($09BDC6D1035343F4)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($D87351DC522CA3ED)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                      - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                      - Cond. guessing entropy: 5.88 +/- 0.00, min 5.88, max 5.88, score 35.00 +/- 0.00
+                      - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+115 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+0 ($D83BCCD8F2A1DE8C)
+        [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+c5 (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.99 +/- 0.00 bits, min 0.99 bits, max 0.99 bits
+          - Cond. guessing entropy: 4.56 +/- 0.00, min 4.56, max 4.56, score 52.50 +/- 0.00
+          - Min. cond. guessing entropy: 4.00 +/- 0.00, min 4.00, max 4.00, score 60.00 +/- 0.00
+        [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+18c (jump)
+          - Number of calls: 2
+          - Tree depth: 5.00 +/- 1.00, min 4, max 6
+          - Mutual information: 2.00 +/- 0.25 bits, min 1.75 bits, max 2.25 bits
+          - Cond. guessing entropy: 0.50 +/- 0.06, min 0.44, max 0.56, score 106.67 +/- 0.83
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+68 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($0126C177F0550EE5)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($6027F1BAF0E9D52F)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($78DFC6DA8F47F53E)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($149221E911EF2299)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                  - Cond. guessing entropy: 5.88 +/- 0.00, min 5.88, max 5.88, score 35.00 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+89a (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+8b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($062DD0096DB11F46)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($3E2701B6CBCBDC83)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($88211CD709C31E50)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($F6884581C9ACB223)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                  - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+a4 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($D06E7FC1D59B8C22)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+            - Number of calls: 1
+            - Tree depth: 5.00 +/- 0.00, min 5, max 5
+            - Mutual information: 2.02 +/- 0.00 bits, min 2.02 bits, max 2.02 bits
+            - Cond. guessing entropy: 2.81 +/- 0.00, min 2.81, max 2.81, score 75.83 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+b4 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($102FDD5F5282C00F)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+            - Number of calls: 1
+            - Tree depth: 5.00 +/- 0.00, min 5, max 5
+            - Mutual information: 2.06 +/- 0.00 bits, min 2.06 bits, max 2.06 bits
+            - Cond. guessing entropy: 2.69 +/- 0.00, min 2.69, max 2.69, score 77.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+128 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($9138A6EB4E1F5CA8)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+            - Number of calls: 11
+            - Tree depth: 2.45 +/- 0.89, min 2, max 5
+            - Mutual information: 0.70 +/- 0.35 bits, min 0.50 bits, max 1.62 bits
+            - Cond. guessing entropy: 0.31 +/- 0.31, min 0.12, max 1.00, score 109.24 +/- 4.15
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+13a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+0 ($30500D8B1442675B)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+100 (jump)
+            - Number of calls: 6
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.64 +/- 0.19 bits, min 0.50 bits, max 1.02 bits
+            - Cond. guessing entropy: 0.44 +/- 0.52, min 0.12, max 1.56, score 107.50 +/- 6.87
+            - Min. cond. guessing entropy: 1.25 +/- 0.56, min 1.00, max 2.50, score 96.67 +/- 7.45
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+153 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($E36EBA11CF5F5BD9)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+            - Number of calls: 12
+            - Tree depth: 2.50 +/- 0.76, min 2, max 4
+            - Mutual information: 0.75 +/- 0.33 bits, min 0.50 bits, max 1.53 bits
+            - Cond. guessing entropy: 0.39 +/- 0.32, min 0.12, max 1.00, score 108.19 +/- 4.27
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+165 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+0 ($AF0C6684DDC44131)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+100 (jump)
+            - Number of calls: 9
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.71 +/- 0.18 bits, min 0.50 bits, max 0.98 bits
+            - Cond. guessing entropy: 0.58 +/- 0.50, min 0.12, max 1.69, score 105.56 +/- 6.62
+            - Min. cond. guessing entropy: 1.28 +/- 0.42, min 1.00, max 2.00, score 96.30 +/- 5.54
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+185 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+0 ($D0F644C3AF44ECFD)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+147 (jump)
+            - Number of calls: 14
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.66 +/- 0.17 bits, min 0.50 bits, max 0.98 bits
+            - Cond. guessing entropy: 0.46 +/- 0.46, min 0.12, max 1.69, score 107.26 +/- 6.09
+            - Min. cond. guessing entropy: 1.21 +/- 0.36, min 1.00, max 2.00, score 97.14 +/- 4.86
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+135 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+0 ($AC04C9860368F52E)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+57 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($C096BD3AE10F1D2A)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($4786265BA63D8A06)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($2F5332962978A431)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($3FE3A88906249534)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+130 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($E6C33D5AD7ECC04D)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($A04026EA952F1ACF)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($F95DDBD40E42A2A2)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+89a (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($1DE8CAC4264CF297)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($B40B1679BCBC1BC7)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+1a5 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mpi_mul_hlp+0 ($46D137C1078CBC89)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mpi_mul_hlp+419 (jump)
+            - Number of calls: 7
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.94 +/- 0.10 bits, min 0.70 bits, max 1.00 bits
+            - Cond. guessing entropy: 4.83 +/- 0.54, min 4.50, max 6.06, score 48.93 +/- 7.14
+            - Min. cond. guessing entropy: 3.71 +/- 0.84, min 2.00, max 4.50, score 63.81 +/- 11.19
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+1ea -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($2774C9E18B03EDBE)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($68AC9AF10181B22B)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($4F439ED7BE63BFA3)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+157 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+0 ($586CB62CF8410BD2)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+141 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($E44AE46E48458112)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($2445550267A021CC)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($E00B5DA9F285072D)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($1E0B0117E910A24A)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                  - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+16d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($00852F6AECF33D83)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($C591273456F38263)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($F4CF25AFF2DBDF98)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($5539CD1AC5BBDAD0)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+1b4 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($B3E31D95EF635604)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($592FFA559BFE45A9)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($926692C8D4363BC2)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6bf (memory access)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6c3 (memory access)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+1fc -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($3DD36E968D93A583)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($D5D0B09144F26F2D)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($87B876FE70461F65)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+220 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($DA8CE0C190B81F7B)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($409C70E4D98AF0C8)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($4B8EA25270D9619A)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+242 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+0 ($153360EC12CBB85C)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+79 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+0 ($177EFBD264D32017)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+2f (jump)
+              - Number of calls: 1
+              - Tree depth: 6.00 +/- 0.00, min 6, max 6
+              - Mutual information: 2.06 +/- 0.00 bits, min 2.06 bits, max 2.06 bits
+              - Cond. guessing entropy: 2.88 +/- 0.00, min 2.88, max 2.88, score 75.00 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+282 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($A7C531F263829F34)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($19100BC0361FD929)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($ECDA9E3286A3CB19)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($154678A55F051C1E)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                  - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                  - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                  - Cond. guessing entropy: 0.25 +/- 0.00, min 0.25, max 0.25, score 110.00 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($088909198DD6C512)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($073E2BAC1CEE1630)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+220 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                  - Cond. guessing entropy: 5.88 +/- 0.00, min 5.88, max 5.88, score 35.00 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+2ae -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($8636DC66997D92F6)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+3a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+0 ($39408FB76F7148E1)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+79 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+0 ($71C00DAD7AD6BFEE)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+2f (jump)
+                - Number of calls: 1
+                - Tree depth: 6.00 +/- 0.00, min 6, max 6
+                - Mutual information: 2.06 +/- 0.00 bits, min 2.06 bits, max 2.06 bits
+                - Cond. guessing entropy: 2.88 +/- 0.00, min 2.88, max 2.88, score 75.00 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+318 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($DA0F3987B73DFB17)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($ECC2983876E19CE0)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($3571531D8317BBB2)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($93EBC9CE028F418F)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($E7AACBA00FF1ECA3)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($EC35AD9035368A18)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+5b2 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_int+0 ($9D62FB4CF095CC3B)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_int+58 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+0 ($49A8E9DD64426FE7)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+57 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($DD8B5C8BE698367B)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($4BFBF22D98E50FB0)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($CA16AEBECD3779AE)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($7AE19E651327597A)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                      - Number of calls: 4
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                      - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+130 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($4486D36D0FD6E1F4)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($61FFA7F35B77925F)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($FA9CC66C8195F390)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                    - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                    - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                    - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($4034396B44370FDA)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($1F43724250189A41)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+1ea -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($3204289D1D5C57D4)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($801974106C460DB2)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($157FD1C0F8411340)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                    - Number of calls: 3
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+12e (jump)
+                    - Number of calls: 13
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+68b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+0 ($42B24595A8127797)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+188 (jump)
+            - Number of calls: 12
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.44 +/- 0.19 bits, min 0.34 bits, max 0.90 bits
+            - Cond. guessing entropy: 7.10 +/- 0.83, min 5.06, max 7.56, score 18.61 +/- 11.04
+            - Min. cond. guessing entropy: 1.33 +/- 0.62, min 1.00, max 3.00, score 95.56 +/- 8.31
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+704 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($55168F5569754324)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+3a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+0 ($537E95CAC0D3281D)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+79 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+0 ($E79B3BBFCBD330F4)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+2f (jump)
+                - Number of calls: 16
+                - Tree depth: 5.06 +/- 1.20, min 3, max 7
+                - Mutual information: 1.93 +/- 0.38 bits, min 1.42 bits, max 2.56 bits
+                - Cond. guessing entropy: 3.13 +/- 0.73, min 2.06, max 4.06, score 71.61 +/- 9.68
+                - Min. cond. guessing entropy: 1.09 +/- 0.26, min 1.00, max 2.00, score 98.75 +/- 3.51
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($171CF6BE2BB4E2D0)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($ACEA2A5FF1D9A2B8)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($176E0151D0912129)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                  - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6bf (memory access)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6c3 (memory access)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($21FFBCE66926A7F2)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($04C350EFE290EBF8)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+734 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($5A1F9AA72D9C5E19)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+42 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+0 ($A85D93BF6B5083B5)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+103 (jump)
+              - Number of calls: 12
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.44 +/- 0.19 bits, min 0.34 bits, max 0.90 bits
+              - Cond. guessing entropy: 7.10 +/- 0.83, min 5.06, max 7.56, score 18.61 +/- 11.04
+              - Min. cond. guessing entropy: 1.33 +/- 0.62, min 1.00, max 3.00, score 95.56 +/- 8.31
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+5d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($D248714B67947495)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+35 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+0 ($121E2AED547704E4)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+103 (jump)
+                - Number of calls: 12
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.44 +/- 0.19 bits, min 0.34 bits, max 0.90 bits
+                - Cond. guessing entropy: 7.10 +/- 0.83, min 5.06, max 7.56, score 18.61 +/- 11.04
+                - Min. cond. guessing entropy: 1.33 +/- 0.62, min 1.00, max 3.00, score 95.56 +/- 8.31
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+97b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($D7D60AF631CCB22C)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($3F74AF32D1F2FD40)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($6469AC1F492FFA13)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+220 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                - Cond. guessing entropy: 5.88 +/- 0.00, min 5.88, max 5.88, score 35.00 +/- 0.00
+                - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+98a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($5E38FA1FE3E75471)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($005BB728DA27AA79)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($CF324B3E2B44719C)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+220 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                - Cond. guessing entropy: 5.88 +/- 0.00, min 5.88, max 5.88, score 35.00 +/- 0.00
+                - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+996 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($07975B5C22E59616)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($53A8C4FE059CFCFB)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($6149306C71FB2EA4)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+1ec (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+9a2 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($39046E8A5994C86B)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($60313AD4988338C9)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($DED547FC0A260C93)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+1ec (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                - Cond. guessing entropy: 5.88 +/- 0.00, min 5.88, max 5.88, score 35.00 +/- 0.00
+                - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+7fb -> microwalk_mbedtls_rsa_complete-GCC9-O2:malloc_consolidate+0 ($BA97FC1D56797042)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:malloc_consolidate+56 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+9ae -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($517019100CA55B0E)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($95BC3C8608A9969C)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($D07D2D2F0E0266D3)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+12e (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+177 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+0 ($3D1C5AE0305E9E64)
+        [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+47b (jump)
+          - Number of calls: 1
+          - Tree depth: 7.00 +/- 0.00, min 7, max 7
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+eb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+0 ($610CAE3785023197)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+18c (jump)
+            - Number of calls: 1
+            - Tree depth: 14.00 +/- 0.00, min 14, max 14
+            - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+            - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+8b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($8668F17C3F3186D2)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($783DB947EC2E3A56)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($5F9D1D968248188B)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($27A5E5ECE28AF4DA)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+306 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                    - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                    - Number of calls: 2
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6bf (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6c3 (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+b4 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($38C0AF652B135C80)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+              - Number of calls: 1
+              - Tree depth: 6.00 +/- 0.00, min 6, max 6
+              - Mutual information: 2.48 +/- 0.00 bits, min 2.48 bits, max 2.48 bits
+              - Cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+128 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($B75F3CA2B3516301)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+              - Number of calls: 2
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+              - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+153 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($562762F83E9106AA)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+              - Number of calls: 521
+              - Tree depth: 4.32 +/- 0.98, min 2, max 7
+              - Mutual information: 1.67 +/- 0.37 bits, min 0.50 bits, max 2.56 bits
+              - Cond. guessing entropy: 3.28 +/- 0.99, min 0.12, max 6.06, score 69.66 +/- 13.19
+              - Min. cond. guessing entropy: 1.12 +/- 0.32, min 1.00, max 4.00, score 98.44 +/- 4.33
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+165 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+0 ($FCBCD8878664F27C)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+100 (jump)
+              - Number of calls: 516
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.95 +/- 0.08 bits, min 0.50 bits, max 1.06 bits
+              - Cond. guessing entropy: 4.52 +/- 0.93, min 0.12, max 6.75, score 53.12 +/- 12.43
+              - Min. cond. guessing entropy: 3.55 +/- 0.74, min 1.00, max 4.50, score 65.96 +/- 9.87
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+185 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+0 ($07D60F82E1A31E8F)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+77 (jump)
+              - Number of calls: 455
+              - Tree depth: 2.38 +/- 0.48, min 2, max 3
+              - Mutual information: 0.95 +/- 0.25 bits, min 0.34 bits, max 1.42 bits
+              - Cond. guessing entropy: 5.05 +/- 1.05, min 1.69, max 7.56, score 45.98 +/- 13.94
+              - Min. cond. guessing entropy: 2.30 +/- 1.15, min 1.00, max 4.50, score 82.62 +/- 15.34
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+147 (jump)
+              - Number of calls: 15
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.72 +/- 0.13 bits, min 0.50 bits, max 0.91 bits
+              - Cond. guessing entropy: 0.94 +/- 0.59, min 0.12, max 1.81, score 100.78 +/- 7.87
+              - Min. cond. guessing entropy: 1.07 +/- 0.17, min 1.00, max 1.50, score 99.11 +/- 2.27
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+1e3 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($379976F22BDCECD2)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+35 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+0 ($9519B353975E6B15)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+3b (jump)
+                - Number of calls: 455
+                - Tree depth: 2.38 +/- 0.48, min 2, max 3
+                - Mutual information: 0.95 +/- 0.25 bits, min 0.34 bits, max 1.42 bits
+                - Cond. guessing entropy: 5.04 +/- 1.06, min 1.50, max 7.56, score 46.09 +/- 14.16
+                - Min. cond. guessing entropy: 2.30 +/- 1.15, min 1.00, max 4.50, score 82.67 +/- 15.30
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+171 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($73AF21089C387DD9)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($9CB905A14BD6F0B8)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($F2B58979A3124C68)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($0FD2997483ED2598)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                  - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+19a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($527F08FB0CA157B8)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($1C04355CB157159D)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($1816D0C3095E9436)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($DD140D19BBCCE350)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+306 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+1c3 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($B8B57E9CD4F2511A)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($0210F66FE93D81B2)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($CD35341CF13FB446)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($893D02141B026A74)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                  - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+87c (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+1ea -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+0 ($F6A49CDB6EFFD870)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($EA5A92032C537317)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($105F7B9A9AA32488)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($ACF4AFB22BFD8E9C)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                  - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+211 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+0 ($0F78BAD390E15AA8)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($553316C62D3B38A0)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($B7BB690B08AD6603)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($D03B09C2D740E865)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                  - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+235 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+0 ($8DA961504398686A)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($BF07968935BAB27E)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($799E60C4B2EB7457)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($595BA21123CF4FEC)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                  - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+259 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+0 ($C5790F6B9D88323E)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($44C4FDAF338CAB5E)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($E2F214F5CD31EEFC)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($87407A6E7EA4D7AE)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                  - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+3e1 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_add_mpi+0 ($CB0C17D22EAAB5B6)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_add_mpi+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_add_abs+0 ($BD9F0C3F62219D6C)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_add_abs+b8 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($8364D490BD49B880)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($1D843F6361B371F6)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($3D04DEFBE42028BB)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                    - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                    - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+199 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($45A6AB6C61983B57)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($51D04B797F3A5EF6)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($53D02C3AD4941268)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+1ec (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+              - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+              - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+220 (jump)
+              - Number of calls: 2
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.50 +/- 0.00 bits, min 0.49 bits, max 0.50 bits
+              - Cond. guessing entropy: 2.94 +/- 2.81, min 0.12, max 5.75, score 74.17 +/- 37.50
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_private_exponent+1a5 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($4E1B277522056279)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($0587F184F9F0B927)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($FBD72A4370C7CB3F)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_complete+2d1 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_crt+0 ($4FEA2FB06E4CE810)
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_crt+60 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_int+0 ($DDA5CAADB3C30F88)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_int+73 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($AB86628076B6DDB0)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+5d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($66FFB05ADA79419A)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+9e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($84EBA1AABF1254AF)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($F8951C039C65B75F)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($75CAC4D8FB1D46CA)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($2489B69D7BDB9A39)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                      - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_crt+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mod_mpi+0 ($D465308F94830A59)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mod_mpi+4b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+0 ($DE918695E79565EF)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+692 (jump)
+            - Number of calls: 1
+            - Tree depth: 6.00 +/- 0.00, min 6, max 6
+            - Mutual information: 3.41 +/- 0.00 bits, min 3.41 bits, max 3.41 bits
+            - Cond. guessing entropy: 1.38 +/- 0.00, min 1.38, max 1.38, score 95.00 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+141 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($39162EA24A1F7640)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($EFBD50C62FB2ED51)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($BD13C06609BC3748)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($59B060BA9FBD52FD)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+306 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 3.00 +/- 0.00, min 3, max 3
+                    - Mutual information: 0.74 +/- 0.00 bits, min 0.74 bits, max 0.74 bits
+                    - Cond. guessing entropy: 5.81 +/- 0.00, min 5.81, max 5.81, score 35.83 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6bf (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6c3 (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+16d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($82B93D612B238077)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($29BAED21E3FDD904)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($E9AB3B360AE82836)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($CE296D4317B80E81)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                    - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                    - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+1b4 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($0C73BC4E7956FA6F)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($CDE95A66FCE06272)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($84D1E4AE878DA896)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                  - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+282 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($8D8915A695F621F0)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+3a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+0 ($FE37CD32C99B7D3C)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+79 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+0 ($8A45963E7F867856)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+2f (jump)
+                  - Number of calls: 1
+                  - Tree depth: 7.00 +/- 0.00, min 7, max 7
+                  - Mutual information: 2.70 +/- 0.00 bits, min 2.70 bits, max 2.70 bits
+                  - Cond. guessing entropy: 1.81 +/- 0.00, min 1.81, max 1.81, score 89.17 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($55B10940F867532E)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($D35C21F8032FC11E)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($9E37F004B6996625)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                    - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                    - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+                    - Cond. guessing entropy: 0.19 +/- 0.00, min 0.19, max 0.19, score 110.83 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                    - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6bf (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                    - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6c3 (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                    - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($45AD135D35AD4FDF)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($1D41AB44D34E0B4A)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+220 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+2ae -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($246FA5503EA20AD6)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($BCE5656BBBD3BCA1)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($5AD2845A474363FE)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($3BEE5E4C9E2E1E21)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                    - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                    - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($700CC26D9937871A)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($D1B9FBFAD7908722)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+318 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($92F1587C330FB385)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($BB81E1CD18765BF3)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($085109F199AA3AC4)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($6D985A8983BB56A1)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+306 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                    - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($6D2B490A691D067E)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($FA00D329958CAA00)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+68b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+0 ($F3F7088B176C2F7C)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+188 (jump)
+              - Number of calls: 10
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.69 +/- 0.16 bits, min 0.50 bits, max 0.95 bits
+              - Cond. guessing entropy: 1.02 +/- 1.34, min 0.12, max 4.75, score 99.75 +/- 17.87
+              - Min. cond. guessing entropy: 1.30 +/- 0.75, min 1.00, max 3.50, score 96.00 +/- 9.98
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+147 (jump)
+              - Number of calls: 10
+              - Tree depth: 2.10 +/- 0.30, min 2, max 3
+              - Mutual information: 0.73 +/- 0.14 bits, min 0.50 bits, max 0.95 bits
+              - Cond. guessing entropy: 1.18 +/- 1.49, min 0.12, max 5.06, score 97.67 +/- 19.88
+              - Min. cond. guessing entropy: 1.35 +/- 0.63, min 1.00, max 3.00, score 95.33 +/- 8.46
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+6c9 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_int+0 ($7B6730FFF368D9E4)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_int+58 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+0 ($ECB8FA0B4DE69A57)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+130 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($990C851F733897FF)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($6E4D7BE01E35EAC0)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($1EB3D4A6A851274C)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                      - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                      - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                      - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+89a (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                      - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+704 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($FD59A1665AE58675)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+3a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+0 ($392ED8380171667B)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+79 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+0 ($6CA0C85CBDA850A4)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+2f (jump)
+                  - Number of calls: 17
+                  - Tree depth: 2.82 +/- 1.38, min 2, max 7
+                  - Mutual information: 0.93 +/- 0.59 bits, min 0.50 bits, max 2.70 bits
+                  - Cond. guessing entropy: 0.50 +/- 0.48, min 0.12, max 1.81, score 106.72 +/- 6.46
+                  - Min. cond. guessing entropy: 1.06 +/- 0.16, min 1.00, max 1.50, score 99.22 +/- 2.15
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($47422C80A2173861)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($465AEB81C5545E40)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($DF768EA619B31DBF)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                    - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                    - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                    - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($5AD0EA1CEF280ED4)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($0D16DF8330C8E6BD)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                    - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                    - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+734 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($7545E648096D9AD3)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+42 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+0 ($28E4F0B927E6D7D2)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+103 (jump)
+                - Number of calls: 9
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.67 +/- 0.16 bits, min 0.50 bits, max 0.95 bits
+                - Cond. guessing entropy: 0.93 +/- 1.42, min 0.12, max 4.75, score 100.93 +/- 18.94
+                - Min. cond. guessing entropy: 1.33 +/- 0.78, min 1.00, max 3.50, score 95.56 +/- 10.42
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+5d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($853A3C4D6C860E58)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+35 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+0 ($A9376026DA5CAA3B)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+103 (jump)
+                  - Number of calls: 9
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.67 +/- 0.16 bits, min 0.50 bits, max 0.95 bits
+                  - Cond. guessing entropy: 0.93 +/- 1.42, min 0.12, max 4.75, score 100.93 +/- 18.94
+                  - Min. cond. guessing entropy: 1.33 +/- 0.78, min 1.00, max 3.50, score 95.56 +/- 10.42
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_crt+cc -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mod_mpi+0 ($E83A9B462B8BFD40)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mod_mpi+4b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+0 ($D0215D8C1030B360)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+692 (jump)
+            - Number of calls: 1
+            - Tree depth: 6.00 +/- 0.00, min 6, max 6
+            - Mutual information: 3.50 +/- 0.00 bits, min 3.50 bits, max 3.50 bits
+            - Cond. guessing entropy: 1.38 +/- 0.00, min 1.38, max 1.38, score 95.00 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+16d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($CB430694CA307594)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($5BFA1C6D3AA2C760)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($4C6FFAC416EF26AB)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($B2CBF439AD350985)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                    - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                    - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+1b4 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($0129141A4FD92061)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($5397D58BB33C4E67)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($7BC07F3528A09D9E)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+87c (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                  - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+220 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($422ADDDB4BA97FDC)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($E5F6FBC4D53034D6)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($C7759430462EF15D)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                  - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                  - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+282 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($C09D6B7A9EB5F1BC)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+3a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+0 ($16480AF17BC1A96F)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+79 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+0 ($970F3F073B9D9D28)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+2f (jump)
+                  - Number of calls: 1
+                  - Tree depth: 7.00 +/- 0.00, min 7, max 7
+                  - Mutual information: 2.70 +/- 0.00 bits, min 2.70 bits, max 2.70 bits
+                  - Cond. guessing entropy: 1.81 +/- 0.00, min 1.81, max 1.81, score 89.17 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($64ECC1C78E44466E)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($FDD32F8BF50F760A)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($A167311D9CBB561A)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+87c (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                    - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+2ae -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($8E1A75B6056D98CD)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($628FA16341530AD4)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($8A61FC22F649C5AF)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+223 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                  - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                  - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($75A69460E1B1BDA8)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                    - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.74 +/- 0.00 bits, min 0.74 bits, max 0.74 bits
+                    - Cond. guessing entropy: 5.81 +/- 0.00, min 5.81, max 5.81, score 35.83 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6bf (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.74 +/- 0.00 bits, min 0.74 bits, max 0.74 bits
+                    - Cond. guessing entropy: 5.81 +/- 0.00, min 5.81, max 5.81, score 35.83 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6c3 (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.74 +/- 0.00 bits, min 0.74 bits, max 0.74 bits
+                    - Cond. guessing entropy: 5.81 +/- 0.00, min 5.81, max 5.81, score 35.83 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7cf (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                    - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+318 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($9AF481491A2F4E4E)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($8B2AD6AF8D2BA06D)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($32894A2DBF4CF765)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($4CE5279C03713739)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                    - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                    - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                    - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($24B10854D4CD5418)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($99A3A9DEC58C717C)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+12e (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                    - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                    - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+103 (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                    - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                    - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+126 (memory access)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                    - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                    - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+5b2 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_int+0 ($9DE7BF063FC079C7)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_int+58 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+0 ($8F0178ED2E7BC845)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+57 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($735C1FA1D421F292)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($01ADE3E41DBF4C86)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($AE119B9331630E92)
+                    microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($ACD6805F1F9639D3)
+                      [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                        - Number of calls: 1
+                        - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                        - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                        - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                        - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+130 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($BD135866B96FA910)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($C466C84376A592C1)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($F6251F869E487457)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                      - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                      - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($005F7B851E314705)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($4CEEEAEFDFDF5BAD)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+12e (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                      - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                      - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+68b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+0 ($3FA0C246828CB74E)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+188 (jump)
+              - Number of calls: 15
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.64 +/- 0.16 bits, min 0.50 bits, max 0.98 bits
+              - Cond. guessing entropy: 0.97 +/- 1.60, min 0.12, max 5.50, score 100.44 +/- 21.29
+              - Min. cond. guessing entropy: 1.27 +/- 0.48, min 1.00, max 2.50, score 96.44 +/- 6.38
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+147 (jump)
+              - Number of calls: 14
+              - Tree depth: 2.21 +/- 0.56, min 2, max 4
+              - Mutual information: 0.70 +/- 0.22 bits, min 0.50 bits, max 1.31 bits
+              - Cond. guessing entropy: 0.72 +/- 0.99, min 0.12, max 3.62, score 103.69 +/- 13.26
+              - Min. cond. guessing entropy: 1.14 +/- 0.29, min 1.00, max 2.00, score 98.10 +/- 3.93
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+6c9 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_int+0 ($CDBB7BFDBBBB0FE0)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_int+58 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+0 ($6A0DA6EE7C197F36)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_mul_mpi+130 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($CB267A87C5986FAD)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($E5DB2B98C01707DA)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($A7E9977306D7B566)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                      - Number of calls: 2
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.59 +/- 0.09 bits, min 0.50 bits, max 0.69 bits
+                      - Cond. guessing entropy: 2.59 +/- 2.47, min 0.12, max 5.06, score 78.75 +/- 32.92
+                      - Min. cond. guessing entropy: 1.25 +/- 0.25, min 1.00, max 1.50, score 96.67 +/- 3.33
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                      - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+704 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+0 ($F9DB7176A7D1436A)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+3a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+0 ($A7E819E43591C5E7)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_bitlen+79 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+0 ($3BC713948C1A37E4)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_clz+2f (jump)
+                  - Number of calls: 21
+                  - Tree depth: 2.76 +/- 0.97, min 2, max 6
+                  - Mutual information: 0.83 +/- 0.43 bits, min 0.50 bits, max 2.41 bits
+                  - Cond. guessing entropy: 0.37 +/- 0.35, min 0.12, max 1.50, score 108.37 +/- 4.70
+                  - Min. cond. guessing entropy: 1.02 +/- 0.11, min 1.00, max 1.50, score 99.68 +/- 1.42
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_l+84 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($EE1E286D08BEDA7F)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($01E41ACB075EE345)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($4420D3F7704E0117)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                    - Number of calls: 2
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.59 +/- 0.09 bits, min 0.50 bits, max 0.69 bits
+                    - Cond. guessing entropy: 2.59 +/- 2.47, min 0.12, max 5.06, score 78.75 +/- 32.92
+                    - Min. cond. guessing entropy: 1.25 +/- 0.25, min 1.00, max 1.50, score 96.67 +/- 3.33
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($63BC5CA85FD9376E)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($C0F7013A46BCD6BC)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                    - Number of calls: 2
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.59 +/- 0.09 bits, min 0.50 bits, max 0.69 bits
+                    - Cond. guessing entropy: 2.59 +/- 2.47, min 0.12, max 5.06, score 78.75 +/- 32.92
+                    - Min. cond. guessing entropy: 1.25 +/- 0.25, min 1.00, max 1.50, score 96.67 +/- 3.33
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_div_mpi+734 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($38C9594632715B4E)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+42 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+0 ($70CDD1DA2683E257)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+103 (jump)
+                - Number of calls: 14
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.66 +/- 0.18 bits, min 0.50 bits, max 0.95 bits
+                - Cond. guessing entropy: 0.68 +/- 1.02, min 0.12, max 4.06, score 104.23 +/- 13.63
+                - Min. cond. guessing entropy: 1.29 +/- 0.49, min 1.00, max 2.50, score 96.19 +/- 6.53
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+5d -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($D1A2672902048A48)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+35 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+0 ($233864306AF019A0)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_abs+103 (jump)
+                  - Number of calls: 14
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.66 +/- 0.18 bits, min 0.50 bits, max 0.95 bits
+                  - Cond. guessing entropy: 0.68 +/- 1.02, min 0.12, max 4.06, score 104.23 +/- 13.63
+                  - Min. cond. guessing entropy: 1.29 +/- 0.49, min 1.00, max 2.50, score 96.19 +/- 6.53
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_deduce_crt+f3 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+0 ($778B6773D9F92861)
+        [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+47b (jump)
+          - Number of calls: 1
+          - Tree depth: 4.00 +/- 0.00, min 4, max 4
+          - Mutual information: 1.92 +/- 0.00 bits, min 1.92 bits, max 1.92 bits
+          - Cond. guessing entropy: 3.00 +/- 0.00, min 3.00, max 3.00, score 73.33 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+2ad (jump)
+          - Number of calls: 2
+          - Tree depth: 4.50 +/- 0.50, min 4, max 5
+          - Mutual information: 1.19 +/- 0.31 bits, min 0.88 bits, max 1.50 bits
+          - Cond. guessing entropy: 0.34 +/- 0.03, min 0.31, max 0.38, score 108.75 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+382 (jump)
+          - Number of calls: 3
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.61 +/- 0.08 bits, min 0.50 bits, max 0.70 bits
+          - Cond. guessing entropy: 0.27 +/- 0.13, min 0.12, max 0.44, score 109.72 +/- 1.71
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+3be (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.98 +/- 0.00 bits, min 0.98 bits, max 0.98 bits
+          - Cond. guessing entropy: 1.69 +/- 0.00, min 1.69, max 1.69, score 90.83 +/- 0.00
+          - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+        [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+499 (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+          - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+eb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+0 ($209A69B7AC6F2AD1)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+18c (jump)
+            - Number of calls: 1
+            - Tree depth: 7.00 +/- 0.00, min 7, max 7
+            - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+            - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+68 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($FD7C1AD7E810733B)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($11F65AE657FEA625)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($01BDC5C2E6101564)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+223 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($2356B546D3AA30BB)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+68b (memory access)
+                    - Number of calls: 4
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.56 +/- 0.11 bits, min 0.42 bits, max 0.67 bits
+                    - Cond. guessing entropy: 6.44 +/- 0.40, min 5.75, max 6.69, score 27.50 +/- 5.30
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6bf (memory access)
+                    - Number of calls: 2
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.61 +/- 0.06 bits, min 0.54 bits, max 0.67 bits
+                    - Cond. guessing entropy: 6.72 +/- 0.03, min 6.69, max 6.75, score 23.75 +/- 0.42
+                    - Min. cond. guessing entropy: 1.25 +/- 0.25, min 1.00, max 1.50, score 96.67 +/- 3.33
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+6c3 (memory access)
+                    - Number of calls: 2
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.54 +/- 0.12 bits, min 0.42 bits, max 0.67 bits
+                    - Cond. guessing entropy: 6.66 +/- 0.03, min 6.62, max 6.69, score 24.58 +/- 0.42
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+8b -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($087E5026B6665CE5)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($C92931A5ED811F4A)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($72660C099F22BA85)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($7D7A5A9F3AC9BADA)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                    - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                    - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 3.00 +/- 0.00, min 3, max 3
+                    - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+                    - Cond. guessing entropy: 0.19 +/- 0.00, min 0.19, max 0.19, score 110.83 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+128 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($DC08AB715A0E49F6)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+              - Number of calls: 10
+              - Tree depth: 2.90 +/- 1.04, min 2, max 5
+              - Mutual information: 0.99 +/- 0.48 bits, min 0.50 bits, max 1.90 bits
+              - Cond. guessing entropy: 1.20 +/- 1.44, min 0.12, max 4.06, score 97.33 +/- 19.25
+              - Min. cond. guessing entropy: 1.05 +/- 0.15, min 1.00, max 1.50, score 99.33 +/- 2.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+13a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+0 ($728D2A81BAE25E6C)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+100 (jump)
+              - Number of calls: 8
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.81 +/- 0.18 bits, min 0.50 bits, max 1.02 bits
+              - Cond. guessing entropy: 1.89 +/- 1.88, min 0.12, max 4.75, score 88.12 +/- 25.11
+              - Min. cond. guessing entropy: 2.06 +/- 1.04, min 1.00, max 3.50, score 85.83 +/- 13.92
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+153 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+0 ($930916C9FD919628)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lsb+4d (jump)
+              - Number of calls: 8
+              - Tree depth: 2.62 +/- 0.70, min 2, max 4
+              - Mutual information: 0.76 +/- 0.32 bits, min 0.50 bits, max 1.54 bits
+              - Cond. guessing entropy: 0.70 +/- 1.14, min 0.12, max 3.62, score 104.06 +/- 15.22
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+165 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+0 ($D7D251356047617D)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_shift_r+100 (jump)
+              - Number of calls: 6
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.64 +/- 0.16 bits, min 0.50 bits, max 0.99 bits
+              - Cond. guessing entropy: 0.93 +/- 1.63, min 0.12, max 4.56, score 100.97 +/- 21.69
+              - Min. cond. guessing entropy: 1.50 +/- 1.12, min 1.00, max 4.00, score 93.33 +/- 14.91
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_gcd+185 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+0 ($BE36658FF33444E7)
+            [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+147 (jump)
+              - Number of calls: 15
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.67 +/- 0.17 bits, min 0.50 bits, max 1.05 bits
+              - Cond. guessing entropy: 0.92 +/- 1.56, min 0.12, max 6.06, score 101.11 +/- 20.76
+              - Min. cond. guessing entropy: 1.33 +/- 0.67, min 1.00, max 3.50, score 95.56 +/- 9.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+171 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($618F2524930BB8C3)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($DD78350B8B0C5E50)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($4ED8A5A9FE9AEC7F)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($304F49184588FC3D)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+63 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+19a -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($45D26615713F719E)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($F425B40636A75C52)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($638B4164C2DAFC00)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($B8FC447ECDA0A041)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                  - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                  - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+89a (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                  - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+1c3 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($4D6C2E7282F6904D)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($F93DC2A26429AE1A)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($ADBC059FAEC80194)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($C8A3691453BEEF66)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.42 +/- 0.00 bits, min 0.42 bits, max 0.42 bits
+                  - Cond. guessing entropy: 6.62 +/- 0.00, min 6.62, max 6.62, score 25.00 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7c6 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.49 +/- 0.00 bits, min 0.49 bits, max 0.49 bits
+                  - Cond. guessing entropy: 5.75 +/- 0.00, min 5.75, max 5.75, score 36.67 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+259 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+0 ($C168E7BD9E8BF614)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_lset+20 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($D36F73A53465397A)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($589844BE4070263F)
+              [L] microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+23c (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+              microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($86636607409A1390)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+415 (jump)
+                  - Number of calls: 1
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                  - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+492 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+0 ($33B30CE666116E6E)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_cmp_mpi+147 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+            - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+576 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($420E9E3E0E1EA634)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+88 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($1178DEC1C9A54A29)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($8EF2AE1609982180)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($B5E3DB5B8955E472)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($303E6C5D519295A1)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+23c (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($DEBE32924EB99F75)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                      - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                      - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7cf (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                      - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+125 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($68B80D612B4F7342)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($9779D9EFAFE021FE)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($0704F86571469887)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                    - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+3e1 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_add_mpi+0 ($3244E181EF02CAE5)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_add_mpi+88 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($D416B5BC7E06B551)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($530B96C23A9581E5)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($C854A506542C61A4)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($9F897811F0FAEA56)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($24515391DE4F25BB)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+55e (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                      - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+9e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($93DED81F59B7A12B)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($2CC3DA7248B6EC81)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($0B9EC984C797F63F)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($CFC87623B1D3420D)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+889 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                      - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                      - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+89a (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                      - Cond. guessing entropy: 0.25 +/- 0.00, min 0.25, max 0.25, score 110.00 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.50 +/- 0.00 bits, min 0.50 bits, max 0.50 bits
+                      - Cond. guessing entropy: 0.12 +/- 0.00, min 0.12, max 0.12, score 111.67 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+40e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($B0F671435802EB1C)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+88 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($FB1B67C3F82C52D7)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+9e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($32BEC6CA9FA3858D)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($51549D7F03E5BE5C)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($BEBF9656E18C7AA2)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($994BB92ECFC1A405)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+                      - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+                      - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+7a2 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.62 +/- 0.00 bits, min 0.62 bits, max 0.62 bits
+                      - Cond. guessing entropy: 0.25 +/- 0.00, min 0.25, max 0.25, score 110.00 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($336C778723DAA534)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($18ECAF68BFFAB728)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+a4 (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+                      - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+4e7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($C8F73F7142693914)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+88 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($87C0DE5385CDC34C)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+9e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($293FC24BCA315AC1)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+bb -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($C558DD217CD93154)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($60B5A499EC1A26A3)
+                  microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($ADB18F051697E77A)
+                    [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                      - Number of calls: 1
+                      - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                      - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+                      - Cond. guessing entropy: 0.69 +/- 0.00, min 0.69, max 0.69, score 104.17 +/- 0.00
+                      - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+517 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($4D39996B2E99D797)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+b7 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_add_abs+0 ($2E9A70FCA0307A6E)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_add_abs+b8 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+0 ($85D0F73AD45D951F)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_grow+46 -> microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+0 ($843BE37D7B25982C)
+                microwalk_mbedtls_rsa_complete-GCC9-O2:__calloc+15c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+0 ($0A195E19AD46F236)
+                  [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_malloc+26b (jump)
+                    - Number of calls: 1
+                    - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                    - Mutual information: 0.75 +/- 0.00 bits, min 0.75 bits, max 0.75 bits
+                    - Cond. guessing entropy: 0.69 +/- 0.00, min 0.69, max 0.69, score 104.17 +/- 0.00
+                    - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_inv_mod+30c -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+0 ($673420A8891F96D9)
+          microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_mpi+88 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+0 ($E17ABE7DBC2C9DAE)
+            microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_sub_abs+9e -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+0 ($61700BE432DF26BB)
+              microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_copy+fa -> microwalk_mbedtls_rsa_complete-GCC9-O2:_init+110 ($A810CEF59BBCDF54)
+                [L] microwalk_mbedtls_rsa_complete-GCC9-O2:__memset_evex_unaligned_erms+4c (jump)
+                  - Number of calls: 3
+                  - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                  - Mutual information: 0.54 +/- 0.06 bits, min 0.50 bits, max 0.62 bits
+                  - Cond. guessing entropy: 0.17 +/- 0.06, min 0.12, max 0.25, score 111.11 +/- 0.79
+                  - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_mbedtls_rsa_complete-GCC9-O2:RunTarget+67 -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_free+0 ($21F952A15FDD60FE)
+    microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_rsa_free+5c -> microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+0 ($D796D4A24DCBF0F7)
+      microwalk_mbedtls_rsa_complete-GCC9-O2:mbedtls_mpi_free+4a -> microwalk_mbedtls_rsa_complete-GCC9-O2:__free+0 ($F73937A93DE94243)
+        microwalk_mbedtls_rsa_complete-GCC9-O2:__free+6c -> microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+0 ($75E1F56F811813A2)
+          [L] microwalk_mbedtls_rsa_complete-GCC9-O2:_int_free+1ec (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.70 +/- 0.00 bits, min 0.70 bits, max 0.70 bits
+            - Cond. guessing entropy: 6.06 +/- 0.00, min 6.06, max 6.06, score 32.50 +/- 0.00
+            - Min. cond. guessing entropy: 2.00 +/- 0.00, min 2.00, max 2.00, score 86.67 +/- 0.00

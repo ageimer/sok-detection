@@ -1,0 +1,3 @@
+[relse:debug] Reading initialization from ./src/relse1_memory.txt
+[relse:warning] [Stub] Symbol bzero not found
+Fatal error: exception Failure("not_yet_implemented: instruction #unsupported 0f 10 30 at address 08049e50")

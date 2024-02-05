@@ -1,0 +1,1480 @@
+<?xml version="1.0"?>
+
+<valgrindoutput>
+
+<protocolversion>4</protocolversion>
+<protocoltool>memcheck</protocoltool>
+
+<preamble>
+  <line>Memcheck, a memory error detector</line>
+  <line>Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.</line>
+  <line>Using Valgrind-3.15.0-608cb11914-20190413 and LibVEX; rerun with -h for copyright info</line>
+  <line>Command: ./build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</line>
+</preamble>
+
+<pid>84674</pid>
+<ppid>84673</ppid>
+<tool>memcheck</tool>
+
+<args>
+  <vargv>
+    <exe>/usr/bin/valgrind.bin</exe>
+    <arg>-v</arg>
+    <arg>--tool=memcheck</arg>
+    <arg>--error-limit=no</arg>
+    <arg>--num-callers=64</arg>
+    <arg>--default-suppressions=yes</arg>
+    <arg>--suppressions=common.supp</arg>
+    <arg>--track-origins=yes</arg>
+    <arg>--xml=yes</arg>
+    <arg>--xml-file=vulns-ctgrind/mbedtls_mpi_gcd-GCC9-O2-ctgrind.txt</arg>
+    <arg>--suppressions=./build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2.supp</arg>
+  </vargv>
+  <argv>
+    <exe>./build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</exe>
+  </argv>
+</args>
+
+<status>
+  <state>RUNNING</state>
+  <time>00:00:00:00.096 </time>
+</status>
+
+<error>
+  <unique>0x16</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804A46D</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_copy</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>208</line>
+    </frame>
+    <frame>
+      <ip>0x804F03C</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2150</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499A7</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x19</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804A46D</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_copy</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>208</line>
+    </frame>
+    <frame>
+      <ip>0x804F05B</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2151</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1c</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804AA61</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_lsb</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>387</line>
+    </frame>
+    <frame>
+      <ip>0x804F077</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2153</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499A7</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x1e</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804AA61</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_lsb</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>387</line>
+    </frame>
+    <frame>
+      <ip>0x804F089</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2154</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x20</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BEBA</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_mpi</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1121</line>
+    </frame>
+    <frame>
+      <ip>0x804C051</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_int</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1160</line>
+    </frame>
+    <frame>
+      <ip>0x804F1E7</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2164</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499A7</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x21</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804AA61</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_lsb</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>387</line>
+    </frame>
+    <frame>
+      <ip>0x804F0F9</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2166</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499A7</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x22</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804AA61</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_lsb</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>387</line>
+    </frame>
+    <frame>
+      <ip>0x804F125</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2167</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x23</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BEBA</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_mpi</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1121</line>
+    </frame>
+    <frame>
+      <ip>0x804F155</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2169</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499A7</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x24</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BEEC</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_mpi</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1125</line>
+    </frame>
+    <frame>
+      <ip>0x804F155</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2169</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x25</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BF9E</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_mpi</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1139</line>
+    </frame>
+    <frame>
+      <ip>0x804F155</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2169</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x26</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BD8C</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1089</line>
+    </frame>
+    <frame>
+      <ip>0x804C2FE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1255</line>
+    </frame>
+    <frame>
+      <ip>0x804F170</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2171</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499A7</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x27</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BDBE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1093</line>
+    </frame>
+    <frame>
+      <ip>0x804C2FE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1255</line>
+    </frame>
+    <frame>
+      <ip>0x804F170</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2171</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x28</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BE32</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1104</line>
+    </frame>
+    <frame>
+      <ip>0x804C2FE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1255</line>
+    </frame>
+    <frame>
+      <ip>0x804F170</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2171</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x29</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804C39E</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1277</line>
+    </frame>
+    <frame>
+      <ip>0x804F170</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2171</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2a</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804C2BD</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mpi_sub_hlp</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1236</line>
+    </frame>
+    <frame>
+      <ip>0x804C3C5</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1280</line>
+    </frame>
+    <frame>
+      <ip>0x804F170</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2171</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x32</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BFD5</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_mpi</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1140</line>
+    </frame>
+    <frame>
+      <ip>0x804F155</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2169</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x33</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BD8C</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1089</line>
+    </frame>
+    <frame>
+      <ip>0x804C2FE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1255</line>
+    </frame>
+    <frame>
+      <ip>0x804F1B3</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2176</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x34</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BDBE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1093</line>
+    </frame>
+    <frame>
+      <ip>0x804C2FE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1255</line>
+    </frame>
+    <frame>
+      <ip>0x804F1B3</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2176</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x35</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BE32</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1104</line>
+    </frame>
+    <frame>
+      <ip>0x804C2FE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1255</line>
+    </frame>
+    <frame>
+      <ip>0x804F1B3</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2176</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x36</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804C39E</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1277</line>
+    </frame>
+    <frame>
+      <ip>0x804F1B3</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2176</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x37</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804C2BD</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mpi_sub_hlp</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1236</line>
+    </frame>
+    <frame>
+      <ip>0x804C3C5</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1280</line>
+    </frame>
+    <frame>
+      <ip>0x804F1B3</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2176</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x276</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BE69</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1105</line>
+    </frame>
+    <frame>
+      <ip>0x804C2FE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1255</line>
+    </frame>
+    <frame>
+      <ip>0x804F1B3</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2176</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2d29</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804BE69</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_cmp_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1105</line>
+    </frame>
+    <frame>
+      <ip>0x804C2FE</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_sub_abs</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>1255</line>
+    </frame>
+    <frame>
+      <ip>0x804F170</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2171</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2d38</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804AB14</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_bitlen</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>422</line>
+    </frame>
+    <frame>
+      <ip>0x804BA5C</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_shift_l</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>997</line>
+    </frame>
+    <frame>
+      <ip>0x804F201</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2181</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2d3e</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804AAB8</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_clz</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>403</line>
+    </frame>
+    <frame>
+      <ip>0x804AB38</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_bitlen</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>425</line>
+    </frame>
+    <frame>
+      <ip>0x804BA5C</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_shift_l</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>997</line>
+    </frame>
+    <frame>
+      <ip>0x804F201</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2181</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2d5e</unique>
+  <tid>1</tid>
+  <kind>UninitCondition</kind>
+  <what>Conditional jump or move depends on uninitialised value(s)</what>
+  <stack>
+    <frame>
+      <ip>0x804A46D</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_copy</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>208</line>
+    </frame>
+    <frame>
+      <ip>0x804F21C</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>mbedtls_mpi_gcd</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/lib/src/mbedtls-2.18.1/crypto/library</dir>
+      <file>bignum.c</file>
+      <line>2182</line>
+    </frame>
+    <frame>
+      <ip>0x8049A85</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>30</line>
+    </frame>
+  </stack>
+  <auxwhat>Uninitialised value was created by a client request</auxwhat>
+  <stack>
+    <frame>
+      <ip>0x80499F2</ip>
+      <obj>/home/antoine/Documents/sok-detection/code/build/GarciaHT20/mbedtls_mpi_gcd-GCC9-O2</obj>
+      <fn>main</fn>
+      <dir>/home/antoine/Documents/sok-detection/code/src/vuln_validation/GarciaHT20</dir>
+      <file>mbedtls_mpi_gcd.c</file>
+      <line>19</line>
+    </frame>
+  </stack>
+</error>
+
+
+<status>
+  <state>FINISHED</state>
+  <time>00:00:00:00.195 </time>
+</status>
+
+<errorcounts>
+  <pair>
+    <count>6</count>
+    <unique>0x2d5e</unique>
+  </pair>
+  <pair>
+    <count>32</count>
+    <unique>0x2d3e</unique>
+  </pair>
+  <pair>
+    <count>6</count>
+    <unique>0x2d38</unique>
+  </pair>
+  <pair>
+    <count>1514</count>
+    <unique>0x20</unique>
+  </pair>
+  <pair>
+    <count>202</count>
+    <unique>0x2a</unique>
+  </pair>
+  <pair>
+    <count>843</count>
+    <unique>0x29</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x2d29</unique>
+  </pair>
+  <pair>
+    <count>178</count>
+    <unique>0x28</unique>
+  </pair>
+  <pair>
+    <count>843</count>
+    <unique>0x27</unique>
+  </pair>
+  <pair>
+    <count>805</count>
+    <unique>0x26</unique>
+  </pair>
+  <pair>
+    <count>171</count>
+    <unique>0x32</unique>
+  </pair>
+  <pair>
+    <count>348</count>
+    <unique>0x25</unique>
+  </pair>
+  <pair>
+    <count>1566</count>
+    <unique>0x24</unique>
+  </pair>
+  <pair>
+    <count>1513</count>
+    <unique>0x23</unique>
+  </pair>
+  <pair>
+    <count>525</count>
+    <unique>0x22</unique>
+  </pair>
+  <pair>
+    <count>539</count>
+    <unique>0x21</unique>
+  </pair>
+  <pair>
+    <count>185</count>
+    <unique>0x37</unique>
+  </pair>
+  <pair>
+    <count>708</count>
+    <unique>0x36</unique>
+  </pair>
+  <pair>
+    <count>170</count>
+    <unique>0x35</unique>
+  </pair>
+  <pair>
+    <count>708</count>
+    <unique>0x34</unique>
+  </pair>
+  <pair>
+    <count>723</count>
+    <unique>0x33</unique>
+  </pair>
+  <pair>
+    <count>2</count>
+    <unique>0x276</unique>
+  </pair>
+  <pair>
+    <count>2</count>
+    <unique>0x1e</unique>
+  </pair>
+  <pair>
+    <count>2</count>
+    <unique>0x1c</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x19</unique>
+  </pair>
+  <pair>
+    <count>1</count>
+    <unique>0x16</unique>
+  </pair>
+</errorcounts>
+
+<suppcounts>
+  <pair>
+    <count>2</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>2</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>6</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>6</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>4</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>2</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>1</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>1</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>1</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>2</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>1</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>3</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>1</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>3</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>2</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+  <pair>
+    <count>1</count>
+    <name>&lt;insert_a_suppression_name_here&gt;</name>
+  </pair>
+</suppcounts>
+
+</valgrindoutput>
+

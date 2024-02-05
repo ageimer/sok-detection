@@ -1,0 +1,55 @@
+(include_subdirs unqualified)
+
+(library
+ (name checkct)
+ (modules :standard)
+  (modules_without_implementation solver_sig)
+ (flags
+  (:standard -open Binsec -open Smt))
+ (library_flags
+  (:standard -linkall))
+ (libraries binsec smt
+  (select
+    native_solver.ml
+    from
+    (bitwuzla -> native_solver.enabled.ml)
+    (!bitwuzla -> native_solver.stubs.ml))))
+
+(rule
+ (copy ../dba/dba_expr_parser.mly dba_expr_parser.mly))
+
+(rule
+ (copy ../dba/dba_instr_parser.mly dba_instr_parser.mly))
+
+(rule
+ (copy ../dba/dba_chunk_parser.mly dba_chunk_parser.mly))
+
+(rule
+ (copy ../dba/dba_env_parser.mly dba_env_parser.mly))
+
+(rule
+ (with-stdout-to
+  checkct_lexer.mll
+  (progn
+   (cat checkct_lexer.mll.header)
+   (cat ../dba/dba_lexer.mll.decl)
+   (cat checkct_lexer.mll.ext)
+   (cat ../dba/dba_lexer.mll.body))))
+
+(menhir
+ (modules dba_expr_parser dba_instr_parser dba_chunk_parser script_parser)
+ (flags --only-tokens)
+ (merge_into checkct_tokens))
+
+(menhir
+ (modules
+  dba_expr_parser
+  dba_instr_parser
+  dba_chunk_parser
+  dba_env_parser
+  script_parser)
+ (flags --fixed-exception --external-tokens Checkct_tokens)
+ (merge_into checkct_parser))
+
+(ocamllex
+ (modules checkct_lexer))

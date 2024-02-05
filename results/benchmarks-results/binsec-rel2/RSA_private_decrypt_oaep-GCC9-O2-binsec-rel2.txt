@@ -1,0 +1,56 @@
+[checkct:debug] Reading script from ./src/relse2_script_coredump.ini
+[checkct:debug] 00000000 :: 0x08048000-0x08049000 00000000 /home/antoine/Documents/sok-detection/code/build/RSA-openssl/RSA_private_decrypt_oaep-GCC9-O2
+[checkct:debug] Reading script from ./src/benchmark/secrets_oaep.ini
+[checkct:warning] Unable to find section .data.rel.ro
+[checkct:debug] Reading script from ./build/RSA-openssl/RSA_private_decrypt_oaep-GCC9-O2.tls
+[checkct:result] Instruction 0x0804c209 has control flow leak (0.458s)
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          7237
+                    sat            2628
+                    unsat          3122
+                    constant enum  1487
+                  
+                  Satisfiability queries
+                    total          236
+                    sat            14
+                    unsat          222
+                    unknown        0
+                    time           342.63
+                    average        1.45
+                  
+                CT checks
+                  Control flow checks      7371
+                    secure (taint)         7153
+                    insecure (CV)          1
+                    secure (RelSE)         217
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     19983
+                    secure (taint)         19730
+                    insecure (CV)          0
+                    secure (RelSE)         253
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    27354
+                  Total solver time        3193.12
+                  Average solver time      6.79
+                  
+                Exploration
+                  total paths                      12
+                  completed/cut paths              0
+                  pending paths                    12
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 7378
+                  max path depth                   45505
+                  visited instructions (unrolled)  45505
+                  visited instructions (static)    3898
+                
+                
+[checkct:result] Program status is : insecure (3600.670)
+[checkct:info] 0 visited path covering 3898 instructions
+[checkct:info] 7370 / 7371 control flow checks pass
+[checkct:info] 19983 / 19983 memory access checks pass
+[checkct:warning] Exploration is incomplete:
+                  - timeout has left (at least) 12 pending paths (-checkct-timeout)

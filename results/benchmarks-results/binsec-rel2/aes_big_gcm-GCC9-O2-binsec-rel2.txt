@@ -1,0 +1,96 @@
+[checkct:debug] Reading script from ./src/relse2_script.ini
+[checkct:info] Load section .text (0x08049110, 0x6a711)
+[checkct:info] Load section .data (0x080e7060, 0xf20)
+[checkct:info] Load section .rodata (0x080b5000, 0x1b88c)
+[checkct:info] Load section .bss (0x080e8320, 0xd1c)
+[checkct:info] Load section .got.plt (0x080e7000, 0x44)
+[checkct:info] Load section .plt (0x08049030, 0xe0)
+[checkct:info] Load section .got (0x080e6fd4, 0x28)
+[checkct:info] Load section .data.rel.ro (0x080e5680, 0x1954)
+[checkct:info] Load section .tdata (0x080e5660, 0x10)
+[checkct:debug] Reading script from ./src/benchmark/secrets_gcm.ini
+[checkct:result] Instruction 0x0804adf9 has memory leak (0.020s)
+[checkct:result] Instruction 0x0804adfd has memory leak (0.020s)
+[checkct:result] Instruction 0x0804ae0e has memory leak (0.020s)
+[checkct:result] Instruction 0x0804ae15 has memory leak (0.020s)
+[checkct:result] Instruction 0x0804ac2d has memory leak (0.037s)
+[checkct:result] Instruction 0x0804ac38 has memory leak (0.037s)
+[checkct:result] Instruction 0x0804ac43 has memory leak (0.037s)
+[checkct:result] Instruction 0x0804ac4e has memory leak (0.037s)
+[checkct:result] Instruction 0x0804ac56 has memory leak (0.037s)
+[checkct:result] Instruction 0x0804ac62 has memory leak (0.038s)
+[checkct:result] Instruction 0x0804ac6a has memory leak (0.038s)
+[checkct:result] Instruction 0x0804ac75 has memory leak (0.038s)
+[checkct:result] Instruction 0x0804ac83 has memory leak (0.038s)
+[checkct:result] Instruction 0x0804ac8c has memory leak (0.038s)
+[checkct:result] Instruction 0x0804ac97 has memory leak (0.039s)
+[checkct:result] Instruction 0x0804aca2 has memory leak (0.039s)
+[checkct:result] Instruction 0x0804acad has memory leak (0.039s)
+[checkct:result] Instruction 0x0804acb8 has memory leak (0.039s)
+[checkct:result] Instruction 0x0804acc6 has memory leak (0.039s)
+[checkct:result] Instruction 0x0804acd1 has memory leak (0.040s)
+[checkct:result] Instruction 0x0804acf3 has memory leak (0.048s)
+[checkct:result] Instruction 0x0804acf7 has memory leak (0.049s)
+[checkct:result] Instruction 0x0804ad06 has memory leak (0.051s)
+[checkct:result] Instruction 0x0804ad12 has memory leak (0.053s)
+[checkct:result] Instruction 0x0804ad28 has memory leak (0.055s)
+[checkct:result] Instruction 0x0804ad2c has memory leak (0.057s)
+[checkct:result] Instruction 0x0804ad3b has memory leak (0.060s)
+[checkct:result] Instruction 0x0804ad44 has memory leak (0.062s)
+[checkct:result] Instruction 0x0804ad50 has memory leak (0.064s)
+[checkct:result] Instruction 0x0804ad5d has memory leak (0.066s)
+[checkct:result] Instruction 0x0804ad71 has memory leak (0.069s)
+[checkct:result] Instruction 0x0804ad7a has memory leak (0.071s)
+[checkct:result] Instruction 0x0804ad8c has memory leak (0.074s)
+[checkct:result] Instruction 0x0804ad98 has memory leak (0.076s)
+[checkct:result] Instruction 0x0804ada4 has memory leak (0.079s)
+[checkct:result] Instruction 0x0804adad has memory leak (0.081s)
+[checkct:debug] Directive :: cut path 0 @ 0xabcdef01
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          484
+                    sat            214
+                    unsat          159
+                    constant enum  111
+                  
+                  Satisfiability queries
+                    total          0
+                    sat            0
+                    unsat          0
+                    unknown        0
+                    time           0.00
+                    average        -nan
+                  
+                CT checks
+                  Control flow checks      476
+                    secure (taint)         476
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     7137
+                    secure (taint)         7101
+                    insecure (CV)          36
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    7613
+                  Total solver time        0.00
+                  Average solver time      -nan
+                  
+                Exploration
+                  total paths                      1
+                  completed/cut paths              1
+                  pending paths                    0
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 476
+                  max path depth                   11678
+                  visited instructions (unrolled)  11678
+                  visited instructions (static)    1151
+                
+                
+[checkct:result] Program status is : insecure (0.203)
+[checkct:info] 1 visited path covering 1151 instructions
+[checkct:info] 476 / 476 control flow checks pass
+[checkct:info] 7101 / 7137 memory access checks pass

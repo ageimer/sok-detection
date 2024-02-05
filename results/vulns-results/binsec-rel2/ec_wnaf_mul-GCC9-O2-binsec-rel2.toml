@@ -1,0 +1,70 @@
+["CT report"."Insecurity models".0x0804c2f6.public]
+ECDSA_Q = ["0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002f45fce7"]
+ECDSA_sha1 = ["0x0000000000000000000000000000000039582fb6"]
+ebx = ["0x22a2f387"]
+edi = ["0x1ca99ca2"]
+esi = ["0x0624db4e"]
+["CT report"."Insecurity models".0x0804c2f6.secret1]
+bs_secret = ["0x0000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Insecurity models".0x0804c2f6.secret2]
+bs_secret = ["0x0000000000000000000000000000000000000000000000000000000000000001"]
+["CT report"."Insecurity models".0x08083f37.public]
+ECDSA_Q = ["0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002f45fce7"]
+ECDSA_sha1 = ["0x0000000000000000000000000000000039582fb6"]
+ebx = ["0x22a2f387"]
+edi = ["0x1ca99ca2"]
+esi = ["0x0624db4e"]
+["CT report"."Insecurity models".0x08083f37.secret1]
+bs_secret = ["0x0000000000000000000000000000000000000000000000000000000000000001"]
+["CT report"."Insecurity models".0x08083f37.secret2]
+bs_secret = ["0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"]
+["CT report"."Insecurity models".0x08083f3f.secret1]
+bs_secret = ["0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"]
+["CT report"."Insecurity models".0x08083f3f.secret2]
+bs_secret = ["0xfeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"]
+["CT report"."Insecurity models".0x08083f49.secret1]
+bs_secret = ["0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"]
+["CT report"."Insecurity models".0x08083f49.secret2]
+bs_secret = ["0xf7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"]
+["CT report"."Insecurity models".0x08083f52.secret1]
+bs_secret = ["0x898888888888888888888888888888888888888888888888888888888c8eea0e"]
+["CT report"."Insecurity models".0x08083f52.secret2]
+bs_secret = ["0x89888888888888888888888888888888888888888888888888888888e8888e1e"]
+["CT report"."Instructions status"]
+insecure = ["0x0804c2f6", "0x08083f37", "0x08083f3f", "0x08083f49", "0x08083f52"]
+unknown = []
+[Exploration]
+"branching points" = 32074
+"competed/cut paths" = 0
+"failed assertions" = 0
+"max path depth" = 239542
+"pending paths" = 132
+"stale paths" = 0
+"total paths" = 132
+"visited instructions (unrolled)" = 239542
+["State statistics"."CT checks"]
+"Solver time" = 3026.6541059
+["State statistics"."CT checks"."Control flow checks"]
+"insecure (CV)" = 2
+"insecure (RelSE)" = 3
+"secure (RelSE)" = 817
+"secure (taint)" = 30675
+unknown = 0
+["State statistics"."CT checks"."Memory access checks"]
+"insecure (CV)" = 0
+"insecure (RelSE)" = 0
+"secure (RelSE)" = 282
+"secure (taint)" = 139879
+unknown = 0
+["State statistics"."SMT queries"."Preprocessing simplifications"]
+"constant enum" = 8481
+sat = 8242
+total = 30869
+unsat = 14146
+["State statistics"."SMT queries"."Satisfiability queries"]
+average = 0.406670522238
+sat = 132
+time = 557.951956511
+total = 1372
+unknown = 0
+unsat = 1240

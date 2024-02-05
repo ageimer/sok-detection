@@ -1,0 +1,38 @@
+["CT report"."Instructions status"]
+insecure = []
+unknown = []
+[Exploration]
+"branching points" = 119320
+"competed/cut paths" = 6
+"failed assertions" = 0
+"max path depth" = 597595
+"pending paths" = 0
+"stale paths" = 0
+"total paths" = 6
+"visited instructions (unrolled)" = 1194690
+["State statistics"."CT checks"]
+"Solver time" = 0.0
+["State statistics"."CT checks"."Control flow checks"]
+"insecure (CV)" = 0
+"insecure (RelSE)" = 0
+"secure (RelSE)" = 0
+"secure (taint)" = 119320
+unknown = 0
+["State statistics"."CT checks"."Memory access checks"]
+"insecure (CV)" = 0
+"insecure (RelSE)" = 0
+"secure (RelSE)" = 0
+"secure (taint)" = 833767
+unknown = 0
+["State statistics"."SMT queries"."Preprocessing simplifications"]
+"constant enum" = 31624
+sat = 31517
+total = 119548
+unsat = 56407
+["State statistics"."SMT queries"."Satisfiability queries"]
+average = 0.000650439943586
+sat = 5
+time = 0.0045530796051
+total = 7
+unknown = 0
+unsat = 2

@@ -1,0 +1,18 @@
+[relse:debug] Reading initialization from ./src/relse1_memory.txt
+[relse:warning] [Stub] Symbol bzero not found
+[relse:warning] Found as many solutions for
+                (concat (select __memory_0 (_ bv19 32))
+                (concat (select __memory_0 (_ bv18 32))
+                (concat (select __memory_0 (_ bv17 32))
+                (select __memory_0 (_ bv16 32))))) as asked.
+                Possibly incomplete solution set.
+[relse:warning] Dynamic jump (080a29f4, 2) :
+                goto @[16<32>,4] #call with return address @ (080a29fb, 0)
+                could have led to invalid address {0xfffffffe; 32}; skipping
+[relse:warning] Dynamic jump (080a29f4, 2) :
+                goto @[16<32>,4] #call with return address @ (080a29fb, 0)
+                could have led to invalid address {0xffffffff; 32}; skipping
+[relse:warning] Dynamic jump (080a29f4, 2) :
+                goto @[16<32>,4] #call with return address @ (080a29fb, 0)
+                could have led to invalid address {0x00000000; 32}; skipping
+[relse:result] [Exploration] End of the RelSE

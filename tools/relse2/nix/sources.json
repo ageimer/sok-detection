@@ -1,0 +1,68 @@
+{
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "9d35b9e4837ab88517210b1701127612c260eccf",
+        "sha256": "0q50xhnm8g2yfyakrh0nly4swyygxpi0a8cb9gp65wcakcgvzvdh",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/9d35b9e4837ab88517210b1701127612c260eccf.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nix-bundle": {
+        "branch": "master",
+        "description": "Bundle Nix derivations to run anywhere!",
+        "homepage": "",
+        "owner": "matthewbauer",
+        "repo": "nix-bundle",
+        "rev": "223f4ffc4179aa318c34dc873a08cb00090db829",
+        "sha256": "0pqpx9vnjk9h24h9qlv4la76lh5ykljch6g487b26r1r2s9zg7kh",
+        "type": "tarball",
+        "url": "https://github.com/matthewbauer/nix-bundle/archive/223f4ffc4179aa318c34dc873a08cb00090db829.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-unstable",
+        "description": "A read-only mirror of NixOS/nixpkgs tracking the released channels. Send issues and PRs to",
+        "homepage": "https://github.com/NixOS/nixpkgs",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "bc41b01dd7a9fdffd32d9b03806798797532a5fe",
+        "sha256": "1xgn54mjavv9gczkh40zp228i9alhrfcfh83za70y3kavfsyr9sw",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/bc41b01dd7a9fdffd32d9b03806798797532a5fe.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs_2003": {
+        "branch": "nixos-20.03",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "d3784204ba1a6bbb0c0ebf89b706bda50c113112",
+        "sha256": "0y1jznny96r4ngdiqnriq7c4pylf5dzmjc4c0hgi52lkrkhrly3v",
+        "type": "tarball",
+        "url": "https://github.com/nixos/nixpkgs/archive/d3784204ba1a6bbb0c0ebf89b706bda50c113112.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "unisim": {
+        "ref": "armsec",
+        "repo": "git@git.frama-c.com:unisim-vp/unisim.git",
+        "rev": "3e3e08abbf7b0176f3e03abfcb62c83d7363f9c0",
+        "type": "git"
+    },
+    "unisim_archisec": {
+        "branch": "master",
+        "description": "OCaml binding for the external UNISIM DBA decoder",
+        "homepage": "",
+        "owner": "binsec",
+        "repo": "unisim_archisec",
+        "rev": "14ad18619d33a29e4ed423eadc5d7fdcf3520022",
+        "sha256": "0k9vv8ypbn29h0v3dkv7lvpqzs5liinh8pv4a67nj9ivqg420c47",
+        "type": "tarball",
+        "url": "https://github.com/binsec/unisim_archisec/archive/14ad18619d33a29e4ed423eadc5d7fdcf3520022.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

@@ -1,0 +1,249 @@
+Total Constrains: 36
+Control Transfer: 0
+Data Access: 36
+START:
+Address: 804a1d8 Type: DA 
+ Monte Carlo Failed
+Address: 804a1dc Type: DA 
+ Monte Carlo Failed
+Address: 804a1ed Type: DA 
+ Monte Carlo Failed
+Address: 804a1f4 Type: DA 
+ Monte Carlo Failed
+Address: 804a00c Leaked:8.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 4000
+Address: 804a017 Type: DA 
+ Monte Carlo Failed
+Address: 804a022 Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Address: 804a02d Type: DA 
+ Monte Carlo Failed
+Address: 804a035 Leaked:8.0 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 3000
+Address: 804a041 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Address: 804a049 Type: DA 
+ Monte Carlo Failed
+Address: 804a054 Type: DA 
+ Monte Carlo Failed
+Address: 804a062 Type: DA 
+ Monte Carlo Failed
+Address: 804a06b Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Address: 804a076 Type: DA 
+ Monte Carlo Failed
+Address: 804a081 Leaked:8.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 4000
+Address: 804a08c Type: DA 
+ Monte Carlo Failed
+Address: 804a097 Type: DA 
+ Monte Carlo Failed
+Address: 804a0a5 Leaked:8.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 4000
+Address: 804a0b0 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Address: 804a0d2 Leaked:6.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 1000
+Address: 804a0d6 Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Address: 804a0e5 Leaked:6.8 bits Type: DA  Num of Satisfied: 18 Total Sampling Numbers: 2000
+Address: 804a0f1 Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Address: 804a107 Leaked:7.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 2000
+Address: 804a10b Leaked:6.7 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 2000
+Address: 804a11a Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Address: 804a123 Leaked:6.6 bits Type: DA  Num of Satisfied: 21 Total Sampling Numbers: 2000
+Address: 804a12f Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Address: 804a13c Leaked:6.9 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 2000
+Address: 804a150 Leaked:7.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 2000
+Address: 804a159 Leaked:7.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 2000
+Address: 804a16b Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Address: 804a177 Leaked:6.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 1000
+Address: 804a183 Leaked:6.8 bits Type: DA  Num of Satisfied: 18 Total Sampling Numbers: 2000
+Address: 804a18c Leaked:7.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 2000
+DETAILS:
+------------------------------------------------------------
+Address: 804a1d8 Type: DA 
+ Monte Carlo Failed
+Function Name:  SubWord Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 29
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1dc Type: DA 
+ Monte Carlo Failed
+Function Name:  SubWord Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 33
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1ed Type: DA 
+ Monte Carlo Failed
+Function Name:  SubWord Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 50
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1f4 Type: DA 
+ Monte Carlo Failed
+Function Name:  SubWord Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 57
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a00c Leaked:8.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 4000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 273
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a017 Type: DA 
+ Monte Carlo Failed
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 284
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a022 Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 295
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a02d Type: DA 
+ Monte Carlo Failed
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 306
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a035 Leaked:8.0 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 3000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 314
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a041 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 326
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a049 Type: DA 
+ Monte Carlo Failed
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 334
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a054 Type: DA 
+ Monte Carlo Failed
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 345
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a062 Type: DA 
+ Monte Carlo Failed
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 359
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a06b Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 368
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a076 Type: DA 
+ Monte Carlo Failed
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 379
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a081 Leaked:8.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 4000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 390
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a08c Type: DA 
+ Monte Carlo Failed
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 401
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a097 Type: DA 
+ Monte Carlo Failed
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 412
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a0a5 Leaked:8.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 4000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 426
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a0b0 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 437
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a0d2 Leaked:6.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 1000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 471
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a0d6 Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 475
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a0e5 Leaked:6.8 bits Type: DA  Num of Satisfied: 18 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 490
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a0f1 Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 502
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a107 Leaked:7.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 524
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a10b Leaked:6.7 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 528
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a11a Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 543
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a123 Leaked:6.6 bits Type: DA  Num of Satisfied: 21 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 552
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a12f Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 564
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a13c Leaked:6.9 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 577
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a150 Leaked:7.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 597
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a159 Leaked:7.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 606
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a16b Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 624
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a177 Leaked:6.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 1000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 636
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a183 Leaked:6.8 bits Type: DA  Num of Satisfied: 18 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 648
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a18c Leaked:7.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 2000
+Function Name:  br_aes_big_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-bearssl/aes_big_cbc-GCC9-O2 Offset: 657
+
+------------------------------------------------------------
+Total Instructions:: 4422
+Time taken by SE: 0.066045 seconds
+Time taken by MC: 2.41562 seconds
+Total Time: 2.48166 seconds

@@ -1,0 +1,66 @@
+[checkct:debug] Reading script from ./src/relse2_script.ini
+[checkct:info] Load section .text (0x0804a000, 0x237f31)
+[checkct:info] Load section .data (0x08394080, 0x1cc0)
+[checkct:info] Load section .rodata (0x08283000, 0x56e18)
+[checkct:info] Load section .bss (0x083961c0, 0x435c)
+[checkct:info] Load section .got.plt (0x08394000, 0x68)
+[checkct:info] Load section .plt (0x08049030, 0xb8)
+[checkct:info] Load section .got (0x08393dd4, 0x210)
+[checkct:info] Load section .data.rel.ro (0x0837b820, 0x185b4)
+[checkct:info] Load section .tdata (0x0837b7fc, 0x14)
+[checkct:debug] Reading script from ./src/vuln_validation/secrets_ecdsa.ini
+[checkct:result] Instruction 0x0804c2f6 has control flow leak (2.522s)
+[checkct:result] Instruction 0x08083f37 has control flow leak (2.563s)
+[checkct:result] Instruction 0x08083f3f has control flow leak (2.570s)
+[checkct:result] Instruction 0x08083f49 has control flow leak (2.576s)
+[checkct:result] Instruction 0x08083f52 has control flow leak (24.894s)
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          30869
+                    sat            8242
+                    unsat          14146
+                    constant enum  8481
+                  
+                  Satisfiability queries
+                    total          1372
+                    sat            132
+                    unsat          1240
+                    unknown        0
+                    time           557.95
+                    average        0.41
+                  
+                CT checks
+                  Control flow checks      31497
+                    secure (taint)         30675
+                    insecure (CV)          2
+                    secure (RelSE)         817
+                    insecure (RelSE)       3
+                    unknown                0
+                  Memory access checks     140161
+                    secure (taint)         139879
+                    insecure (CV)          0
+                    secure (RelSE)         282
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    171658
+                  Total solver time        3026.65
+                  Average solver time      2.75
+                  
+                Exploration
+                  total paths                      132
+                  completed/cut paths              0
+                  pending paths                    132
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 32074
+                  max path depth                   239542
+                  visited instructions (unrolled)  239542
+                  visited instructions (static)    6008
+                
+                
+[checkct:result] Program status is : insecure (3601.037)
+[checkct:info] 0 visited path covering 6008 instructions
+[checkct:info] 31492 / 31497 control flow checks pass
+[checkct:info] 140161 / 140161 memory access checks pass
+[checkct:warning] Exploration is incomplete:
+                  - timeout has left (at least) 132 pending paths (-checkct-timeout)

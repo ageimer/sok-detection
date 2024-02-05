@@ -1,0 +1,2 @@
+(cram
+ (deps %{bin:binsec} crackme.ini i_am_happy_you_are_to_playing_the_flareon_challenge.exe))

@@ -1,0 +1,85 @@
+microwalk_ED25519_sign-GCC9-O2:Target+91 -> microwalk_ED25519_sign-GCC9-O2:RunTarget+0 ($CEA36B2F7B36B053)
+  microwalk_ED25519_sign-GCC9-O2:RunTarget+27 -> microwalk_ED25519_sign-GCC9-O2:ossl_ed25519_sign+0 ($F0D2AF35A14D2AFF)
+    microwalk_ED25519_sign-GCC9-O2:ossl_ed25519_sign+4b -> microwalk_ED25519_sign-GCC9-O2:EVP_MD_fetch+0 ($F3D5432235CB8AB9)
+      microwalk_ED25519_sign-GCC9-O2:EVP_MD_fetch+29 -> microwalk_ED25519_sign-GCC9-O2:evp_generic_fetch+0 ($0465812BF0F08836)
+        [L] microwalk_ED25519_sign-GCC9-O2:evp_generic_fetch+2e3 (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_ED25519_sign-GCC9-O2:evp_generic_fetch+68 -> microwalk_ED25519_sign-GCC9-O2:ossl_lib_ctx_get_data+0 ($E44DEA5A079A2771)
+          [L] microwalk_ED25519_sign-GCC9-O2:ossl_lib_ctx_get_data+44 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_ED25519_sign-GCC9-O2:ossl_lib_ctx_get_data+196 -> microwalk_ED25519_sign-GCC9-O2:CRYPTO_THREAD_run_once+0 ($4A5DBF0ECE6DB272)
+            [L] microwalk_ED25519_sign-GCC9-O2:CRYPTO_THREAD_run_once+8 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_ED25519_sign-GCC9-O2:evp_generic_fetch+75 -> microwalk_ED25519_sign-GCC9-O2:ossl_namemap_stored+0 ($28AD03447AA0C1EF)
+          [L] microwalk_ED25519_sign-GCC9-O2:ossl_namemap_stored+44 (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_ED25519_sign-GCC9-O2:ossl_namemap_stored+2e -> microwalk_ED25519_sign-GCC9-O2:ossl_lib_ctx_get_data+0 ($481B6693B151B541)
+            [L] microwalk_ED25519_sign-GCC9-O2:ossl_lib_ctx_get_data+44 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_ED25519_sign-GCC9-O2:evp_generic_fetch+27b -> microwalk_ED25519_sign-GCC9-O2:ossl_namemap_name2num+0 ($3BBF08AA2BC72DF4)
+          microwalk_ED25519_sign-GCC9-O2:ossl_namemap_name2num+82 -> microwalk_ED25519_sign-GCC9-O2:CRYPTO_strndup+0 ($EC62005E3EED7717)
+            microwalk_ED25519_sign-GCC9-O2:CRYPTO_strndup+48 -> microwalk_ED25519_sign-GCC9-O2:CRYPTO_malloc+0 ($59E90C40F86B1699)
+              [L] microwalk_ED25519_sign-GCC9-O2:__libc_malloc+14f (jump)
+                - Number of calls: 1
+                - Tree depth: 2.00 +/- 0.00, min 2, max 2
+                - Mutual information: 0.54 +/- 0.00 bits, min 0.54 bits, max 0.54 bits
+                - Cond. guessing entropy: 6.75 +/- 0.00, min 6.75, max 6.75, score 23.33 +/- 0.00
+                - Min. cond. guessing entropy: 1.50 +/- 0.00, min 1.50, max 1.50, score 93.33 +/- 0.00
+          microwalk_ED25519_sign-GCC9-O2:ossl_namemap_name2num+9f -> microwalk_ED25519_sign-GCC9-O2:OPENSSL_LH_retrieve+0 ($3360B1F19ACE95F1)
+            [L] microwalk_ED25519_sign-GCC9-O2:OPENSSL_LH_retrieve+37 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        microwalk_ED25519_sign-GCC9-O2:evp_generic_fetch+2d2 -> microwalk_ED25519_sign-GCC9-O2:ossl_method_store_cache_get+0 ($ED989C53E9B36CCF)
+          [L] microwalk_ED25519_sign-GCC9-O2:ossl_method_store_cache_get+5e (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          microwalk_ED25519_sign-GCC9-O2:ossl_method_store_cache_get+56 -> microwalk_ED25519_sign-GCC9-O2:ossl_sa_get+0 ($405F13478EDBFE85)
+            [L] microwalk_ED25519_sign-GCC9-O2:ossl_sa_get+11 (jump)
+              - Number of calls: 1
+              - Tree depth: 2.00 +/- 0.00, min 2, max 2
+              - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+              - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+              - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_ED25519_sign-GCC9-O2:ossl_ed25519_sign+53 -> microwalk_ED25519_sign-GCC9-O2:EVP_MD_CTX_new+0 ($B5C62BFEE5168E38)
+      microwalk_ED25519_sign-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_ED25519_sign-GCC9-O2:__libc_malloc+0 ($CD95D590083BEEC6)
+        [L] microwalk_ED25519_sign-GCC9-O2:__libc_malloc+14f (jump)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+          - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+    microwalk_ED25519_sign-GCC9-O2:ossl_ed25519_sign+6d -> microwalk_ED25519_sign-GCC9-O2:EVP_DigestInit_ex+0 ($DE63B73EE03D70ED)
+      microwalk_ED25519_sign-GCC9-O2:evp_md_init_internal+675 -> microwalk_ED25519_sign-GCC9-O2:sha512_newctx+0 ($EC2631935FD4B8A7)
+        microwalk_ED25519_sign-GCC9-O2:CRYPTO_zalloc+5c -> microwalk_ED25519_sign-GCC9-O2:__libc_malloc+0 ($8EFD7C32CC1BDD5E)
+          [L] microwalk_ED25519_sign-GCC9-O2:__libc_malloc+14f (jump)
+            - Number of calls: 1
+            - Tree depth: 2.00 +/- 0.00, min 2, max 2
+            - Mutual information: 0.34 +/- 0.00 bits, min 0.34 bits, max 0.34 bits
+            - Cond. guessing entropy: 7.56 +/- 0.00, min 7.56, max 7.56, score 12.50 +/- 0.00
+            - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00

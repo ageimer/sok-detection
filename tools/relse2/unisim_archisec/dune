@@ -1,0 +1,348 @@
+(env
+ (_
+  (c_flags :standard -g0)
+  (cxx_flags :standard -g0)))
+
+(subdir
+ unisim/util
+ (include_subdirs unqualified)
+ (library
+  (package unisim_archisec)
+  (name util)
+  (foreign_stubs
+   (language cxx)
+   (names :standard)
+   (flags :standard -I../..)
+   (extra_deps
+    random/random.hh
+    hypapp/hypapp.hh
+    debug/type.hh
+    debug/decl_location.hh
+    debug/source_code_location.hh
+    debug/simple_register_registry.hh
+    ../service/interfaces/register.hh
+    ../service/interfaces/interface.hh
+    ../service/interfaces/registers.hh
+    nat_sort/nat_sort.hh
+    debug/simple_field_registry.hh
+    ../service/interfaces/register.hh
+    ../service/interfaces/interface.hh
+    debug/simple_symbol_table.tcc
+    debug/simple_symbol_table.hh
+    debug/symbol.hh
+    debug/symbol_table.hh
+    hash_table/hash_table.hh
+    inlining/inlining.hh
+    debug/watchpoint_registry.hh
+    debug/memory_access_type.hh
+    debug/watchpoint.hh
+    debug/event.hh
+    ../service/interfaces/debug_event.hh
+    ../service/interfaces/interface.hh
+    debug/watchpoint_registry.tcc
+    debug/simple_symbol_table.tcc
+    debug/simple_symbol_table.hh
+    debug/symbol.hh
+    debug/symbol_table.hh
+    hash_table/hash_table.hh
+    inlining/inlining.hh
+    debug/profile.hh
+    hash_table/hash_table.hh
+    inlining/inlining.hh
+    debug/profile.tcc
+    debug/variable.hh
+    debug/type.hh
+    debug/decl_location.hh
+    debug/source_code_location.hh
+    debug/stmt.hh
+    debug/stmt.tcc
+    debug/decl_location.hh
+    debug/source_code_location.hh
+    debug/stmt.hh
+    debug/stmt.tcc
+    debug/symbol.hh
+    debug/symbol.tcc
+    debug/subprogram.tcc
+    debug/subprogram.hh
+    debug/type.hh
+    debug/decl_location.hh
+    debug/source_code_location.hh
+    debug/symbol.hh
+    debug/symbol.tcc
+    debug/subprogram.tcc
+    debug/subprogram.hh
+    debug/type.hh
+    debug/decl_location.hh
+    debug/source_code_location.hh
+    debug/breakpoint_registry.hh
+    debug/breakpoint.hh
+    debug/event.hh
+    ../service/interfaces/debug_event.hh
+    ../service/interfaces/interface.hh
+    debug/memory_access_type.hh
+    debug/breakpoint_registry.tcc
+    debug/watchpoint_registry.hh
+    debug/memory_access_type.hh
+    debug/watchpoint.hh
+    debug/event.hh
+    ../service/interfaces/debug_event.hh
+    ../service/interfaces/interface.hh
+    debug/watchpoint_registry.tcc
+    debug/profile.hh
+    hash_table/hash_table.hh
+    inlining/inlining.hh
+    debug/profile.tcc
+    debug/breakpoint_registry.hh
+    debug/breakpoint.hh
+    debug/event.hh
+    ../service/interfaces/debug_event.hh
+    ../service/interfaces/interface.hh
+    debug/memory_access_type.hh
+    debug/breakpoint_registry.tcc
+    backtrace/backtrace.hh
+    symbolic/symbolic.hh
+    arithmetic/arithmetic.hh
+    inlining/inlining.hh
+    identifier/identifier.hh
+    endian/endian.hh
+    symbolic/binsec/binsec.hh
+    symbolic/vector/vector.hh
+    symbolic/symbolic.hh
+    arithmetic/arithmetic.hh
+    inlining/inlining.hh
+    identifier/identifier.hh
+    symbolic/vector/vector.hh
+    symbolic/symbolic.hh
+    arithmetic/arithmetic.hh
+    inlining/inlining.hh
+    identifier/identifier.hh
+    json/json.tcc
+    json/json.hh
+    dictionary/dictionary.hh
+    dictionary/dictionary.tcc))))
+
+(subdir
+ unisim/component/cxx/processor/arm
+ (foreign_library
+  (archive_name arm)
+  (language cxx)
+  (names
+   (:standard \ simfloat))
+  (flags
+   (:standard -I../../../../..))
+  (extra_deps
+   disasm.hh
+   ../../../../util/identifier/identifier.hh
+   psr.hh
+   register_field.hh
+   isa/arm64/disasm.hh
+   isa/arm64/decode.hh
+   isa/decode.hh
+   execute.hh
+   psr.hh
+   register_field.hh
+   ../../../../util/truth_table/truth_table.hh
+   ../../../../util/inlining/inlining.hh
+   ../../../../util/arithmetic/arithmetic.hh
+   simfloat.hh
+   ../../../../util/simfloat/floating.hh
+   ../../../../util/endian/endian.hh
+   ../../../../util/simfloat/integer.hh
+   ../../../../kernel/variable/variable.hh
+   ../../../../kernel/kernel.hh
+   ../../../../util/nat_sort/nat_sort.hh
+   ../../../../service/interfaces/register.hh
+   ../../../../service/interfaces/interface.hh
+   ../../vector/vector.hh
+   ../../../../util/simfloat/integer.tcc
+   ../../../../util/simfloat/floating.tcc)))
+
+(subdir
+ aarch32
+ (foreign_library
+  (archive_name aarch32)
+  (language cxx)
+  (names (:standard))
+  (flags :standard -I. -I..)
+  (extra_deps
+   decoder.hh
+   ../unisim/component/cxx/processor/arm/psr.hh
+   ../unisim/component/cxx/processor/arm/register_field.hh
+   ../unisim/component/cxx/processor/arm/disasm.hh
+   ../unisim/util/identifier/identifier.hh
+   ../unisim/util/symbolic/binsec/binsec.hh
+   ../unisim/util/symbolic/vector/vector.hh
+   ../unisim/util/symbolic/symbolic.hh
+   ../unisim/util/arithmetic/arithmetic.hh
+   ../unisim/util/inlining/inlining.hh
+   top_arm32.tcc
+   top_arm32.hh
+   ../unisim/component/cxx/processor/arm/isa/decode.hh
+   ../unisim/component/cxx/processor/arm/models.hh
+   ../unisim/component/cxx/processor/arm/exception.hh
+   ../unisim/util/likely/likely.hh
+   ../unisim/util/endian/endian.hh
+   ../unisim/component/cxx/processor/arm/execute.hh
+   ../unisim/util/truth_table/truth_table.hh
+   top_thumb.tcc
+   top_thumb.hh)))
+
+(library
+ (public_name unisim_archisec.arm32dba)
+ (name arm32dba)
+ (modules arm32dba)
+ (foreign_archives aarch32/aarch32 unisim/component/cxx/processor/arm/arm)
+ (foreign_stubs
+  (language cxx)
+  (names arm32dba)
+  (flags :standard -I.))
+ (libraries util))
+
+(subdir
+ unisim/component/cxx/processor/arm/isa/arm64
+ (foreign_library
+  (archive_name arm64)
+  (language cxx)
+  (names (:standard))
+  (flags :standard -I../../../../../../..)
+  (extra_deps disasm.hh decode.hh ../decode.hh)))
+
+(subdir
+ aarch64
+ (foreign_library
+  (archive_name aarch64)
+  (language cxx)
+  (names (:standard))
+  (flags :standard -I. -I..)
+  (extra_deps
+   decoder.hh
+   ../unisim/util/symbolic/binsec/binsec.hh
+   ../unisim/util/symbolic/vector/vector.hh
+   ../unisim/util/symbolic/symbolic.hh
+   ../unisim/util/arithmetic/arithmetic.hh
+   ../unisim/util/inlining/inlining.hh
+   ../unisim/util/identifier/identifier.hh
+   aarch64dec.tcc
+   aarch64dec.hh
+   ../unisim/component/cxx/processor/arm/isa/arm64/decode.hh
+   ../unisim/component/cxx/processor/arm/isa/decode.hh
+   ../unisim/component/cxx/processor/arm/isa/arm64/disasm.hh
+   ../unisim/component/cxx/processor/arm/isa/arm64/execute.hh
+   ../unisim/component/cxx/processor/arm/psr.hh
+   ../unisim/component/cxx/processor/arm/register_field.hh
+   ../unisim/component/cxx/processor/arm/execute.hh
+   ../unisim/util/truth_table/truth_table.hh)))
+
+(library
+ (public_name unisim_archisec.aarch64dba)
+ (name aarch64dba)
+ (modules aarch64dba)
+ (foreign_archives
+  aarch64/aarch64
+  unisim/component/cxx/processor/arm/isa/arm64/arm64)
+ (foreign_stubs
+  (language cxx)
+  (names aarch64dba)
+  (flags :standard -I.))
+ (libraries util))
+
+(subdir
+ unisim/component/cxx/processor/intel
+ (include_subdirs unqualified)
+ (foreign_library
+  (archive_name intel)
+  (language cxx)
+  (names (:standard))
+  (flags :standard -I../../../../..)
+  (extra_deps
+   disasm.hh
+   segments.hh
+   tmp.hh
+   types.hh
+   ../../../../util/identifier/identifier.hh
+   modrm.hh
+   math.hh
+   types.hh
+   ../../../../util/identifier/identifier.hh)))
+
+(subdir
+ amd64
+ (foreign_library
+  (archive_name amd64)
+  (language cxx)
+  (names (:standard))
+  (flags :standard -I. -I..)
+  (extra_deps
+   arch.hh
+   ../unisim/component/cxx/processor/intel/isa/intel.hh
+   ../unisim/component/cxx/processor/intel/modrm.hh
+   ../unisim/component/cxx/processor/intel/types.hh
+   ../unisim/util/identifier/identifier.hh
+   ../unisim/component/cxx/processor/intel/segments.hh
+   ../unisim/component/cxx/processor/intel/disasm.hh
+   ../unisim/component/cxx/processor/intel/tmp.hh
+   ../unisim/component/cxx/processor/intel/vectorbank.hh
+   ../unisim/component/cxx/vector/vector.hh
+   ../unisim/util/symbolic/vector/vector.hh
+   ../unisim/util/symbolic/symbolic.hh
+   ../unisim/util/arithmetic/arithmetic.hh
+   ../unisim/util/inlining/inlining.hh
+   ../unisim/util/symbolic/binsec/binsec.hh
+   ../unisim/component/cxx/processor/intel/isa/intel.tcc
+   ../unisim/component/cxx/processor/intel/execute.hh
+   ../unisim/component/cxx/processor/intel/math.hh
+   ../unisim/component/cxx/processor/intel/isa/branch.hh
+   ../unisim/component/cxx/processor/intel/isa/integer.hh
+   ../unisim/component/cxx/processor/intel/isa/floatingpoint.hh
+   ../unisim/component/cxx/processor/intel/isa/move.hh
+   ../unisim/component/cxx/processor/intel/isa/string.hh
+   ../unisim/component/cxx/processor/intel/isa/special.hh
+   ../unisim/component/cxx/processor/intel/isa/simd.hh
+   arch.hh
+   ../unisim/component/cxx/processor/intel/isa/intel.hh
+   ../unisim/component/cxx/processor/intel/modrm.hh
+   ../unisim/component/cxx/processor/intel/types.hh
+   ../unisim/util/identifier/identifier.hh
+   ../unisim/component/cxx/processor/intel/segments.hh
+   ../unisim/component/cxx/processor/intel/disasm.hh
+   ../unisim/component/cxx/processor/intel/tmp.hh
+   ../unisim/component/cxx/processor/intel/vectorbank.hh
+   ../unisim/component/cxx/vector/vector.hh
+   ../unisim/util/symbolic/vector/vector.hh
+   ../unisim/util/symbolic/symbolic.hh
+   ../unisim/util/arithmetic/arithmetic.hh
+   ../unisim/util/inlining/inlining.hh
+   ../unisim/util/symbolic/binsec/binsec.hh
+   decoder.hh
+   arch.hh
+   ../unisim/component/cxx/processor/intel/isa/intel.hh
+   ../unisim/component/cxx/processor/intel/modrm.hh
+   ../unisim/component/cxx/processor/intel/types.hh
+   ../unisim/util/identifier/identifier.hh
+   ../unisim/component/cxx/processor/intel/segments.hh
+   ../unisim/component/cxx/processor/intel/disasm.hh
+   ../unisim/component/cxx/processor/intel/tmp.hh
+   ../unisim/component/cxx/processor/intel/vectorbank.hh
+   ../unisim/component/cxx/vector/vector.hh
+   ../unisim/util/symbolic/vector/vector.hh
+   ../unisim/util/symbolic/symbolic.hh
+   ../unisim/util/arithmetic/arithmetic.hh
+   ../unisim/util/inlining/inlining.hh
+   ../unisim/util/symbolic/binsec/binsec.hh)))
+
+(library
+ (public_name unisim_archisec.amd64dba)
+ (name amd64dba)
+ (modules amd64dba)
+ (foreign_archives amd64/amd64 unisim/component/cxx/processor/intel/intel)
+ (foreign_stubs
+  (language cxx)
+  (names amd64dba)
+  (flags :standard -I.))
+ (libraries util))
+
+(test
+ (name unittest)
+ (modes native)
+ (modules unittest)
+ (libraries arm32dba aarch64dba amd64dba))

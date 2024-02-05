@@ -1,0 +1,613 @@
+microwalk_aes_big_gcm-GCC9-O2:Target+59 -> microwalk_aes_big_gcm-GCC9-O2:RunTarget+0 ($AD96B4B238654D37)
+  microwalk_aes_big_gcm-GCC9-O2:RunTarget+26 -> microwalk_aes_big_gcm-GCC9-O2:br_aes_big_ctr_init+0 ($6F700ABF79799DE0)
+    microwalk_aes_big_gcm-GCC9-O2:br_aes_big_ctr_init+17 -> microwalk_aes_big_gcm-GCC9-O2:br_aes_keysched+0 ($F9CB73ECAE8EC122)
+      microwalk_aes_big_gcm-GCC9-O2:br_aes_keysched+94 -> microwalk_aes_big_gcm-GCC9-O2:SubWord+0 ($842A278AA2CCAA51)
+        [L] microwalk_aes_big_gcm-GCC9-O2:SubWord+15 (memory access)
+          - Number of calls: 10
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.10 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.05, min 1.00, max 1.12, score 99.58 +/- 0.67
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:SubWord+19 (memory access)
+          - Number of calls: 10
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.91 +/- 0.11 bits, min 3.70 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.05 +/- 0.06, min 1.00, max 1.19, score 99.33 +/- 0.82
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:SubWord+1f (memory access)
+          - Number of calls: 10
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.90 +/- 0.11 bits, min 3.62 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.05 +/- 0.05, min 1.00, max 1.19, score 99.33 +/- 0.73
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:SubWord+34 (memory access)
+          - Number of calls: 10
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.93 +/- 0.09 bits, min 3.70 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.06, min 1.00, max 1.19, score 99.50 +/- 0.76
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_aes_big_gcm-GCC9-O2:RunTarget+38 -> microwalk_aes_big_gcm-GCC9-O2:br_gcm_init+0 ($2985D70507192804)
+    microwalk_aes_big_gcm-GCC9-O2:br_gcm_init+56 -> microwalk_aes_big_gcm-GCC9-O2:br_aes_big_ctr_run+0 ($A957947E204CAFCE)
+      microwalk_aes_big_gcm-GCC9-O2:br_aes_big_ctr_run+89 -> microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+0 ($5085DB9620899849)
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+126 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.04, min 1.00, max 1.12, score 99.63 +/- 0.57
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+129 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+137 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.12 bits, min 3.62 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.06, min 1.00, max 1.19, score 99.44 +/- 0.79
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+146 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.93 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.54 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+159 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.91 +/- 0.09 bits, min 3.70 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.05 +/- 0.06, min 1.00, max 1.19, score 99.35 +/- 0.76
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+15d (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+160 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+166 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.63 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+17a (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+182 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.10 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.06 +/- 0.05, min 1.00, max 1.12, score 99.17 +/- 0.68
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+193 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.63 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1a0 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.63 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1b5 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.72 +/- 0.39
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1c0 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.90 +/- 0.14 bits, min 3.58 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.06 +/- 0.08, min 1.00, max 1.25, score 99.26 +/- 1.07
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1c8 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.90 +/- 0.09 bits, min 3.70 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.06 +/- 0.05, min 1.00, max 1.19, score 99.26 +/- 0.73
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1d5 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.63 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1fa (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1ff (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+20c (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+214 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+218 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+21e (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+238 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+251 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+25b (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+266 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+274 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+286 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+29f (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2a8 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2b2 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2b7 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_aes_big_gcm-GCC9-O2:RunTarget+6d -> microwalk_aes_big_gcm-GCC9-O2:br_gcm_run+0 ($651A83777A6EA597)
+    microwalk_aes_big_gcm-GCC9-O2:br_gcm_run+c5 -> microwalk_aes_big_gcm-GCC9-O2:br_aes_big_ctr_run+0 ($CF19DCE032C11F89)
+      microwalk_aes_big_gcm-GCC9-O2:br_aes_big_ctr_run+89 -> microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+0 ($5ACE4ED510984D62)
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+126 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.63 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+129 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.72 +/- 0.39
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+137 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.68 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+146 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.72 +/- 0.39
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+159 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+15d (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.07 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.04, min 1.00, max 1.12, score 99.63 +/- 0.50
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+160 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.07 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.04, min 1.00, max 1.12, score 99.72 +/- 0.48
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+166 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+17a (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+182 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+193 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.77 +/- 0.37
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1a0 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.04, min 1.00, max 1.12, score 99.44 +/- 0.56
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1b5 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.72 +/- 0.39
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1c0 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1c8 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.95 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.68 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1d5 (memory access)
+          - Number of calls: 18
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.04, min 1.00, max 1.12, score 99.58 +/- 0.50
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1fa (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1ff (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+20c (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.79 +/- 0.09 bits, min 3.70 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.12 +/- 0.06, min 1.06, max 1.19, score 98.33 +/- 0.83
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+214 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+218 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+21e (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.12 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.06 +/- 0.06, min 1.00, max 1.12, score 99.17 +/- 0.83
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+238 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+251 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.81 +/- 0.06 bits, min 3.75 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.09 +/- 0.03, min 1.06, max 1.12, score 98.75 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+25b (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+266 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+274 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.12 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.06 +/- 0.06, min 1.00, max 1.12, score 99.17 +/- 0.83
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+286 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+29f (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2a8 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.58 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2b2 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2b7 (memory access)
+          - Number of calls: 2
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.81 +/- 0.06 bits, min 3.75 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.09 +/- 0.03, min 1.06, max 1.12, score 98.75 +/- 0.42
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+  microwalk_aes_big_gcm-GCC9-O2:RunTarget+78 -> microwalk_aes_big_gcm-GCC9-O2:br_gcm_get_tag+0 ($664C5C7CB4A3AB72)
+    microwalk_aes_big_gcm-GCC9-O2:br_gcm_get_tag+9e -> microwalk_aes_big_gcm-GCC9-O2:br_aes_big_ctr_run+0 ($EAABE782445B2F8A)
+      microwalk_aes_big_gcm-GCC9-O2:br_aes_big_ctr_run+89 -> microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+0 ($88AB57A0F718F966)
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+126 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.72 +/- 0.39
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+129 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.04, min 1.00, max 1.12, score 99.72 +/- 0.56
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+137 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.04, min 1.00, max 1.12, score 99.72 +/- 0.56
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+146 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+159 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.63 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+15d (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.91 +/- 0.09 bits, min 3.70 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.05 +/- 0.06, min 1.00, max 1.19, score 99.35 +/- 0.76
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+160 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.04, min 1.00, max 1.12, score 99.63 +/- 0.57
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+166 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.03, min 1.00, max 1.06, score 99.63 +/- 0.41
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+17a (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+182 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.72 +/- 0.39
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+193 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.72 +/- 0.39
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1a0 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.92 +/- 0.08 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.04 +/- 0.04, min 1.00, max 1.12, score 99.44 +/- 0.56
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1b5 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.97 +/- 0.05 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.01 +/- 0.03, min 1.00, max 1.06, score 99.81 +/- 0.35
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1c0 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.94 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.04, min 1.00, max 1.12, score 99.63 +/- 0.57
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1c8 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.93 +/- 0.09 bits, min 3.75 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.03 +/- 0.04, min 1.00, max 1.12, score 99.54 +/- 0.57
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1d5 (memory access)
+          - Number of calls: 9
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.96 +/- 0.06 bits, min 3.88 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.02 +/- 0.03, min 1.00, max 1.06, score 99.72 +/- 0.39
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1fa (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+1ff (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+20c (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+214 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+218 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+21e (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.58 +/- 0.00 bits, min 3.58 bits, max 3.58 bits
+          - Cond. guessing entropy: 1.25 +/- 0.00, min 1.25, max 1.25, score 96.67 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+238 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.75 +/- 0.00 bits, min 3.75 bits, max 3.75 bits
+          - Cond. guessing entropy: 1.12 +/- 0.00, min 1.12, max 1.12, score 98.33 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+251 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+25b (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+266 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+274 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+286 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.88 +/- 0.00 bits, min 3.88 bits, max 3.88 bits
+          - Cond. guessing entropy: 1.06 +/- 0.00, min 1.06, max 1.06, score 99.17 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+29f (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2a8 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 3.75 +/- 0.00 bits, min 3.75 bits, max 3.75 bits
+          - Cond. guessing entropy: 1.12 +/- 0.00, min 1.12, max 1.12, score 98.33 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2b2 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+        [L] microwalk_aes_big_gcm-GCC9-O2:br_aes_big_encrypt+2b7 (memory access)
+          - Number of calls: 1
+          - Tree depth: 2.00 +/- 0.00, min 2, max 2
+          - Mutual information: 4.00 +/- 0.00 bits, min 4.00 bits, max 4.00 bits
+          - Cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00
+          - Min. cond. guessing entropy: 1.00 +/- 0.00, min 1.00, max 1.00, score 100.00 +/- 0.00

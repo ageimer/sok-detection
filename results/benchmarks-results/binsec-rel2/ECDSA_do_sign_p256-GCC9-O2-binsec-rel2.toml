@@ -1,0 +1,53 @@
+["CT report"."Insecurity models".0x0804be89.public]
+ECDSA_Q = ["0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000204854fd"]
+ECDSA_sha1 = ["0x0000000000000000000000000000000004fbe177"]
+mm0 = ["0x0000000004edbc97"]
+mm2 = ["0x000000000668d7ab"]
+mm3 = ["0x00000000196c1dbf"]
+mm4 = ["0x000000003a0ddd88"]
+mm5 = ["0x000000003d781a83"]
+mm6 = ["0x00000000036c5bf6"]
+mm7 = ["0x000000002b600e65"]
+ymm0 = ["0x00000000000000000000000000000000000000000000000000000000043fc9d1"]
+["CT report"."Insecurity models".0x0804be89.secret1]
+bs_secret = ["0x0000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Insecurity models".0x0804be89.secret2]
+bs_secret = ["0x0000000000000000000000000000000000000000000000000000000000000001"]
+["CT report"."Instructions status"]
+insecure = ["0x0804be89"]
+unknown = []
+[Exploration]
+"branching points" = 55097184
+"competed/cut paths" = 0
+"failed assertions" = 0
+"max path depth" = 990552
+"pending paths" = 3
+"stale paths" = 426
+"total paths" = 429
+"visited instructions (unrolled)" = 333253095
+["State statistics"."CT checks"]
+"Solver time" = 1.98566460609
+["State statistics"."CT checks"."Control flow checks"]
+"insecure (CV)" = 1
+"insecure (RelSE)" = 0
+"secure (RelSE)" = 448
+"secure (taint)" = 55096308
+unknown = 0
+["State statistics"."CT checks"."Memory access checks"]
+"insecure (CV)" = 0
+"insecure (RelSE)" = 0
+"secure (RelSE)" = 0
+"secure (taint)" = 180122479
+unknown = 0
+["State statistics"."SMT queries"."Preprocessing simplifications"]
+"constant enum" = 13293172
+sat = 18703334
+total = 55917595
+unsat = 23921089
+["State statistics"."SMT queries"."Satisfiability queries"]
+average = 0.0016215315489
+sat = 428
+time = 1.90854263306
+total = 1177
+unknown = 0
+unsat = 749

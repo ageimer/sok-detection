@@ -1,0 +1,56 @@
+[checkct:debug] Reading script from ./src/relse2_script_coredump.ini
+[checkct:debug] 00000000 :: 0x08048000-0x08049000 00000000 /home/antoine/Documents/sok-detection/code/build/GenkinVY17/gcry_pk_decrypt-GCC9-O2
+[checkct:debug] Reading script from ./src/vuln_validation/secrets_decrypt.ini
+[checkct:debug] Reading script from ./build/GenkinVY17/gcry_pk_decrypt-GCC9-O2.tls
+[checkct:result] Instruction 0x080971ad has control flow leak (0.431s)
+[checkct:result] Instruction 0x08097203 has control flow leak (0.664s)
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          11899
+                    sat            3927
+                    unsat          5577
+                    constant enum  2395
+                  
+                  Satisfiability queries
+                    total          163
+                    sat            32
+                    unsat          131
+                    unknown        0
+                    time           654.52
+                    average        4.02
+                  
+                CT checks
+                  Control flow checks      11955
+                    secure (taint)         11813
+                    insecure (CV)          2
+                    secure (RelSE)         140
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     31339
+                    secure (taint)         31208
+                    insecure (CV)          0
+                    secure (RelSE)         131
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    43294
+                  Total solver time        2918.28
+                  Average solver time      10.77
+                  
+                Exploration
+                  total paths                      33
+                  completed/cut paths              0
+                  pending paths                    33
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 12002
+                  max path depth                   65912
+                  visited instructions (unrolled)  65912
+                  visited instructions (static)    5141
+                
+                
+[checkct:result] Program status is : insecure (3601.843)
+[checkct:info] 0 visited path covering 5141 instructions
+[checkct:info] 11953 / 11955 control flow checks pass
+[checkct:info] 31339 / 31339 memory access checks pass
+[checkct:warning] Exploration is incomplete:
+                  - timeout has left (at least) 33 pending paths (-checkct-timeout)

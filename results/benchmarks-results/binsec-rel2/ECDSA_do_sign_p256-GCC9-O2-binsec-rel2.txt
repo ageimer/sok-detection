@@ -1,0 +1,490 @@
+[checkct:debug] Reading script from ./src/relse2_script_coredump.ini
+[checkct:debug] 00000000 :: 0x08048000-0x08049000 00000000 /home/antoine/Documents/sok-detection/code/build/ECDSA-openssl/ECDSA_do_sign_p256-GCC9-O2
+[checkct:debug] Reading script from ./src/benchmark/secrets_ecdsa_p256.ini
+[checkct:debug] Reading script from ./build/ECDSA-openssl/ECDSA_do_sign_p256-GCC9-O2.tls
+[checkct:result] Instruction 0x0804be89 has control flow leak (50.997s)
+[x86:fatal] Decoder message has no opcode field. Aborting.
+[x86:error] Probable parse error at line 3, column 0
+            Lexeme was: 
+            Entry was: (address . 0xf7ffc545)
+(undefined)
+
+            Getting basic infos only ... 
+[x86:fatal] Decoder message has no opcode field. Aborting.
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          55917595
+                    sat            18703334
+                    unsat          23921089
+                    constant enum  13293172
+                  
+                  Satisfiability queries
+                    total          1177
+                    sat            428
+                    unsat          749
+                    unknown        0
+                    time           1.91
+                    average        0.00
+                  
+                CT checks
+                  Control flow checks      55096757
+                    secure (taint)         55096308
+                    insecure (CV)          1
+                    secure (RelSE)         448
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     180122479
+                    secure (taint)         180122479
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    235219236
+                  Total solver time        1.99
+                  Average solver time      0.00
+                  
+                Exploration
+                  total paths                      429
+                  completed/cut paths              0
+                  pending paths                    3
+                  stale paths                      426
+                  failed assertions                0
+                  branching points                 55097184
+                  max path depth                   990552
+                  visited instructions (unrolled)  333253095
+                  visited instructions (static)    17752
+                
+                
+[checkct:result] Program status is : insecure (3600.148)
+[checkct:info] 0 visited path covering 17752 instructions
+[checkct:info] 55096756 / 55096757 control flow checks pass
+[checkct:info] 180122479 / 180122479 memory access checks pass
+[checkct:warning] Exploration is incomplete:
+                  - timeout has left (at least) 3 pending paths (-checkct-timeout)
+                  - 426 SMT solver queries remain unsolved (-fml-solver-timeout)

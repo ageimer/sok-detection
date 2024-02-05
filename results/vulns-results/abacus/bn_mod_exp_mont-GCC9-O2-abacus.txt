@@ -1,0 +1,37 @@
+Total Constrains: 4
+Control Transfer: 3
+Data Access: 1
+START:
+Address: 804c606 Leaked:0.0 bits Type: CF  Num of Satisfied: 994 Total Sampling Numbers: 1000
+Address: 804c60b Leaked:5.9 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 1000
+Address: 804a5fb Type: CF 
+ Monte Carlo Failed
+Address: 804a819 Type: CF 
+ Monte Carlo Failed
+DETAILS:
+------------------------------------------------------------
+Address: 804c606 Leaked:0.0 bits Type: CF  Num of Satisfied: 994 Total Sampling Numbers: 1000
+Function Name:  BN_num_bits Module Name:  /home/antoine/Documents/sok-detection/code/build/AldayaGT19/bn_mod_exp_mont-GCC9-O2 Offset: 54
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804c60b Leaked:5.9 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 1000
+Function Name:  BN_num_bits Module Name:  /home/antoine/Documents/sok-detection/code/build/AldayaGT19/bn_mod_exp_mont-GCC9-O2 Offset: 59
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a5fb Type: CF 
+ Monte Carlo Failed
+Function Name:  BN_mod_exp_mont.part.0 Module Name:  /home/antoine/Documents/sok-detection/code/build/AldayaGT19/bn_mod_exp_mont-GCC9-O2 Offset: 731
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a819 Type: CF 
+ Monte Carlo Failed
+Function Name:  BN_mod_exp_mont.part.0 Module Name:  /home/antoine/Documents/sok-detection/code/build/AldayaGT19/bn_mod_exp_mont-GCC9-O2 Offset: 1273
+
+------------------------------------------------------------
+Total Instructions:: 2995066
+Time taken by SE: 30.3356 seconds
+Time taken by MC: 2.25866 seconds
+Total Time: 32.5943 seconds

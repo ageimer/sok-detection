@@ -1,0 +1,249 @@
+Total Constrains: 36
+Control Transfer: 0
+Data Access: 36
+START:
+Address: 804d124 Type: DA 
+ Monte Carlo Failed
+Address: 804d131 Type: DA 
+ Monte Carlo Failed
+Address: 804d13e Type: DA 
+ Monte Carlo Failed
+Address: 804d14b Type: DA 
+ Monte Carlo Failed
+Address: 8049f08 Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Address: 8049f10 Leaked:14.9 bits Type: DA  Num of Satisfied: 5 Total Sampling Numbers: 151000
+Address: 8049f25 Type: DA 
+ Monte Carlo Failed
+Address: 8049f34 Type: DA 
+ Monte Carlo Failed
+Address: 8049f4d Leaked:13.0 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 80000
+Address: 8049f55 Type: DA 
+ Monte Carlo Failed
+Address: 8049f6a Type: DA 
+ Monte Carlo Failed
+Address: 8049f79 Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Address: 8049f92 Type: DA 
+ Monte Carlo Failed
+Address: 8049f9a Type: DA 
+ Monte Carlo Failed
+Address: 8049fb5 Leaked:6.6 bits Type: DA  Num of Satisfied: 20 Total Sampling Numbers: 2000
+Address: 8049fc2 Leaked:14.9 bits Type: DA  Num of Satisfied: 5 Total Sampling Numbers: 151000
+Address: 8049fd2 Type: DA 
+ Monte Carlo Failed
+Address: 8049fda Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Address: 8049fee Leaked:14.2 bits Type: DA  Num of Satisfied: 8 Total Sampling Numbers: 151000
+Address: 8049ffc Type: DA 
+ Monte Carlo Failed
+Address: 804a104 Leaked:7.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 2000
+Address: 804a10c Leaked:7.3 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 3000
+Address: 804a121 Leaked:7.0 bits Type: DA  Num of Satisfied: 23 Total Sampling Numbers: 3000
+Address: 804a130 Leaked:7.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 2000
+Address: 804a149 Leaked:6.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 1000
+Address: 804a151 Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Address: 804a166 Leaked:6.7 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 2000
+Address: 804a175 Leaked:6.8 bits Type: DA  Num of Satisfied: 18 Total Sampling Numbers: 2000
+Address: 804a18e Leaked:6.7 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 2000
+Address: 804a196 Leaked:7.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 2000
+Address: 804a1b1 Leaked:7.6 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 3000
+Address: 804a1be Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Address: 804a1d2 Leaked:6.0 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 1000
+Address: 804a1da Leaked:7.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 2000
+Address: 804a1ee Leaked:6.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 1000
+Address: 804a1fc Leaked:7.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 2000
+DETAILS:
+------------------------------------------------------------
+Address: 804d124 Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_set_encrypt_key Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 164
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804d131 Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_set_encrypt_key Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 177
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804d13e Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_set_encrypt_key Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 190
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804d14b Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_set_encrypt_key Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 203
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f08 Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 72
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f10 Leaked:14.9 bits Type: DA  Num of Satisfied: 5 Total Sampling Numbers: 151000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 80
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f25 Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 101
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f34 Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 116
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f4d Leaked:13.0 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 80000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 141
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f55 Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 149
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f6a Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 170
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f79 Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 185
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f92 Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 210
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049f9a Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 218
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049fb5 Leaked:6.6 bits Type: DA  Num of Satisfied: 20 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 245
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049fc2 Leaked:14.9 bits Type: DA  Num of Satisfied: 5 Total Sampling Numbers: 151000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 258
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049fd2 Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 274
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049fda Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 282
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049fee Leaked:14.2 bits Type: DA  Num of Satisfied: 8 Total Sampling Numbers: 151000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 302
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 8049ffc Type: DA 
+ Monte Carlo Failed
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 316
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a104 Leaked:7.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 580
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a10c Leaked:7.3 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 3000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 588
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a121 Leaked:7.0 bits Type: DA  Num of Satisfied: 23 Total Sampling Numbers: 3000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 609
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a130 Leaked:7.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 624
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a149 Leaked:6.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 1000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 649
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a151 Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 657
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a166 Leaked:6.7 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 678
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a175 Leaked:6.8 bits Type: DA  Num of Satisfied: 18 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 693
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a18e Leaked:6.7 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 718
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a196 Leaked:7.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 726
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1b1 Leaked:7.6 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 3000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 753
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1be Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 766
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1d2 Leaked:6.0 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 1000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 786
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1da Leaked:7.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 794
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1ee Leaked:6.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 1000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 814
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a1fc Leaked:7.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 2000
+Function Name:  _x86_AES_encrypt_compact Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-openssl/aes_cbc_encrypt-GCC9-O2 Offset: 828
+
+------------------------------------------------------------
+Total Instructions:: 4011
+Time taken by SE: 0.045893 seconds
+Time taken by MC: 1.90624 seconds
+Total Time: 1.95213 seconds

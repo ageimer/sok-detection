@@ -1,0 +1,16 @@
+#!/bin/sh
+
+set -e
+for f in `git diff --cached --name-only --diff-filter=ACM`; do
+    if [ "${f##*.}" = "mli" ] || [ "${f##*.}" = "ml" ]; then
+	mode=`stat -c '%a' $f`
+	## apply ocamlformat to the stagged file only
+	hash=`git show :$f | ocamlformat --name $f - | \
+	      git hash-object -w --stdin`
+	git update-index --add --cacheinfo $mode,$hash,$f
+	## but also format the working tree
+	ocamlformat $f --inplace
+    fi
+done
+
+exit 0

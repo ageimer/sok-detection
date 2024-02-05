@@ -1,0 +1,3 @@
+[relse:debug] Reading initialization from ./src/relse1_memory.txt
+[relse:warning] [Stub] Symbol bzero not found
+[relse:result] [Exploration] Timeout of the RelSE

@@ -1,0 +1,11 @@
+prefix=/home/antoine/Documents/thesis/sok-detection-public/lib/amd64/openssl-1.1.1a/
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 1.1.1a
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Cflags: -I${includedir}

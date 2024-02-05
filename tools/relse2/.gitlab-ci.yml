@@ -1,0 +1,47 @@
+# nix is faster once all deps are built
+# only run docker if nix passes
+stages:
+  - build
+  - opam
+
+build:nix:
+  tags:
+    - nix
+  stage: build
+  # the version of nix on the CI is too old so we use a revision of NixOS 20.03
+  # as of 2020-07-22 to fetch a newer version of nix
+  script:
+    - nix-shell -I nixpkgs=https://github.com/NixOS/nixpkgs/archive/9ea61f7bc4454734ffbff73c9b6173420fe3147b.tar.gz -p nix --run "nix-build nix/pkgs.nix -A binsec_appimage"
+  artifacts:
+    paths:
+      - result/binsec-x86_64.AppImage
+
+opam:pin:
+  tags:
+    - docker
+  stage: opam
+  only: [ merge_requests ]
+  image: 'ocaml/opam:$OS-ocaml-$OCAML'
+  parallel:
+    matrix:
+    - OS:    [ 'debian' ]
+      OCAML: [ '4.08' ]
+  script: >
+    true
+    && opam pin . -n
+    && opam depext -u -i binsec
+    && opam exec -- binsec -version
+
+opam:pin:depopts:
+  tags:
+    - docker
+  stage: opam
+  only: [ merge_requests ]
+  image: 'ocaml/opam:ubuntu-ocaml-4.08'
+  script: >
+    true
+    && opam pin . -n
+    && opam list --depopts --required-by=binsec.0.4.0 -s --columns=package
+    | xargs opam depext -u -i
+    && opam depext -i binsec
+    && opam exec -- binsec -version

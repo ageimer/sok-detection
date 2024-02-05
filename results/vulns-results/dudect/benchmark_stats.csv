@@ -1,0 +1,10 @@
+name,dudect_status,dudect_time
+ec_wnaf_mul-GCC9-O2,0,24.4988360404968
+mbedtls_mpi_gcd-GCC9-O2,0,4.263099193573
+mbedtls_mpi_inv_mod-GCC9-O2,0,17.6979668140411
+mbedtls_rsa_complete-GCC9-O2,0,2205.06592321396
+bn_gcd-GCC9-O2,0,0.697597980499268
+bn_mod_exp_mont-GCC9-O2,0,6.9636242389679
+bn_mod_inverse-GCC9-O2,0,1.68535017967224
+gcry_pk_decrypt-GCC9-O2,0,89.4567394256592
+gcry_mpi_mod-GCC9-O2,0,0.40517258644104

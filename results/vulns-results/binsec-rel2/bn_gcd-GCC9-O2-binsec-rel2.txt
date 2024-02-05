@@ -1,0 +1,82 @@
+[checkct:debug] Reading script from ./src/relse2_script.ini
+[checkct:info] Load section .text (0x080490b0, 0xa5711)
+[checkct:info] Load section .data (0x08141060, 0x11e0)
+[checkct:info] Load section .rodata (0x080f0000, 0x26790)
+[checkct:info] Load section .bss (0x08142640, 0x253c)
+[checkct:info] Load section .got.plt (0x08141000, 0x4c)
+[checkct:info] Load section .plt (0x08049030, 0x80)
+[checkct:info] Load section .got (0x08140fd4, 0x28)
+[checkct:info] Load section .data.rel.ro (0x08139be0, 0x73f4)
+[checkct:info] Load section .tdata (0x08139bc0, 0x10)
+[checkct:debug] Reading script from ./src/vuln_validation/secrets_gcd.ini
+[checkct:result] Instruction 0x0804ac35 has control flow leak (0.051s)
+[checkct:debug] Directive :: cut path 0 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 17 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 16 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 15 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 14 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 13 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 12 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 11 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 10 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 9 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 8 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 7 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 6 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 5 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 4 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 3 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 2 @ 0xabcdef01
+[checkct:debug] Directive :: cut path 1 @ 0xabcdef01
+[checkct:result] Instruction 0x0804afd0 has control flow leak (0.354s)
+[checkct:result] Instruction 0x0804ba51 has control flow leak (0.362s)
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          7521
+                    sat            2838
+                    unsat          1916
+                    constant enum  2767
+                  
+                  Satisfiability queries
+                    total          312
+                    sat            53
+                    unsat          259
+                    unknown        0
+                    time           528.47
+                    average        1.69
+                  
+                CT checks
+                  Control flow checks      7727
+                    secure (taint)         7479
+                    insecure (CV)          1
+                    secure (RelSE)         245
+                    insecure (RelSE)       2
+                    unknown                0
+                  Memory access checks     25167
+                    secure (taint)         24609
+                    insecure (CV)          0
+                    secure (RelSE)         558
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    32894
+                  Total solver time        3065.21
+                  Average solver time      3.81
+                  
+                Exploration
+                  total paths                      54
+                  completed/cut paths              18
+                  pending paths                    36
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 7792
+                  max path depth                   4192
+                  visited instructions (unrolled)  42585
+                  visited instructions (static)    1027
+                
+                
+[checkct:result] Program status is : insecure (3600.386)
+[checkct:info] 18 visited paths covering 1027 instructions
+[checkct:info] 7724 / 7727 control flow checks pass
+[checkct:info] 25167 / 25167 memory access checks pass
+[checkct:warning] Exploration is incomplete:
+                  - timeout has left (at least) 36 pending paths (-checkct-timeout)

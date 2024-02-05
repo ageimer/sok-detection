@@ -1,0 +1,10 @@
+html { box-sizing:border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body { font-family:'Courier New',Courier,monospace;font-style:normal;font-size:14px;text-align:left;font-weight:400;color:#000;margin-left:auto;margin-right:auto;background:#FFF; }
+
+.log { margin:0.25em 0.25em 0.25em 0.25em; }
+.log span { width:100%; display:block; white-space: nowrap; }
+.info {}
+.warning { background-color:orange; }
+.error { background-color:red; }

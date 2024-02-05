@@ -1,0 +1,70 @@
+[checkct:debug] Reading script from ./src/relse2_script.ini
+[checkct:info] Load section .text (0x080490c0, 0x171011)
+[checkct:info] Load section .data (0x08273060, 0x1ee8)
+[checkct:info] Load section .rodata (0x081bb000, 0x3280c)
+[checkct:info] Load section .bss (0x082753a0, 0x3efc)
+[checkct:info] Load section .got.plt (0x08273000, 0x54)
+[checkct:info] Load section .plt (0x08049030, 0x90)
+[checkct:info] Load section .got (0x08272e74, 0x17c)
+[checkct:info] Load section .data.rel.ro (0x08263f40, 0xef34)
+[checkct:info] Load section .tdata (0x08263f20, 0x10)
+[checkct:warning] Jump
+                  (0x08164b6e, 3) :
+                  goto temp32<32> #call with return address @ (0x08164b75, 0)
+                  could have led to invalid address 0x00000000; skipping
+[checkct:warning] Jump
+                  (0x08164b6e, 3) :
+                  goto temp32<32> #call with return address @ (0x08164b75, 0)
+                  could have led to invalid address 0xffffffff; skipping
+[checkct:warning] Jump
+                  (0x08164b6e, 3) :
+                  goto temp32<32> #call with return address @ (0x08164b75, 0)
+                  could have led to invalid address 0xfffffffe; skipping
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          734
+                    sat            186
+                    unsat          212
+                    constant enum  336
+                  
+                  Satisfiability queries
+                    total          2
+                    sat            2
+                    unsat          0
+                    unknown        0
+                    time           0.00
+                    average        0.00
+                  
+                CT checks
+                  Control flow checks      721
+                    secure (taint)         721
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     2910
+                    secure (taint)         2910
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    3631
+                  Total solver time        0.00
+                  Average solver time      -nan
+                  
+                Exploration
+                  total paths                      3
+                  completed/cut paths              3
+                  pending paths                    0
+                  stale paths                      0
+                  failed assertions                0
+                  branching points                 721
+                  max path depth                   4222
+                  visited instructions (unrolled)  4222
+                  visited instructions (static)    1340
+                
+                
+[checkct:result] Program status is : secure (0.145)
+[checkct:info] 3 visited paths covering 1340 instructions
+[checkct:info] 721 / 721 control flow checks pass
+[checkct:info] 2910 / 2910 memory access checks pass

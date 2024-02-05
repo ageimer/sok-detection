@@ -1,0 +1,49 @@
+{
+   libc_setup_tls
+   Memcheck:Param
+   set_robust_list(head)
+   fun:*
+   ...
+   fun:__libc_setup_tls
+   fun:(below main)
+}
+{
+   libc_init_firt
+   Memcheck:Cond
+   fun:*
+   ...
+   fun:__libc_init_first
+   fun:(below main)
+}
+{
+   exit_uninitialized_value
+   Memcheck:Value4
+   fun:*
+   ...
+   fun:exit
+   fun:(below main)
+}
+{
+   exit_uninitialized_cond
+   Memcheck:Cond
+   fun:*
+   ...
+   fun:exit
+   fun:(below main)
+}
+{
+   ossl_lib_ctx_default_deinit_value
+   Memcheck:Value4
+   fun:*
+   ...
+   fun:ossl_lib_ctx_default_deinit
+   fun:(below main)
+}
+{
+   ossl_lib_ctx_default_deinit_cond
+   Memcheck:Cond
+   fun:*
+   ...
+   fun:ossl_lib_ctx_default_deinit
+   fun:(below main)
+}

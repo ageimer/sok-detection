@@ -1,0 +1,429 @@
+Total Constrains: 68
+Control Transfer: 0
+Data Access: 68
+START:
+Address: 804a2c0 Type: DA 
+ Monte Carlo Failed
+Address: 804a2db Type: DA 
+ Monte Carlo Failed
+Address: 804a2f9 Type: DA 
+ Monte Carlo Failed
+Address: 804a316 Type: DA 
+ Monte Carlo Failed
+Address: 804ad17 Leaked:8.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 4000
+Address: 804ad29 Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Address: 804ad3b Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Address: 804ad4d Type: DA 
+ Monte Carlo Failed
+Address: 804ad6a Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Address: 804ad7c Leaked:17.2 bits Type: DA  Num of Satisfied: 1 Total Sampling Numbers: 151000
+Address: 804ad8e Leaked:17.2 bits Type: DA  Num of Satisfied: 1 Total Sampling Numbers: 151000
+Address: 804ada0 Leaked:7.6 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 3000
+Address: 804adbd Leaked:17.2 bits Type: DA  Num of Satisfied: 1 Total Sampling Numbers: 151000
+Address: 804adcf Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Address: 804ade1 Leaked:8.1 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 3000
+Address: 804adf3 Leaked:8.0 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 3000
+Address: 804ae10 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Address: 804ae22 Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Address: 804ae34 Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Address: 804ae46 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Address: 804ae63 Leaked:8.0 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 3000
+Address: 804ae75 Leaked:7.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 2000
+Address: 804ae87 Leaked:14.6 bits Type: DA  Num of Satisfied: 6 Total Sampling Numbers: 151000
+Address: 804ae99 Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Address: 804aeb6 Leaked:8.0 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 4000
+Address: 804aec8 Leaked:17.2 bits Type: DA  Num of Satisfied: 1 Total Sampling Numbers: 151000
+Address: 804aeda Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Address: 804aeec Leaked:7.9 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 3000
+Address: 804af09 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Address: 804af1b Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Address: 804af2d Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Address: 804af3f Leaked:8.5 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 5000
+Address: 804af5c Leaked:14.6 bits Type: DA  Num of Satisfied: 6 Total Sampling Numbers: 151000
+Address: 804af6e Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Address: 804af80 Leaked:8.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 4000
+Address: 804af92 Type: DA 
+ Monte Carlo Failed
+Address: 804afbd Leaked:8.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 4000
+Address: 804afcf Leaked:8.1 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 3000
+Address: 804afe1 Leaked:8.1 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 3000
+Address: 804aff3 Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Address: 804b010 Leaked:8.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 4000
+Address: 804b022 Leaked:7.7 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 3000
+Address: 804b034 Leaked:7.5 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 3000
+Address: 804b046 Leaked:8.4 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 5000
+Address: 804b063 Leaked:7.9 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 4000
+Address: 804b075 Leaked:8.0 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 4000
+Address: 804b087 Leaked:8.5 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 5000
+Address: 804b099 Leaked:7.9 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 3000
+Address: 804b0b6 Leaked:9.0 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 6000
+Address: 804b0c8 Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Address: 804b0da Leaked:7.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 2000
+Address: 804b0ec Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Address: 804b109 Leaked:7.7 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 3000
+Address: 804b11f Leaked:6.7 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 2000
+Address: 804b138 Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Address: 804b151 Leaked:6.9 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 2000
+Address: 804b175 Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Address: 804b18b Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Address: 804b1a4 Leaked:7.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 2000
+Address: 804b1bd Leaked:6.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 1000
+Address: 804b1e1 Leaked:7.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 2000
+Address: 804b1f7 Leaked:6.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 1000
+Address: 804b210 Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Address: 804b229 Leaked:7.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 2000
+Address: 804b24d Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Address: 804b263 Leaked:6.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 1000
+Address: 804b27c Leaked:6.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 1000
+Address: 804b295 Leaked:7.6 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 3000
+DETAILS:
+------------------------------------------------------------
+Address: 804a2c0 Type: DA 
+ Monte Carlo Failed
+Function Name:  mbedtls_aes_setkey_enc Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 351
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a2db Type: DA 
+ Monte Carlo Failed
+Function Name:  mbedtls_aes_setkey_enc Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 378
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a2f9 Type: DA 
+ Monte Carlo Failed
+Function Name:  mbedtls_aes_setkey_enc Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 408
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804a316 Type: DA 
+ Monte Carlo Failed
+Function Name:  mbedtls_aes_setkey_enc Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 437
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ad17 Leaked:8.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 4000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 432
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ad29 Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 450
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ad3b Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 468
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ad4d Type: DA 
+ Monte Carlo Failed
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 486
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ad6a Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 515
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ad7c Leaked:17.2 bits Type: DA  Num of Satisfied: 1 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 533
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ad8e Leaked:17.2 bits Type: DA  Num of Satisfied: 1 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 551
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ada0 Leaked:7.6 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 569
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804adbd Leaked:17.2 bits Type: DA  Num of Satisfied: 1 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 598
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804adcf Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 616
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ade1 Leaked:8.1 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 634
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804adf3 Leaked:8.0 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 652
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ae10 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 681
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ae22 Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 699
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ae34 Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 717
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ae46 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 735
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ae63 Leaked:8.0 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 764
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ae75 Leaked:7.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 782
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ae87 Leaked:14.6 bits Type: DA  Num of Satisfied: 6 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 800
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804ae99 Leaked:15.6 bits Type: DA  Num of Satisfied: 3 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 818
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804aeb6 Leaked:8.0 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 4000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 847
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804aec8 Leaked:17.2 bits Type: DA  Num of Satisfied: 1 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 865
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804aeda Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 883
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804aeec Leaked:7.9 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 901
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804af09 Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 930
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804af1b Leaked:16.2 bits Type: DA  Num of Satisfied: 2 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 948
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804af2d Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 966
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804af3f Leaked:8.5 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 5000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 984
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804af5c Leaked:14.6 bits Type: DA  Num of Satisfied: 6 Total Sampling Numbers: 151000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1013
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804af6e Leaked:8.2 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1031
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804af80 Leaked:8.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 4000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1049
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804af92 Type: DA 
+ Monte Carlo Failed
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1067
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804afbd Leaked:8.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 4000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1110
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804afcf Leaked:8.1 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1128
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804afe1 Leaked:8.1 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1146
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804aff3 Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1164
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b010 Leaked:8.2 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 4000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1193
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b022 Leaked:7.7 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1211
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b034 Leaked:7.5 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1229
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b046 Leaked:8.4 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 5000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1247
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b063 Leaked:7.9 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 4000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1276
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b075 Leaked:8.0 bits Type: DA  Num of Satisfied: 16 Total Sampling Numbers: 4000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1294
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b087 Leaked:8.5 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 5000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1312
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b099 Leaked:7.9 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1330
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b0b6 Leaked:9.0 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 6000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1359
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b0c8 Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1377
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b0da Leaked:7.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1395
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b0ec Leaked:7.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1413
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b109 Leaked:7.7 bits Type: DA  Num of Satisfied: 14 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1442
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b11f Leaked:6.7 bits Type: DA  Num of Satisfied: 19 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1464
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b138 Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1489
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b151 Leaked:6.9 bits Type: DA  Num of Satisfied: 17 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1514
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b175 Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1550
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b18b Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1572
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b1a4 Leaked:7.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1597
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b1bd Leaked:6.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 1000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1622
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b1e1 Leaked:7.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1658
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b1f7 Leaked:6.5 bits Type: DA  Num of Satisfied: 11 Total Sampling Numbers: 1000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1680
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b210 Leaked:6.6 bits Type: DA  Num of Satisfied: 10 Total Sampling Numbers: 1000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1705
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b229 Leaked:7.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1730
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b24d Leaked:7.3 bits Type: DA  Num of Satisfied: 13 Total Sampling Numbers: 2000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1766
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b263 Leaked:6.4 bits Type: DA  Num of Satisfied: 12 Total Sampling Numbers: 1000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1788
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b27c Leaked:6.1 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 1000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1813
+
+------------------------------------------------------------
+------------------------------------------------------------
+Address: 804b295 Leaked:7.6 bits Type: DA  Num of Satisfied: 15 Total Sampling Numbers: 3000
+Function Name:  mbedtls_internal_aes_encrypt Module Name:  /home/antoine/Documents/sok-detection/code/build/AES-mbedtls/aes_crypt_cbc-GCC9-O2 Offset: 1838
+
+------------------------------------------------------------
+Total Instructions:: 5052
+Time taken by SE: 0.083553 seconds
+Time taken by MC: 4.4893 seconds
+Total Time: 4.57286 seconds

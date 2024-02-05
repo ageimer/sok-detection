@@ -1,0 +1,63 @@
+[checkct:debug] Reading script from ./src/relse2_script_coredump.ini
+[checkct:debug] 00000000 :: 0x08048000-0x08049000 00000000 /home/antoine/Documents/sok-detection/code/build/ECDSA-mbedtls/ecdsa_sign_det_ext_p256-GCC9-O2
+[checkct:debug] Reading script from ./src/benchmark/secrets_ecdsa_p256.ini
+[checkct:debug] Reading script from ./build/ECDSA-mbedtls/ecdsa_sign_det_ext_p256-GCC9-O2.tls
+[x86:fatal] Decoder message has no opcode field. Aborting.
+[x86:error] Probable parse error at line 3, column 0
+            Lexeme was: 
+            Entry was: (address . 0xf7ffc545)
+(undefined)
+
+            Getting basic infos only ... 
+[x86:fatal] Decoder message has no opcode field. Aborting.
+[checkct:warning] Cut @ (0xf7ffc545, 0) : KO
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          333
+                    sat            94
+                    unsat          74
+                    constant enum  165
+                  
+                  Satisfiability queries
+                    total          0
+                    sat            0
+                    unsat          0
+                    unknown        0
+                    time           0.00
+                    average        -nan
+                  
+                CT checks
+                  Control flow checks      331
+                    secure (taint)         331
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     2653
+                    secure (taint)         2653
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    2984
+                  Total solver time        0.00
+                  Average solver time      -nan
+                  
+                Exploration
+                  total paths                      1
+                  completed/cut paths              0
+                  pending paths                    0
+                  stale paths                      1
+                  failed assertions                0
+                  branching points                 331
+                  max path depth                   4026
+                  visited instructions (unrolled)  4026
+                  visited instructions (static)    1741
+                
+                
+[checkct:result] Program status is : unknown (0.112)
+[checkct:info] 0 visited path covering 1741 instructions
+[checkct:info] 331 / 331 control flow checks pass
+[checkct:info] 2653 / 2653 memory access checks pass
+[checkct:warning] Exploration is incomplete:
+                  - 1 SMT solver queries remain unsolved (-fml-solver-timeout)

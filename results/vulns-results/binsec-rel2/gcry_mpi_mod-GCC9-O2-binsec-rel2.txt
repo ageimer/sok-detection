@@ -1,0 +1,55 @@
+[checkct:debug] Reading script from ./src/relse2_script_coredump.ini
+[checkct:debug] 00000000 :: 0x08048000-0x08049000 00000000 /home/antoine/Documents/sok-detection/code/build/GenkinVY17/gcry_mpi_mod-GCC9-O2
+[checkct:debug] Reading script from ./src/vuln_validation/secrets_mod.ini
+[checkct:debug] Reading script from ./build/GenkinVY17/gcry_mpi_mod-GCC9-O2.tls
+[checkct:debug] SMT queries
+                  Preprocessing simplifications
+                    total          615
+                    sat            234
+                    unsat          250
+                    constant enum  131
+                  
+                  Satisfiability queries
+                    total          53
+                    sat            38
+                    unsat          9
+                    unknown        6
+                    time           51.53
+                    average        0.97
+                  
+                CT checks
+                  Control flow checks      658
+                    secure (taint)         658
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  Memory access checks     2362
+                    secure (taint)         2362
+                    insecure (CV)          0
+                    secure (RelSE)         0
+                    insecure (RelSE)       0
+                    unknown                0
+                  TOTAL                    3020
+                  Total solver time        0.00
+                  Average solver time      -nan
+                  
+                Exploration
+                  total paths                      39
+                  completed/cut paths              0
+                  pending paths                    34
+                  stale paths                      5
+                  failed assertions                0
+                  branching points                 658
+                  max path depth                   3838
+                  visited instructions (unrolled)  4189
+                  visited instructions (static)    1070
+                
+                
+[checkct:result] Program status is : unknown (3600.043)
+[checkct:info] 0 visited path covering 1070 instructions
+[checkct:info] 658 / 658 control flow checks pass
+[checkct:info] 2362 / 2362 memory access checks pass
+[checkct:warning] Exploration is incomplete:
+                  - timeout has left (at least) 34 pending paths (-checkct-timeout)
+                  - 5 SMT solver queries remain unsolved (-fml-solver-timeout)

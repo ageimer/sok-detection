@@ -1,0 +1,42 @@
+diff -ur tmp/mbedtls-2.18.1/crypto/include/mbedtls/config.h mbedtls-2.18.1/crypto/include/mbedtls/config.h
+--- tmp/mbedtls-2.18.1/crypto/include/mbedtls/config.h	2019-07-05 15:43:11.000000000 +0200
++++ mbedtls-2.18.1/crypto/include/mbedtls/config.h	2022-11-28 16:21:55.402251005 +0100
+@@ -117,7 +117,7 @@
+  *
+  * Uncomment if the CPU supports SSE2 (IA-32 specific).
+  */
+-//#define MBEDTLS_HAVE_SSE2
++#define MBEDTLS_HAVE_SSE2
+ 
+ /**
+  * \def MBEDTLS_HAVE_TIME
+@@ -539,7 +539,7 @@
+  * This option is independent of \c MBEDTLS_AES_FEWER_TABLES.
+  *
+  */
+-//#define MBEDTLS_AES_ROM_TABLES
++#define MBEDTLS_AES_ROM_TABLES
+ 
+ /**
+  * \def MBEDTLS_AES_FEWER_TABLES
+@@ -1568,7 +1568,7 @@
+  *
+  * This modules adds support for the VIA PadLock on x86.
+  */
+-#define MBEDTLS_PADLOCK_C
++//#define MBEDTLS_PADLOCK_C
+ 
+ /**
+  * \def MBEDTLS_PEM_PARSE_C
+diff -ur tmp/mbedtls-2.18.1/programs/Makefile mbedtls-2.18.1/programs/Makefile
+--- tmp/mbedtls-2.18.1/programs/Makefile	2019-07-12 17:01:44.000000000 +0200
++++ mbedtls-2.18.1/programs/Makefile	2022-11-28 16:22:54.946092534 +0100
+@@ -92,7 +92,7 @@
+ 
+ .PHONY: all clean list
+ 
+-all: $(APPS)
++#all: $(APPS)
+ 
+ $(DEP):
+ 	$(MAKE) -C ../library

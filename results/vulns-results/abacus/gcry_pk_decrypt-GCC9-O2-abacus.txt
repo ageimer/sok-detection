@@ -1,0 +1,9 @@
+Total Constrains: 0
+Control Transfer: 0
+Data Access: 0
+START:
+DETAILS:
+Total Instructions:: 11982565
+Time taken by SE: 72.476 seconds
+Time taken by MC: 0.000905 seconds
+Total Time: 72.4769 seconds

@@ -1,0 +1,58 @@
+["CT report"."Insecurity models".0x0804bfca.public]
+ECDSA_Q = ["0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002f45fce7"]
+ECDSA_sha1 = ["0x0000000000000000000000000000000039582fb6"]
+ebx = ["0x22a2f387"]
+edi = ["0x1ca99ca2"]
+esi = ["0x0624db4e"]
+["CT report"."Insecurity models".0x0804bfca.secret1]
+bs_secret = ["0x0000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Insecurity models".0x0804bfca.secret2]
+bs_secret = ["0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"]
+["CT report"."Insecurity models".0x0804bfe3.public]
+ECDSA_Q = ["0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002f45fce7"]
+ECDSA_sha1 = ["0x0000000000000000000000000000000039582fb6"]
+ebx = ["0x22a2f387"]
+edi = ["0x1ca99ca2"]
+esi = ["0x0624db4e"]
+["CT report"."Insecurity models".0x0804bfe3.secret1]
+bs_secret = ["0x0000000000000000000000000000000000000000000000000000000000000000"]
+["CT report"."Insecurity models".0x0804bfe3.secret2]
+bs_secret = ["0x0000000000000000000000000000000000000000000000000000000000000001"]
+["CT report"."Instructions status"]
+insecure = ["0x0804bfca", "0x0804bfe3"]
+unknown = []
+[Exploration]
+"branching points" = 570
+"competed/cut paths" = 0
+"failed assertions" = 0
+"max path depth" = 4872
+"pending paths" = 9
+"stale paths" = 0
+"total paths" = 9
+"visited instructions (unrolled)" = 4872
+["State statistics"."CT checks"]
+"Solver time" = 3194.06609035
+["State statistics"."CT checks"."Control flow checks"]
+"insecure (CV)" = 2
+"insecure (RelSE)" = 0
+"secure (RelSE)" = 62
+"secure (taint)" = 505
+unknown = 0
+["State statistics"."CT checks"."Memory access checks"]
+"insecure (CV)" = 0
+"insecure (RelSE)" = 0
+"secure (RelSE)" = 562
+"secure (taint)" = 3252
+unknown = 0
+["State statistics"."SMT queries"."Preprocessing simplifications"]
+"constant enum" = 37
+sat = 140
+total = 512
+unsat = 335
+["State statistics"."SMT queries"."Satisfiability queries"]
+average = 5.25634252161
+sat = 8
+time = 362.687633991
+total = 69
+unknown = 0
+unsat = 61
